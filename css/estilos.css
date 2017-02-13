@@ -116,7 +116,7 @@ body{
 
 
 
-.menuLateral_acceso, .menuLateral_ultimasNoticias{
+.menuLateral_acceso, .menuLateral_ultimasNoticias, .menuLateral_RS{
   border-radius: 19px 19px 19px 19px;
   -moz-border-radius: 19px 19px 19px 19px;
   -webkit-border-radius: 19px 19px 19px 19px;
@@ -129,7 +129,7 @@ body{
   cursor: default;
 }
 
- .menuLateral_ultimasNoticias{
+ .menuLateral_ultimasNoticias, .menuLateral_RS{
     margin-top: 1em;
     padding-bottom: 1em;
  }
@@ -144,11 +144,15 @@ body{
     width: 90%;
 }
 
-.menuLateral_acceso p, .menuLateral_ultimasNoticias p{
+.menuLateral_acceso p, .menuLateral_ultimasNoticias p, .menuLateral_RS p{
   padding-top: 2%;
   font-weight: bolder;
   font-size: 15px;
 }
+
+.menuLateral_RS img, .menuLateral_RS a:hover {
+  width: 15%;
+  text-decoration: none; }
 
 #contenedorAcceso{
   width: 100%;
