@@ -4,7 +4,7 @@
 }
 
 body{
-	background-color: #F2F2F2;
+	background-color: #FFF;
 }
 
 #logo{
@@ -72,7 +72,6 @@ body{
 }
 
 
-
   #navegacion .navDerecha {
     font-size: 12px;
     text-align: right;
@@ -128,6 +127,20 @@ body{
   box-shadow: -4px 6px 8px -1px rgba(0,0,0,0.75);
   cursor: default;
 }
+
+
+  /** Dispositivos móviles **/
+  @media (min-width: 0px) and (max-width:992px) {
+    .menuLateral_acceso{
+      margin-top: 1em;
+      margin-left: -0.5em;
+    }
+
+    .menuLateral_ultimasNoticias, .menuLateral_RS{
+      margin-left: -.5em;
+    }
+  }
+
 
  .menuLateral_ultimasNoticias, .menuLateral_RS{
     margin-top: 1em;
@@ -293,6 +306,7 @@ body{
     text-transform: uppercase;
     cursor: default;
     margin-top: 1em;
+    text-decoration: underline double;
   }
 
   #contenido_cont{
