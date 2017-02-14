@@ -343,25 +343,36 @@ body{
   }
 
   #pie{
+    cursor: default;
     padding: 1em;
     color: #FFF;
     background-color: #045FB4;
     border: 0px solid #000000;
-    margin-top: 1em;
+    margin-top: 1.5em;
   }
 
-  #pie i{
+  #pie i span{
     margin-top: 0.5em;
-    font-size: 18px;
+    font-size: 14px;
   }
+
 
   #pie i span{
     color: #FFF;
   }
 
   #pie h4{
-    text-decoration: underline double;
     margin-bottom: 0.8em;
+    color: orange;
+  }
+
+  .redesSociales a{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  #dchosReservados{
+    margin-top: 2.5em;
   }
 
 
