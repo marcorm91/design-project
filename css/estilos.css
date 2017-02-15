@@ -83,6 +83,7 @@ body{
   #navegacion span {
     padding: 1em;
     font-weight: bolder; 
+    cursor: default;
   }
   .navDerecha img{  
     width: 7em;
@@ -100,9 +101,6 @@ body{
   }
 
 .contenedorPrincipal{
-  border-radius: 19px 19px 19px 19px;
-  -moz-border-radius: 19px 19px 19px 19px;
-  -webkit-border-radius: 19px 19px 19px 19px;
   z-index: 1;
   margin-left: -1%;
   margin-right: 1%;
@@ -115,10 +113,7 @@ body{
 
 
 
-.menuLateral_acceso, .menuLateral_ultimasNoticias, .menuLateral_RS{
-  border-radius: 19px 19px 19px 19px;
-  -moz-border-radius: 19px 19px 19px 19px;
-  -webkit-border-radius: 19px 19px 19px 19px;
+.menuLateral_acceso, .menuLateral_ultimasNoticias, .menuLateral_docente{
   background-color: #F2F2F2;
   margin-top: -1em;
   z-index: 1;
@@ -136,13 +131,13 @@ body{
       margin-left: -0.5em;
     }
 
-    .menuLateral_ultimasNoticias, .menuLateral_RS{
+    .menuLateral_ultimasNoticias, .menuLateral_docente{
       margin-left: -.5em;
     }
   }
 
 
- .menuLateral_ultimasNoticias, .menuLateral_RS{
+ .menuLateral_ultimasNoticias, .menuLateral_docente{
     margin-top: 1em;
     padding-bottom: 1em;
  }
@@ -157,15 +152,21 @@ body{
     width: 90%;
 }
 
-.menuLateral_acceso p, .menuLateral_ultimasNoticias p, .menuLateral_RS p{
+.menuLateral_docente p{
+  font-size: 12.5px;
+  text-align: justify;
+}
+
+.menuLateral_docente i{
+  font-size: 4em;
+  color: #045FB4;
+}
+
+.menuLateral_acceso h5, .menuLateral_ultimasNoticias h5, .menuLateral_docente h5{
   padding-top: 2%;
   font-weight: bolder;
   font-size: 15px;
 }
-
-.menuLateral_RS img, .menuLateral_RS a:hover {
-  width: 15%;
-  text-decoration: none; }
 
 #contenedorAcceso{
   width: 100%;
@@ -234,10 +235,9 @@ body{
 
   /** Dispositivos móviles **/
   @media (min-width: 0px) and (max-width:768px) {
-    .contenedorPrincipal{
+    .contenedorPrincipal, .menuLateral_docente, .menuLateral_acceso, .menuLateral_ultimasNoticias{
       margin-left: 0;
       margin-right: 0;
-      margin-bottom: 2em;
     }
 
 
@@ -317,7 +317,7 @@ body{
     margin: 3em;
     cursor: default;
   }
-  .num_contenido{
+  .destacar_contenido{
     color: orange;
   }
 
@@ -347,18 +347,18 @@ body{
     padding: 1em;
     color: #FFF;
     background-color: #045FB4;
-    border: 0px solid #000000;
+    border-top: 1em solid #033766;
     margin-top: 1.5em;
   }
 
   #pie i span{
     margin-top: 0.5em;
     font-size: 14px;
+    color: #FFF;
   }
 
-
-  #pie i span{
-    color: #FFF;
+  #pie i{
+    margin: 0.5em;
   }
 
   #pie h4{
@@ -367,13 +367,48 @@ body{
   }
 
   .redesSociales a{
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
 
   #dchosReservados{
     margin-top: 2.5em;
+    font-size: 12px;
   }
+
+  @media (min-width: 0px) and (max-width:991px) {
+    #pie h4{
+      margin-bottom: -0.8em;  
+      padding: 1em;
+    }
+  }
+
+  /***********************************************************/
+
+  .contenido_cont_academia img{
+    margin-bottom: 1em;
+    width: 25%;
+    border: 1px solid #000;
+  }
+
+  .contenido_cont_academia button{
+    margin: 1em;
+    margin-bottom: -0.8em;
+  }
+
+  .cajaInfo{
+    margin: 1em;
+  }
+
+  .infoPersonal{
+    text-align: justify;
+    padding: 1em;
+  }
+
+  .infoPersonal span{
+    font-style: italic;
+  }
+
 
 
 
