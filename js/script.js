@@ -20,6 +20,7 @@ $("#modal_a1").hide();
 				    buttons: {
 		        		"CERRAR": function() {
 		        			$("body").css("overflow", "auto");
+
 		            		$(this).dialog("close");
 		        		}
 		    		}

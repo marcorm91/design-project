@@ -450,7 +450,40 @@ body{
   cursor: pointer;
 }
 
+.cont_modales{
+  cursor: default;
+}
 
+.cont_modales h1{
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.cont_modales h2{
+  font-size: 1em;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.cont_modales p{
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+.colPrecios p, .colPrecios h2{
+  padding-left: 5px;
+  border-left: 1px solid black;
+}
+
+.infoLlamada p, .infoLlamada {
+  text-align: center;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    text-align: center;
+    float: none !important;
+}
 
 
 
