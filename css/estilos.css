@@ -111,6 +111,10 @@ body{
   box-shadow: -4px 6px 8px -1px rgba(0,0,0,0.75);
 }
 
+#titulo_cont{
+  background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 1%, rgba(242,242,242,1) 1%, rgba(194,194,194,1) 1%, rgba(242,242,242,1) 100%);
+}
+
 
 
 .menuLateral_acceso, .menuLateral_ultimasNoticias, .menuLateral_docente{
@@ -306,7 +310,6 @@ body{
     text-transform: uppercase;
     cursor: default;
     margin-top: 1em;
-    text-decoration: underline double;
   }
 
   #contenido_cont{
@@ -408,6 +411,45 @@ body{
   .infoPersonal span{
     font-style: italic;
   }
+
+  /************************************************************/
+
+ #tabla_precios {
+    display: table;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.contenidos {
+    display: table-row;
+}
+
+.columna1, .columna2, .columna3 {
+    display: table-cell;
+    border: none;
+    vertical-align: middle;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.titulo_tabla_precios{
+  background-color: #045FB4;
+  font-weight: bolder;
+  color: #FFF;
+  border: 1px solid #F2F2F2;
+}
+
+.contenidos progress[value]{
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 1em;
+}
+
+#info_a1, #info_a2, #info_b1, #info_b2, #info_c1, #info_c2{
+  cursor: pointer;
+}
+
 
 
 
