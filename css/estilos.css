@@ -367,6 +367,11 @@ body{
     color: #FFF;
   }
 
+  #pie a{
+    color: #FFF;
+    text-decoration: none;
+  }
+
   #pie i{
     margin: 0.5em;
   }
@@ -561,12 +566,53 @@ body{
 
 @media (min-width: 0px) and (max-width:1200px) {
     .cont_noticias_antiguas{
-      font-size: 15px;
+      font-size: 16px;
+    }
 }
 
+@media (min-width: 0px) and (max-width: 767px){
+    .cont_noticias_antiguas, .cont_noticia_principal{
+      border-bottom: 1px solid grey;
+    }
 
+    .cont_noticias_antiguas button, .cont_noticia_principal button{
+      margin-bottom: 1em;
+    }
 
+    .cont_noticias_antiguas h2{
+      margin-top: -1.4em;
+    }
+}
 
+.contenedorFull{
+  width: 90%;
+  margin-left: 5%;
+}
 
+.tituloFAQ{
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: -3%;
+}
 
+.tituloFAQ h1{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+@media (min-width: 0px) and (max-width:768px) {
+    .tituloFAQ{
+      margin-top: 6%;
+      margin-bottom: 6%;
+      margin-left: 2%;
+    }
+
+    .tituloFAQ h1{
+      font-size: 17px;
+    }
+
+    .preguntaFAQ{
+      font-size: 14px;
+    }
+}
 
