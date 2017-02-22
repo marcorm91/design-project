@@ -1,6 +1,6 @@
 @font-face{
 	font-family: Roboto;
-	src: url("../fonts/Roboto-Regular.ttf");
+	src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 
 body{
@@ -615,6 +615,10 @@ body{
 
 /******************************/
 
+.contenedorQuienesSomos{
+  cursor: default;
+}
+
 #torre_png{
   opacity: 0.8;
 }
@@ -648,6 +652,28 @@ body{
     }
 }
 
+/******************************/
+
+.input_contacto input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.input_contacto label{
+  color: #9F9F9F;
+}
+
+.input_contacto i{
+  margin-bottom: 0.3em;
+}
+
+
+@media (min-width: 0px) and (max-width:768px) {
+  .input_contacto, .input_contacto input, .input_contacto textarea{
+    font-size: 13px;
+  }
+}
 
 
 
