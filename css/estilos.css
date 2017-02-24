@@ -675,5 +675,21 @@ body{
   }
 }
 
+/*******************************/
+
+.imagenYT{
+  margin: 22%;
+  width: 50%;
+  margin-top: -3em;
+  margin-bottom: -2em;
+}
+
+@media (min-width: 0px) and (max-width:768px) {
+  .imagenYT{
+    margin-top: -2em;
+    margin-bottom: -1em;
+  }
+}
+
 
 
