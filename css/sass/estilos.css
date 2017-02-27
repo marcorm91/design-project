@@ -16,7 +16,7 @@ body {
   border-radius: 0.5em;
   margin-left: 1.5em;
   margin-right: 1.5em;
-  box-shadow: 2px 2px 11px #FFFFFF;
+  box-shadow: 2px 2px 11px #999;
   z-index: 2;
   position: relative; }
   .menu a {
@@ -27,7 +27,7 @@ body {
 .navbar li a {
   font-family: Roboto, Sans-Serif;
   color: #000000 !important;
-  font-size: 1em; }
+  font-size: 0.95em; }
 
 .navbar a:hover {
   color: #045FB4 !important; }
@@ -76,6 +76,132 @@ body {
   box-shadow: -4px 6px 8px -1px rgba(0, 0, 0, 0.75); }
   .contenedorPrincipal #titulo_cont {
     background: linear-gradient(to right, black 0%, black 1%, #f2f2f2 1%, #c2c2c2 1%, white 100%); }
+  .contenedorPrincipal #imgSuperior_cont {
+    padding: 2%; }
+    .contenedorPrincipal #imgSuperior_cont img {
+      width: 75%; }
+  .contenedorPrincipal #titulo_cont h1 {
+    padding: 2%;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: default;
+    margin-top: 1em; }
+  .contenedorPrincipal #contenido_cont {
+    margin: 5%; }
+    .contenedorPrincipal #contenido_cont .contenido_cont_academia {
+      margin: 3em;
+      cursor: default;
+      /**************** docencia.html ****************/
+      /**************** ofertas.html *****************/
+      /************** noticias.html *************/ }
+      .contenedorPrincipal #contenido_cont .contenido_cont_academia .destacar_contenido {
+        color: #FFA500; }
+      .contenedorPrincipal #contenido_cont .contenido_cont_academia img {
+        margin-bottom: 1em;
+        width: 25%;
+        border: 1px solid #000000; }
+      .contenedorPrincipal #contenido_cont .contenido_cont_academia button {
+        margin: 1em;
+        margin-bottom: -0.8em; }
+      .contenedorPrincipal #contenido_cont .contenido_cont_academia .cajaInfo {
+        margin: 1em; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cajaInfo .infoPersonal {
+          text-align: justify;
+          padding: 1em; }
+          .contenedorPrincipal #contenido_cont .contenido_cont_academia .cajaInfo .infoPersonal span {
+            font-style: italic; }
+      .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios {
+        display: table;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos {
+          display: table-row; }
+          .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos .columna1, .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos .columna2, .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos .columna3 {
+            display: table-cell;
+            border: none;
+            vertical-align: middle;
+            padding: 10px;
+            font-weight: bolder; }
+          .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos .titulo_tabla_precios {
+            background-color: #045FB4;
+            font-weight: bolder;
+            color: #FFFFFF;
+            border: 1px solid #F2F2F2; }
+          .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos progress[value] {
+            width: 100%;
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            margin-top: 1em; }
+          .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos #info_a1, .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos #info_a2, .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos #info_b1, .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos #info_b2, .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos #info_c1, .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios .contenidos #info_c2 {
+            cursor: pointer; }
+      .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticia_principal {
+        margin-bottom: 1em; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticia_principal h2 {
+          text-align: left;
+          font-size: 1.5em;
+          font-weight: bolder; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticia_principal h3 {
+          text-align: left;
+          font-size: 1em;
+          color: #045FB4; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticia_principal img {
+          width: 70%;
+          border: 1px solid #000000;
+          padding: 1em;
+          margin: 1em; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticia_principal p {
+          text-align: justify; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticia_principal button {
+          margin: 0; }
+      .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticias_antiguas {
+        margin-top: 2.5em; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticias_antiguas h2 {
+          text-align: left;
+          font-size: 1.2em;
+          font-weight: bolder; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticias_antiguas h3 {
+          text-align: left;
+          font-size: 0.8em;
+          color: #045FB4; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticias_antiguas img {
+          width: 15em;
+          height: 9em;
+          margin: 1em; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticias_antiguas p {
+          text-align: justify;
+          font-size: 0.8em; }
+        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cont_noticias_antiguas button {
+          margin: 0; }
+      .contenedorPrincipal #contenido_cont .contenido_cont_academia #paginacion {
+        margin: 2em; }
+
+.cont_modales {
+  cursor: default; }
+  .cont_modales h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center; }
+  .cont_modales h2 {
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center; }
+  .cont_modales p {
+    font-size: 0.9em;
+    text-align: justify; }
+  .cont_modales .infoLlamada {
+    text-align: center; }
+    .cont_modales .infoLlamada p {
+      text-align: center; }
+
+.colPrecios .filaPrecio {
+  padding-left: 5px;
+  border-left: 1px solid black; }
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog.buttonset {
+  text-align: center;
+  float: none !important; }
 
 .menuLateral_acceso, .menuLateral_ultimasNoticias, .menuLateral_docente {
   background-color: #FFFFFF;
@@ -108,7 +234,7 @@ body {
   font-weight: bolder;
   font-size: 15px; }
 
-.menuLateral_ultimasNoticias h5, .menuLateral_docente h5 {
+.menuLateral_ultimasNoticias h5, .menuLateral_docente h5, .menuLateral_acceso h5 {
   padding-top: 2%;
   font-weight: bolder;
   font-size: 15px; }
@@ -128,34 +254,223 @@ body {
   height: 100%;
   background: linear-gradient(to bottom, #0058ab 0%, #77a4c2 100%);
   position: absolute; }
+  #contenedorAcceso #barraSup {
+    width: 100%;
+    background-color: #FFFFFF; }
+    #contenedorAcceso #barraSup #accesoPlat {
+      width: 15%;
+      padding: 0.2em; }
 
-#barraSup {
-  width: 100%;
-  background-color: #FFFFFF; }
-  #barraSup #accesoPlat {
-    width: 15%;
-    padding: 0.2em; }
+/***** Contenidos de p├ígina full (sin laterales) ****/
+.contenedorFull {
+  width: 90%;
+  margin-left: 5%;
+  /****** faq.html ******/ }
+  .contenedorFull .tituloFAQ {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: -3%; }
+    .contenedorFull .tituloFAQ h1 {
+      font-weight: bolder;
+      font-size: 20px; }
 
-/***** ME HE QUEDADO EN LA L├ìNEA 225 DE ESTILOS.CSS *********/
+/******* info.html ********/
+.contenedorQuienesSomos {
+  cursor: default; }
+  .contenedorQuienesSomos #torre_png {
+    opacity: 0.8; }
+  .contenedorQuienesSomos .titulo_quien h1 {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center; }
+  .contenedorQuienesSomos .contenido_quien, .contenedorQuienesSomos .titulo_quien {
+    border-top: 2px solid #D8D8D8;
+    padding-bottom: 1em;
+    font-size: 14px; }
+
+/***** contacto.html *****/
+.input_contacto input {
+  border-top: none;
+  border-left: none;
+  border-right: none; }
+.input_contacto label {
+  color: #9F9F9F; }
+.input_contacto i {
+  margin-bottom: 0.3em; }
+
+/***** canal.html *****/
+.imagenYT {
+  margin: 22%;
+  width: 50%;
+  margin-top: -3em;
+  margin-bottom: -2em; }
+
+/***** Pie de p├ígina *****/
+#pie {
+  cursor: default;
+  padding: 1em;
+  color: #FFFFFF;
+  background-color: #045FB4;
+  border-top: 1em solid #033766;
+  margin-top: 1.5em; }
+  #pie i {
+    margin: 0.5em; }
+    #pie i span {
+      margin-top: 0.5em;
+      font-size: 14px;
+      color: #FFFFFF; }
+  #pie a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  #pie h4 {
+    margin-bottom: 0.8em;
+    color: #FFA500; }
+  #pie .redesSociales a {
+    margin-left: 0.5em;
+    margin-right: 0.5em; }
+  #pie #dchosReservados {
+    margin-top: 2.5em;
+    font-size: 12px; }
+
 /******* @media *******/
 @media (min-width: 0px) and (max-width: 768px) {
   #logo {
-    width: 100%; } }
+    width: 100%; }
+
+  /* .contenedorPrincipal, .menuLateral_docente, .menuLateral_acceso, .menuLateral_ultimasNoticias{
+  	margin-left: 0;
+  	margin-right: 0;
+  } */
+  /******** acceso.html ********/
+  #contenedorAcceso #barraSup {
+    width: 100%;
+    background-color: #FFFFFF; }
+    #contenedorAcceso #barraSup #accesoPlat {
+      width: 30%;
+      padding: 0.2em; }
+
+  #logoAcceso {
+    padding: 0.5em;
+    margin-bottom: -1em;
+    width: 60%; }
+
+  .login {
+    margin: auto;
+    width: 100%;
+    color: #000000; }
+
+  #botonesAcceso {
+    margin-top: 10%; }
+
+  /********* error.html *********/
+  .contenedorError {
+    margin: 7em; }
+    .contenedorError #atrasError {
+      margin: 3em; }
+      .contenedorError #atrasError a {
+        color: #FFFFFF;
+        font-weight: bolder;
+        font-size: 1.5em;
+        text-decoration: none; }
+      .contenedorError #atrasError a:hover {
+        color: #045FB4; }
+
+  /********* Contenedor principal ********/
+  #titulo_cont h1 {
+    font-size: 18px;
+    margin-top: 2em; }
+
+  #contenido_cont {
+    margin: 0; }
+    #contenido_cont .contenido_cont_academia {
+      font-size: 12px;
+      /*********** noticias.html ***********/ }
+      #contenido_cont .contenido_cont_academia h3 {
+        font-size: 12px; }
+      #contenido_cont .contenido_cont_academia .cont_noticias_antiguas, #contenido_cont .contenido_cont_academia .cont_noticia_principal {
+        border-bottom: 1px solid #9F9F9F; }
+        #contenido_cont .contenido_cont_academia .cont_noticias_antiguas button, #contenido_cont .contenido_cont_academia .cont_noticia_principal button {
+          margin-bottom: 1em; }
+      #contenido_cont .contenido_cont_academia .cont_noticias_antiguas h2 {
+        margin-top: -1.4em; }
+
+  /********* faq.html ********/
+  .tituloFAQ {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 2%; }
+    .tituloFAQ h1 {
+      font-size: 17px; }
+    .tituloFAQ .preguntaFAQ {
+      font-size: 14px; }
+
+  /******** info.html *******/
+  #titulo_cont {
+    margin-bottom: 2em; }
+
+  .contenedorQuienesSomos h1 {
+    font-size: 15px; }
+  .contenedorQuienesSomos .contenido_quien {
+    font-size: 12px; }
+  .contenedorQuienesSomos .filaQuien {
+    margin-left: 0.3em; }
+
+  /******** contacto.html ********/
+  .input_contacto, .input_contacto input, .input_contacto textarea {
+    font-size: 13px; }
+
+  /******** canal.html ********/
+  .imagenYT {
+    margin-top: -2em;
+    margin-bottom: -1em; } }
 @media (min-width: 769px) and (max-width: 991px) {
   #logo {
-    width: 100%; } }
+    width: 100%; }
+
+  /******** acceso.html ********/
+  #logoAcceso {
+    padding: 0.5em;
+    width: 40%;
+    margin-bottom: -1em; }
+
+  .login {
+    margin: auto;
+    width: 60%;
+    color: #000000; }
+    .login #botonesAcceso {
+      margin-top: 10%; } }
 @media (min-width: 0px) and (max-width: 1200px) {
   .menuLateral_acceso {
     margin-top: 1em;
-    margin-left: -0.5em; }
+    margin-left: -0.6em; }
     .menuLateral_acceso img {
       width: 70%;
       margin-left: 10%; }
 
   .menuLateral_ultimasNoticias, .menuLateral_docente {
-    margin-left: -0.5em; } }
+    margin-left: -0.6em; }
+
+  /******** Pie de p├ígina *********/
+  #pie h4 {
+    margin-bottom: -0.8em;
+    padding: 1em; }
+
+  /******** noticias.html ********/
+  .cont_noticias_antiguas {
+    font-size: 16px; } }
 @media (min-width: 991px) {
   .navDerecha img {
-    margin-top: -1em; } }
+    margin-top: -1em; }
+
+  /********* acceso.html *********/
+  #logoAcceso {
+    padding: 0.5em;
+    margin-bottom: -1em;
+    width: 30%; }
+
+  .login {
+    margin: auto;
+    width: 35%;
+    color: #000000; } }
 
 /*# sourceMappingURL=estilos.css.map */
