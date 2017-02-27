@@ -4,6 +4,15 @@ $(document).ready(function() {
 	// Para ello, decidí poner como estático la cabecera, el menú y el pie.
 	$.ajax({
 		type:"GET",
+		url:"includes/cabecera.html",
+		async: false,
+		success:function(resp){
+			$("#cabecera").html(resp);
+		}
+	});
+
+	$.ajax({
+		type:"GET",
 		url:"includes/menu.html",
 		async: false,
 		success:function(resp){
