@@ -112,7 +112,7 @@ body{
 		h1{
 			padding: 2%;
 			font-weight: bold;
-			font-size: 30px;
+			font-size: 18px;
 			text-transform: uppercase;
 			cursor: default;
 			margin-top: 1em;
@@ -588,11 +588,9 @@ body{
 	}
 
 	/********* Contenedor principal ********/
-	#titulo_cont{
-		h1{
-			font-size: 18px;
+	#titulo_cont h1{
+			font-size: 10px;
 			margin-top: 2em;
-		}
 	}
 
 	#contenido_cont{
@@ -635,11 +633,6 @@ body{
 		.preguntaFAQ{
 			font-size: 14px;
 		}
-	}
-
-	/******** info.html *******/
-	#titulo_cont{
-		margin-bottom: 2em;
 	}
 
 	.contenedorQuienesSomos{
