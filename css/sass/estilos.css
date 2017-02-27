@@ -73,7 +73,8 @@ body {
   margin-top: -1em;
   -webkit-box-shadow: -4px 6px 8px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -4px 6px 8px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -4px 6px 8px -1px rgba(0, 0, 0, 0.75); }
+  box-shadow: -4px 6px 8px -1px rgba(0, 0, 0, 0.75);
+  /**************** docencia.html ****************/ }
   .contenedorPrincipal #titulo_cont {
     background: linear-gradient(to right, black 0%, black 1%, #f2f2f2 1%, #c2c2c2 1%, white 100%); }
   .contenedorPrincipal #imgSuperior_cont {
@@ -87,12 +88,27 @@ body {
     text-transform: uppercase;
     cursor: default;
     margin-top: 1em; }
+  .contenedorPrincipal .contenido_cont_academia {
+    margin: 3em;
+    cursor: default; }
+    .contenedorPrincipal .contenido_cont_academia .destacar_contenido {
+      color: #FFA500; }
+    .contenedorPrincipal .contenido_cont_academia .cajaInfo {
+      margin: 1em; }
+      .contenedorPrincipal .contenido_cont_academia .cajaInfo .infoPersonal {
+        text-align: justify;
+        padding: 1em; }
+        .contenedorPrincipal .contenido_cont_academia .cajaInfo .infoPersonal span {
+          font-style: italic; }
+    .contenedorPrincipal .contenido_cont_academia img {
+      width: 30%;
+      margin-bottom: 0.5em;
+      border: 1px solid #000000; }
   .contenedorPrincipal #contenido_cont {
     margin: 5%; }
     .contenedorPrincipal #contenido_cont .contenido_cont_academia {
       margin: 3em;
       cursor: default;
-      /**************** docencia.html ****************/
       /**************** ofertas.html *****************/
       /************** noticias.html *************/ }
       .contenedorPrincipal #contenido_cont .contenido_cont_academia .destacar_contenido {
@@ -104,13 +120,6 @@ body {
       .contenedorPrincipal #contenido_cont .contenido_cont_academia button {
         margin: 1em;
         margin-bottom: -0.8em; }
-      .contenedorPrincipal #contenido_cont .contenido_cont_academia .cajaInfo {
-        margin: 1em; }
-        .contenedorPrincipal #contenido_cont .contenido_cont_academia .cajaInfo .infoPersonal {
-          text-align: justify;
-          padding: 1em; }
-          .contenedorPrincipal #contenido_cont .contenido_cont_academia .cajaInfo .infoPersonal span {
-            font-style: italic; }
       .contenedorPrincipal #contenido_cont .contenido_cont_academia #tabla_precios {
         display: table;
         width: 100%;
@@ -442,13 +451,13 @@ body {
 @media (min-width: 0px) and (max-width: 1200px) {
   .menuLateral_acceso {
     margin-top: 1em;
-    margin-left: -0.6em; }
+    margin-left: -0.4em; }
     .menuLateral_acceso img {
       width: 70%;
       margin-left: 10%; }
 
   .menuLateral_ultimasNoticias, .menuLateral_docente {
-    margin-left: -0.6em; }
+    margin-left: -0.4em; }
 
   /******** Pie de p├ígina *********/
   #pie h4 {

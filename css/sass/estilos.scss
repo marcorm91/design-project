@@ -118,6 +118,35 @@ body{
 			margin-top: 1em;
 		}
 	}
+
+	/**************** docencia.html ****************/
+	.contenido_cont_academia{
+			margin: 3em;
+			cursor: default;
+
+			.destacar_contenido{
+				color: $naranja;
+			}
+
+			.cajaInfo{
+				margin: 1em;
+
+				.infoPersonal{
+					text-align: justify;
+					padding: 1em;
+
+					span{
+						font-style: italic;
+					}
+				}
+			}
+
+			img{
+				width: 30%;
+				margin-bottom: 0.5em;
+				border: 1px solid $negro;
+			}
+	}
 	
 	#contenido_cont{
 		margin: 5%;
@@ -139,20 +168,6 @@ body{
 			button{
 				margin: 1em;
 				margin-bottom: -0.8em;
-			}
-
-			/**************** docencia.html ****************/
-			.cajaInfo{
-				margin: 1em;
-
-				.infoPersonal{
-					text-align: justify;
-					padding: 1em;
-
-					span{
-						font-style: italic;
-					}
-				}
 			}
 
 			/**************** ofertas.html *****************/
@@ -689,7 +704,7 @@ body{
 @media (min-width: 0px) and (max-width:1200px) {
     .menuLateral_acceso{
       margin-top: 1em;
-      margin-left: -0.6em;
+      margin-left: -0.4em;
 
       	img{
       		width: 70%;
@@ -698,7 +713,7 @@ body{
     }
 
     .menuLateral_ultimasNoticias, .menuLateral_docente{
-    	margin-left: -0.6em;
+    	margin-left: -0.4em;
     }
 
   	/******** Pie de página *********/
