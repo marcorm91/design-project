@@ -1,11 +1,36 @@
 $(document).ready(function() {
+
+	// En primer lugar vamos a cargar los contenidos estáticos de la web.
+	// Para ello, decidí poner como estático la cabecera, el menú y el pie.
+	$.ajax({
+		type:"GET",
+		url:"includes/menu.html",
+		async: false,
+		success:function(resp){
+			$("#menu").html(resp);
+		}
+	});
+
+	$.ajax({
+		type:"GET",
+		url:"includes/pie.html",
+		async: false,
+		success:function(resp){
+			$("#pie_pag").html(resp);
+		}
+	});
 	
-$("#modal_a1").hide();
-$("#modal_a2").hide();
-$("#modal_b1").hide();
-$("#modal_b2").hide();
-$("#modal_c1").hide();
-$("#modal_c2").hide();
+	// Sección de ventanas modales de la web en ofertas.html.  
+	// Para ello, ocultamos todas las ventanas tras la carga de la página.
+	// Cuando el usuario pulse sobre uno de los enlaces 'info', se abrirá
+	// el panel que corresponda al modal.
+
+	$("#modal_a1").hide();
+	$("#modal_a2").hide();
+	$("#modal_b1").hide();
+	$("#modal_b2").hide();
+	$("#modal_c1").hide();
+	$("#modal_c2").hide();
 
 	$("#info_a1").on("click", function(){
 		$("#modal_a1").dialog({
