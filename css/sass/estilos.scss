@@ -478,6 +478,23 @@ body{
 	margin-bottom: -2em;
 }
 
+.videosYT {
+	iframe{
+		border: 1px solid $negro;
+		margin: 0.5em;
+	}
+
+	h1{
+		background-color: $grisExtraClaro;
+		color: $azulBarra;
+		font-size: 1.2em;
+		font-weight: bolder;
+		border-bottom: 2px solid $azulOscuro;
+		margin: 1em;
+		cursor: default;
+	}
+}
+
 
 /***** Pie de página *****/
 #pie{

@@ -314,6 +314,18 @@ body {
   margin-top: -3em;
   margin-bottom: -2em; }
 
+.videosYT iframe {
+  border: 1px solid #000000;
+  margin: 0.5em; }
+.videosYT h1 {
+  background-color: #F2F2F2;
+  color: #045FB4;
+  font-size: 1.2em;
+  font-weight: bolder;
+  border-bottom: 2px solid #033766;
+  margin: 1em;
+  cursor: default; }
+
 /***** Pie de p├ígina *****/
 #pie {
   cursor: default;
