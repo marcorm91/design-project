@@ -353,6 +353,10 @@ body {
     margin-top: 2.5em;
     font-size: 12px; }
 
+/*********** sitemap.html **********/
+#imagenSitemap {
+  width: 18%; }
+
 /********************************************************/
 /************************ @media ************************/
 /********************************************************/
@@ -441,7 +445,11 @@ body {
   /******** canal.html ********/
   .imagenYT {
     margin-top: -2em;
-    margin-bottom: -1em; } }
+    margin-bottom: -1em; }
+
+  /*********** sitemap.html **********/
+  #imagenSitemap {
+    width: 25%; } }
 @media (min-width: 769px) and (max-width: 991px) {
   #logo {
     width: 100%; }
