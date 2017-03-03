@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84
+http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">
+<url>
+<loc>localhost:8080/project-design</loc>
+</url>
+<url>
+<loc>localhost:8080/project-design/index.html</loc>
+</url>
+<url>
+<loc>localhost:8080/project-design/ofertas.html</loc>
+</url>
+<url>
+<loc>localhost:8080/project-design/noticias.html</loc>
+</url>
+<url>
+<loc>localhost:8080/project-design/canal.html</loc>
+</url>
+<url>
+<loc>localhost:8080/project-design/quienes.html</loc>
+</url>
+<url>
+<loc>localhost:8080/project-design/contacto.html</loc>
+</url>
+<url>
+<loc>localhost:8080/project-design/faq.html</loc>
+</url>
+<url>
+<loc>localhost:8080/project-design/docencia.html</loc>
+</url>
+<url>
+<loc>localhost:8080/project-design/acceso.html</loc>
+</url>
+<url>
+</urlset>
