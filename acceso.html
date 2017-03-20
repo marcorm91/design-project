@@ -4,9 +4,9 @@
 	<title>Acceso - Big Ben Academy</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/sass/estilos.css">
-	<link rel="shortcut icon" href="imagenes/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/sass/estilos.css">
+	<link rel="shortcut icon" href="assets/imagenes/favicon.ico">
 </head>
 <body>
 		<!-- Contenedor que engloba a todo el contenido de acceso.html -->
@@ -14,7 +14,7 @@
 
 			<!-- Barra superior de la web -->
 			<div id="barraSup">
-				<img id="accesoPlat" src="imagenes/accesoPlat.png" class="img-fluid">
+				<img id="accesoPlat" src="assets/imagenes/accesoPlat.png" class="img-fluid">
 			</div>
 
 			<!-- Contenedor que contiene el logotipo empresarial y el formulario de acceso -->
@@ -23,7 +23,7 @@
 				<!-- Fila contenedora de un logotipo de la academia -->
 				<div class="row">
 					<div class="col-md-12">
-						<p class="text-xs-center"><img src="imagenes/logoLogin.png" id="logoAcceso" class="img-fluid"></p>
+						<p class="text-xs-center"><img src="assets/imagenes/logoLogin.png" id="logoAcceso" class="img-fluid"></p>
 					</div>
 				</div>
 			
@@ -33,12 +33,16 @@
 					<form class="form-horizontal col-xs-12 col-md-12">
 						<div class="form-group">
 							<label for="formGroup">Nombre de usuario: </label>
-								<input class="form-control" type="text" id="formGroup" placeholder="Introduzca su nombre de usuario" autofocus required>
+								<input class="form-control" type="text" id="inputUser" placeholder="Introduzca su nombre de usuario" autofocus required>
 						</div>
 
 						<div class="form-group">
 							<label for="formGroup">Contraseña: </label>
-								<input class="form-control" type="password" id="formGroup" placeholder="Introduzca su clave de acceso" required>
+								<input class="form-control" type="password" id="inputPass" placeholder="Introduzca su clave de acceso" required>
+						</div>
+
+						<div class="form-group">
+							<label> <input type="checkbox" id="checkSession"> Mantener iniciada mi sesión</label>
 						</div>
 
 						<div id="botonesAcceso">
@@ -62,12 +66,12 @@
 
 
 	<!-- jQuery -->
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
 	<!-- Tether -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
 	<!-- Bootstrap -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<!-- Script personal -->
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
