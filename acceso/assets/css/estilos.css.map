@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "estilos.css",
+  "sources": [
+    "estilos.scss",
+    "../../../assets/css/sass/_colores.scss"
+  ],
+  "mappings": "AAEA,UAAU;EACT,WAAW,EAAE,MAAO;EACpB,GAAG,EAAE,sDAAG;;;AAIT,AAAC,CAAA,AAAA,SAAS,CAAA;EACN,WAAW,EAAE,gBAAiB,GACjC",
+  "names": []
+}

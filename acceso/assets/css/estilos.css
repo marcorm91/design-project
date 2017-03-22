@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../../../assets/fonts/Roboto/Roboto-Regular.ttf"); }
+
+/* line 9, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+a.nav-link {
+  padding-top: 1.5em !important; }
+
+/*# sourceMappingURL=estilos.css.map */
