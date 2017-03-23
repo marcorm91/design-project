@@ -2,8 +2,83 @@
   font-family: Roboto;
   src: url("../../../assets/fonts/Roboto/Roboto-Regular.ttf"); }
 
-/* line 9, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-a.nav-link {
-  padding-top: 1.5em !important; }
+/* line 11, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal .navbar {
+  border-radius: 0; }
+
+/* line 15, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal .bg-faded {
+  background-color: #033766; }
+
+/* line 19, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-bars {
+  color: #FFFFFF;
+  border: none; }
+
+/* line 24, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal button.navbar-toggler.hidden-sm-up {
+  border: none; }
+
+/* line 28, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal a.nav-link {
+  padding-top: 1.6em !important;
+  color: #FFFFFF !important; }
+
+/* line 33, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal li.nav-item {
+  padding-left: 1.5em; }
+
+/* line 37, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-home.fa-2x {
+  font-size: 2.4em; }
+
+/* line 41, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-id-card-o.fa-2x {
+  padding-top: 0.1em; }
+
+/* line 45, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-folder-open-o.fa-2x {
+  padding-top: 0.11em; }
+
+/* line 49, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-user-circle.fa-2x {
+  margin-left: -0.2em;
+  padding-top: 0.05em; }
+
+/* line 54, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-question.fa-2x {
+  margin-left: -0.2em;
+  padding-top: 0.05em; }
+
+/* line 59, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item {
+  float: right;
+  padding-top: 1.4em;
+  cursor: default; }
+  /* line 63, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link {
+    color: #FFFFFF; }
+  /* line 66, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item #quien,
+  #bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item #desconectar {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none; }
+  /* line 72, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item #desconectar {
+    font-weight: normal; }
+
+@media (min-width: 0px) and (max-width: 575px) {
+  /* line 78, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #bg-academy-principal #cabeceraPrincipal i.fa.fa-home.fa-2x,
+  #bg-academy-principal #cabeceraPrincipal i.fa.fa-id-card-o.fa-2x,
+  #bg-academy-principal #cabeceraPrincipal i.fa.fa-folder-open-o.fa-2x,
+  #bg-academy-principal #cabeceraPrincipal i.fa.fa-user-circle.fa-2x,
+  #bg-academy-principal #cabeceraPrincipal i.fa.fa-question.fa-2x,
+  #bg-academy-principal #cabeceraPrincipal i.fa.fa-file-text-o.fa-2x {
+    display: none; }
+  /* line 86, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #bg-academy-principal #cabeceraPrincipal span {
+    font-weight: bolder; } }
 
 /*# sourceMappingURL=estilos.css.map */
