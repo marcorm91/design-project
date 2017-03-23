@@ -5,38 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Principal - Big Ben Academy</title>
     <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="assets/imagenes/favicon.ico">
     <link rel="stylesheet" href="./assets/css/estilos.css">
 </head>
 
 <body>
     
-<nav class="navbar navbar-light bg-faded">
+<div id="bg-academy-principal">
 
-<!-- Toggle Button -->
-<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#nav-content">
-</button>
+    <header id="cabeceraPrincipal">
+        <nav class="navbar navbar-light bg-faded">
 
-<!-- Nav Content -->
-<div class="collapse navbar-toggleable-xs" id="nav-content">
-<a class="navbar-brand" href="../index.html"><img src="./assets/imagenes/icono.png"</a>
-<ul class="nav navbar-nav">
-<li class="nav-item">
-<a class="nav-link" href="#">Link 1</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Link 2</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Link 3</a>
-</li>
-</ul>
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#nav-content">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <div class="collapse navbar-toggleable-xs" id="nav-content">
+                <a class="navbar-brand  hidden-xs-down" href="../index.html" title="Ir a Big Ben Academy"><img src="./assets/imagenes/icono.png" </a>
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="principal.html" title="Ir a Página Principal" >
+                                <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Página Principal </span>
+                            </a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#" title="Ir a Mi Matrícula">
+                                <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Mi Matrícula </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" title="Ir a Mis Calificaciones">
+                                <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Mis Calificaciones </span>
+                            </a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#" title="Ir a Mi Curso">
+                                <i class="fa fa-folder-open-o fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Mi Curso </span>
+                            </a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#" title="Ir a Mi Perfil">
+                                <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Mi Perfil </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" title="Ir a Ayuda">
+                                <i class="fa fa-question fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Ayuda </span>
+                            </a>
+                        </li>
+                         <li class="nav-item hidden-md-down" id="conectadoComo">  
+                            <span class="nav-link">
+                                Conectado como 
+                                <a href="#"><span id="quien" title="Ir a Mi Perfil"> Marco </span></a> 
+                                <a href="../index.html"> <span id="desconectar">(Desconectar)</span></a>
+                            </span>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+        
+    <div class="container">
+        
+        <div class="conectadoMobile text-xs-center">
+            <span class="nav-link hidden-lg-up">
+                Conectado como 
+                <a href="#"><span id="quien" title="Ir a Mi Perfil"> Marco </span></a> 
+                <a href="../index.html"> <span id="desconectar">(Desconectar)</span></a>
+            </span>
+        </div>
+
+    </div>
+        
 </div>
 
-</nav>
-    
-    
-    <!-- Tether -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="../assets/js/jquery-3.1.1.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/jquery-ui.js"></script>
