@@ -51,25 +51,34 @@
   padding-top: 0.05em; }
 
 /* line 59, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-home.fa-2x:hover,
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-id-card-o.fa-2x:hover,
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-folder-open-o.fa-2x:hover,
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-user-circle.fa-2x:hover,
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-question.fa-2x:hover,
+#bg-academy-principal #cabeceraPrincipal i.fa.fa-file-text-o.fa-2x:hover {
+  color: cornflowerblue; }
+
+/* line 68, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item {
   float: right;
   padding-top: 1.4em;
   cursor: default; }
-  /* line 63, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 72, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link {
     color: #FFFFFF; }
-  /* line 66, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 75, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item #quien,
   #bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item #desconectar {
     font-weight: bolder;
     color: white;
     text-decoration: none; }
-  /* line 72, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 81, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal #cabeceraPrincipal li#conectadoComo.nav-item #desconectar {
     font-weight: normal; }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  /* line 78, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 87, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal #cabeceraPrincipal i.fa.fa-home.fa-2x,
   #bg-academy-principal #cabeceraPrincipal i.fa.fa-id-card-o.fa-2x,
   #bg-academy-principal #cabeceraPrincipal i.fa.fa-folder-open-o.fa-2x,
@@ -77,7 +86,7 @@
   #bg-academy-principal #cabeceraPrincipal i.fa.fa-question.fa-2x,
   #bg-academy-principal #cabeceraPrincipal i.fa.fa-file-text-o.fa-2x {
     display: none; }
-  /* line 86, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 95, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal #cabeceraPrincipal span {
     font-weight: bolder; } }
 

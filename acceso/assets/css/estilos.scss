@@ -55,6 +55,15 @@
             margin-left: -0.2em;
             padding-top: 0.05em;
         }
+        
+        i.fa.fa-home.fa-2x:hover,
+        i.fa.fa-id-card-o.fa-2x:hover,
+        i.fa.fa-folder-open-o.fa-2x:hover,
+        i.fa.fa-user-circle.fa-2x:hover,
+        i.fa.fa-question.fa-2x:hover,
+        i.fa.fa-file-text-o.fa-2x:hover{
+            color: cornflowerblue;
+        }
 
         li#conectadoComo.nav-item {
             float: right;
