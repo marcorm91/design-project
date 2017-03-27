@@ -10,7 +10,8 @@
 	src: url("../../../assets/fonts/Old Bookshop HK.ttf");
 }
 
-#bg-academy-principal{
+/*** PANTALLA PRINCIPAL ALUMNADO ****/
+#bg-academy-principal-alumn, #bg-academy-principal-gest{
     
     #cabeceraPrincipal {
         
@@ -27,7 +28,6 @@
         }
 
         i.fa.fa-bars {
-            color: $blanco;
             border: none;
         }
     
@@ -36,7 +36,6 @@
         }
 
         a.nav-link {
-            //padding-top: 1.6em !important;
             margin-top: 0.4em;
             color: $blanco !important;
         }
@@ -44,35 +43,8 @@
         li.nav-item {
             padding-left: 1.5em;
         }
-
-        i.fa.fa-home.fa-2x {
-            font-size: 2.4em;
-        }
-
-        i.fa.fa-id-card-o.fa-2x {
-            padding-top: 0.1em;
-        }
-
-        i.fa.fa-folder-open-o.fa-2x {
-            padding-top: 0.11em;
-        }
-
-        i.fa.fa-user-circle.fa-2x {
-            margin-left: -0.2em;
-            padding-top: 0.05em;
-        }
-
-        i.fa.fa-question.fa-2x {
-            margin-left: -0.2em;
-            padding-top: 0.05em;
-        }
         
-        i.fa.fa-home.fa-2x:hover,
-        i.fa.fa-id-card-o.fa-2x:hover,
-        i.fa.fa-folder-open-o.fa-2x:hover,
-        i.fa.fa-user-circle.fa-2x:hover,
-        i.fa.fa-question.fa-2x:hover,
-        i.fa.fa-file-text-o.fa-2x:hover{
+        i.fa:hover{
             color: cornflowerblue;
         }
 
@@ -87,7 +59,7 @@
             #quien,
             #desconectar {
                 font-weight: bolder;
-                color: white;
+                color: $blanco;
                 text-decoration: none;
             }
             #desconectar {
@@ -98,11 +70,16 @@
     }
        
     .panel-principal > h1{
-        padding-top: 3.1em;
+        padding-top: .5em;
         font-size: 30px;
         cursor: default;
         font-weight: bolder;
         font-family: Roboto;
+    }
+    
+    .panel-principal > img{
+        padding-top: 5em;
+        width: 6em;
     }
     
     
@@ -128,7 +105,8 @@
         }
         
         i:hover{
-            cursor: pointer;          
+            cursor: pointer;
+            
         } 
         
         .row{
@@ -147,12 +125,7 @@
     
 
      @media (min-width: 0px) and (max-width:575px) {
-        i.fa.fa-home.fa-2x,
-        i.fa.fa-id-card-o.fa-2x,
-        i.fa.fa-folder-open-o.fa-2x,
-        i.fa.fa-user-circle.fa-2x,
-        i.fa.fa-question.fa-2x,
-        i.fa.fa-file-text-o.fa-2x {
+        #cabeceraPrincipal i.fa{
             display: none;
         }
         nav {
@@ -161,6 +134,7 @@
          
         .text-xs-center.conectadoMobile {
             padding-top: 5em;
+            margin-bottom: -3em;
         }
                 
         .panel-principal > h1{
@@ -178,7 +152,7 @@
          }
          
          footer span{
-             font-size: 11px;
+             font-size: 14px;
          }
 
     }
@@ -186,7 +160,8 @@
     @media (min-width: 576px) and (max-width:991px) {
         
         .text-xs-center.conectadoMobile {
-            padding-top: 7em;
+            padding-top: 6em;
+            margin-bottom: -3em;
         }
         
         .panel-principal > h1{
@@ -195,6 +170,8 @@
         }        
         
     }
-       
-
+    
+    
 }
+
+
