@@ -36,7 +36,8 @@
         }
 
         a.nav-link {
-            padding-top: 1.6em !important;
+            //padding-top: 1.6em !important;
+            margin-top: 0.4em;
             color: $blanco !important;
         }
 
@@ -77,7 +78,7 @@
 
         li#conectadoComo.nav-item {
             float: right;
-            padding-top: 1.4em;
+            padding-top: 0.5em;
             cursor: default;
             z-index: 2;
             span.nav-link {
@@ -95,11 +96,9 @@
         }
                 
     }
-    
-   
-      
+       
     .panel-principal > h1{
-        padding-top: 3.5em;
+        padding-top: 3.1em;
         font-size: 30px;
         cursor: default;
         font-weight: bolder;
