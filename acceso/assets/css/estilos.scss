@@ -10,9 +10,11 @@
 	src: url("../../../assets/fonts/Old Bookshop HK.ttf");
 }
 
+
+
 /*** PANTALLA PRINCIPAL ALUMNADO ****/
 #bg-academy-principal-alumn, #bg-academy-principal-gest{
-    
+            
     #cabeceraPrincipal {
         
         position: fixed;
@@ -33,6 +35,9 @@
     
         button.navbar-toggler.hidden-sm-up {
             border: none;
+            outline: none;
+            color: $blanco !important;
+            background-color: $blanco;
         }
 
         a.nav-link {
@@ -152,7 +157,7 @@
          }
          
          footer span{
-             font-size: 14px;
+             font-size: 13px;
          }
 
     }
@@ -170,8 +175,7 @@
         }        
         
     }
-    
-    
+        
 }
 
 
