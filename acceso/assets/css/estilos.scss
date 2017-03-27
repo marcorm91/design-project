@@ -6,8 +6,13 @@
 }
 
 #bg-academy-principal{
-
+    
     #cabeceraPrincipal {
+        
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        
         .navbar {
             border-radius: 0;
         }
@@ -69,6 +74,7 @@
             float: right;
             padding-top: 1.4em;
             cursor: default;
+            z-index: 2;
             span.nav-link {
                 color: $blanco;
             }
@@ -82,20 +88,102 @@
                 font-weight: normal;
             }
         }
+                
+    }
     
-        @media (min-width: 0px) and (max-width:575px) {
-            i.fa.fa-home.fa-2x,
-            i.fa.fa-id-card-o.fa-2x,
-            i.fa.fa-folder-open-o.fa-2x,
-            i.fa.fa-user-circle.fa-2x,
-            i.fa.fa-question.fa-2x,
-            i.fa.fa-file-text-o.fa-2x {
-                display: none;
-            }
-            span {
-                font-weight: bolder;
-            }            
+   
+      
+    .panel-principal > h1{
+        padding-top: 3em;
+        font-weight: bolder;
+        font-size: 40px;
+        cursor: default;
+    }
+    
+    .panel-opciones{
+        border-style: outset;
+        margin: 1em;
+        background-color: $grisClaro;
+        
+        .row i{
+            padding: 0.4em;
+        }
+        
+        p{
+            margin-top: -1em;
+            font-weight: bolder;
+            cursor: default;
+            text-transform: uppercase;
+        }
+        
+        i:hover{
+            cursor: pointer;
+        } 
+        
+        .row{
+            margin-left: 20%;
+            margin-right: 20%;
         }
     }
+    
+    footer{
+        padding: 1em;
+        font-weight: 600;
+        span{
+            cursor: default;
+        }
+    }
+    
+
+     @media (min-width: 0px) and (max-width:575px) {
+        i.fa.fa-home.fa-2x,
+        i.fa.fa-id-card-o.fa-2x,
+        i.fa.fa-folder-open-o.fa-2x,
+        i.fa.fa-user-circle.fa-2x,
+        i.fa.fa-question.fa-2x,
+        i.fa.fa-file-text-o.fa-2x {
+            display: none;
+        }
+        nav {
+            font-weight: bolder;
+        }
+         
+        .text-xs-center.conectadoMobile {
+            padding-top: 5em;
+        }
+                
+        .panel-principal > h1{
+            padding-top: 2em;
+            font-size: 20px;
+        }
+         
+         .panel-opciones .row i{
+             font-size: 40px;
+         }
+         
+         .panel-opciones .row div{
+             margin-top: 1em;
+             margin-bottom: 1em;
+         }
+         
+         footer span{
+             font-size: 11px;
+         }
+
+    }
+    
+    @media (min-width: 576px) and (max-width:991px) {
+        
+        .text-xs-center.conectadoMobile {
+            padding-top: 7em;
+        }
+        
+        .panel-principal > h1{
+            padding-top: 1em;
+            font-size: 30px;
+        }        
+        
+    }
+       
 
 }
