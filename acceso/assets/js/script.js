@@ -6,10 +6,12 @@ $(document).ready(function() {
         if ($("#boton-collapse").attr("aria-expanded") === "false"){
             $(".container").css("opacity", 0.2);
             $(".container").css("pointer-events", "none");
+            $("body").css("overflow", "hidden");
         }else 
             if($("#boton-collapse").attr("aria-expanded") === "true"){
                 $(".container").css("opacity", 1);
                 $(".container").css("pointer-events", "auto");
+                $("body").css("overflow", "auto");
             }
     });
     
