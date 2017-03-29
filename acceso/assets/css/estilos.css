@@ -262,4 +262,32 @@
       font-weight: 600;
       cursor: default; } }
 
+/** Modales **/
+/* line 215, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#modal-aniadir-profesor {
+  font-family: Roboto;
+  cursor: default; }
+  /* line 220, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor .modal-header, #modal-aniadir-profesor .modal-footer {
+    border: none; }
+  /* line 224, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor .modal-footer {
+    text-align: center; }
+    /* line 226, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    #modal-aniadir-profesor .modal-footer .btn {
+      margin: .8em; }
+  /* line 231, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor h5 {
+    font-weight: 700;
+    margin-bottom: 1.5em;
+    font-size: 20px; }
+  /* line 237, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor h6 {
+    font-weight: 100;
+    border-bottom: 1px solid #033766;
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+    color: #033766;
+    text-transform: uppercase; }
+
 /*# sourceMappingURL=estilos.css.map */
