@@ -289,5 +289,8 @@
     margin-top: 1.5em;
     color: #033766;
     text-transform: uppercase; }
+  /* line 246, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor option {
+    padding: .3em 0; }
 
 /*# sourceMappingURL=estilos.css.map */
