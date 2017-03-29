@@ -97,7 +97,8 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6 col-xs-12">
-                                <i class="fa fa-briefcase fa-4x" aria-hidden="true" data-toggle="modal" data-target="#aniadir-profesor"></i> <p> Registrar <br/> Profesor </p>
+                                <i class="fa fa-briefcase fa-4x" aria-hidden="true" data-toggle="modal" 
+                                   data-target="#modal-aniadir-profesor"></i> <p> Registrar <br/> Profesor </p>
                             </div>
                             <div class="col-md-6 col-xs-12">
                                 <i class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i> <p> Registrar <br/> Alumno </p>
@@ -135,17 +136,78 @@
  <!------- MODALES ------->
     
  <!-- REGISTRAR PROFESOR -->
- <div class="modal fade" id="aniadir-profesor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal fade" id="modal-aniadir-profesor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Registrar Profesor</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="container">
+            <div class="row text-xs-center">
+                <h5>REGISTRAR PROFESOR</h5>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h6> Datos personales </h6>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Nombre:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="nombre-profesor">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Apellido 1:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="apellido-1-profesor">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Apellido 2:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="apellido-2-profesor">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">NIF / NIE:</label>
+                <div class="col-md-4">
+                    <input class="form-control" type="text" id="nifnie-profesor">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">F. de nacimiento:</label>
+                <div class="col-md-4">
+                    <input class="form-control" type="date" id="fecha-nacimiento-profesor">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">E-mail:</label>
+                <div class="col-md-6">
+                    <input class="form-control" type="email" id="email-profesor">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Nacido en:</label>
+                <div class="col-md-6">
+                    <input class="form-control" type="text" id="nacimiento-profesor">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Nacionalidad:</label>
+                <div class="col-md-6">
+                    <input class="form-control" type="text" id="nacionalidad-profesor">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h6> Datos de dirección </h6>
+                </div>
+            </div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
