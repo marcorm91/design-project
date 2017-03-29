@@ -3,6 +3,8 @@ $(document).ready(function() {
     // Capturamos el año actual para adaptarlo al copyright del footer.
     $("#fechaActual").append((new Date).getFullYear());
     
+    /*** MODAL REGISTRAR PROFESOR ***/
+    
     // Comprobamos que la fecha lleve un 0 delante en el día o mes cuando éstos son < 10.
     if((new Date).getDate() < 10){
         $("#fecha-alta-profesor").val("0" + (new Date).getDate() + "/" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
@@ -13,6 +15,8 @@ $(document).ready(function() {
             if((new Date).getDate() < 10 && (new Date).getMonth() < 10){
                $("#fecha-alta-profesor").val("0" + (new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear()); 
             }
+        
+    $("#fecha-nacimiento-profesor").datepicker();
     
     // Cuando boton-collapse que es el botón de menú en dispositivo mobile se abre, no le daremos ninguna funcionalidad
     // a los elementos del body.
