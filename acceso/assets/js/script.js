@@ -1,7 +1,28 @@
 $(document).ready(function() {
 
+    // Capturamos el año actual para adaptarlo al copyright del footer.
     $("#fechaActual").append((new Date).getFullYear());
     
+    /*** MODAL REGISTRAR ***/
+        
+    // Comprobamos que la fecha lleve un 0 delante en el día o mes cuando éstos son < 10.
+    if((new Date).getDate() < 10){
+        $("#fecha-alta-profesor, #fecha-alta-alumno, #fecha-alta-noticiario, #fecha-alta-gestor").
+        val("0" + (new Date).getDate() + "/" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
+    }else 
+        if((new Date).getMonth() < 10){
+             $("#fecha-alta-profesor, #fecha-alta-alumno, #fecha-alta-noticiario, #fecha-alta-gestor").
+             val((new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
+        }else
+            if((new Date).getDate() < 10 && (new Date).getMonth() < 10){
+               $("#fecha-alta-profesor, #fecha-alta-alumno, #fecha-alta-noticiario, #fecha-alta-gestor").
+               val("0" + (new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear()); 
+            }
+        
+    $("#fecha-nacimiento-profesor, #fecha-nacimiento-alumno").datepicker();
+    
+    // Cuando boton-collapse que es el botón de menú en dispositivo mobile se abre, no le daremos ninguna funcionalidad
+    // a los elementos del body.
     $("#boton-collapse").on("click", function(){
         if ($("#boton-collapse").attr("aria-expanded") === "false"){
             $(".container").css("opacity", 0.2);
