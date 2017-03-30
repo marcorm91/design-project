@@ -21,6 +21,7 @@
         position: fixed;
         width: 100%;
         z-index: 1;
+        font-family: Roboto;
         
         .navbar {
             border-radius: 0;
@@ -89,7 +90,7 @@
     
     .panel-principal > img{
         padding-top: 5em;
-        width: 6em;
+        width: 50%;
     }
     
     .panel-opciones{
@@ -166,6 +167,10 @@
          footer span{
              font-size: 13px;
          }
+         
+         .panel-principal img{
+             width: 80%;
+         }
 
     }
     
@@ -180,7 +185,11 @@
         .panel-principal > h1{
             padding-top: 1em;
             font-size: 30px;
-        }        
+        }
+        
+        .panel-principal img{
+             width: 80%;
+         }
         
     }
         
@@ -212,7 +221,7 @@
 }
 
 /** Modales **/
-#modal-aniadir-profesor{
+#modal-aniadir-profesor, #modal-aniadir-alumno{
     
     font-family: Roboto;
     cursor: default;
@@ -245,6 +254,17 @@
     
     option{
         padding: .3em 0;
+    }
+    
+    .contenedor-comentarios{
+        
+        label{
+            padding: 0;
+        }
+        
+        textarea{
+            margin-left: -.5em;
+        }
     }
 }
 
