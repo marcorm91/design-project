@@ -110,7 +110,7 @@
             cursor: default;
             text-transform: uppercase;
             font-family: School;
-            font-size: 18px;
+            font-size: 14px;
             color: $negro;
         }
         
@@ -221,7 +221,10 @@
 }
 
 /** Modales **/
-#modal-aniadir-profesor, #modal-aniadir-alumno{
+#modal-aniadir-profesor, 
+#modal-aniadir-alumno,
+#modal-aniadir-noticiario,
+#modal-aniadir-gestor{
     
     font-family: Roboto;
     cursor: default;

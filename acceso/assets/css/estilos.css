@@ -146,7 +146,7 @@
     cursor: default;
     text-transform: uppercase;
     font-family: School;
-    font-size: 18px;
+    font-size: 14px;
     color: #000000; }
   /* line 117, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-opciones i:hover,
@@ -277,39 +277,69 @@
 
 /** Modales **/
 /* line 224, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-#modal-aniadir-profesor, #modal-aniadir-alumno {
+#modal-aniadir-profesor,
+#modal-aniadir-alumno,
+#modal-aniadir-noticiario,
+#modal-aniadir-gestor {
   font-family: Roboto;
   cursor: default; }
-  /* line 229, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-  #modal-aniadir-profesor .modal-header, #modal-aniadir-profesor .modal-footer, #modal-aniadir-alumno .modal-header, #modal-aniadir-alumno .modal-footer {
+  /* line 232, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor .modal-header, #modal-aniadir-profesor .modal-footer,
+  #modal-aniadir-alumno .modal-header,
+  #modal-aniadir-alumno .modal-footer,
+  #modal-aniadir-noticiario .modal-header,
+  #modal-aniadir-noticiario .modal-footer,
+  #modal-aniadir-gestor .modal-header,
+  #modal-aniadir-gestor .modal-footer {
     border: none; }
-  /* line 233, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-  #modal-aniadir-profesor .modal-footer, #modal-aniadir-alumno .modal-footer {
+  /* line 236, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor .modal-footer,
+  #modal-aniadir-alumno .modal-footer,
+  #modal-aniadir-noticiario .modal-footer,
+  #modal-aniadir-gestor .modal-footer {
     text-align: center; }
-    /* line 235, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-    #modal-aniadir-profesor .modal-footer .btn, #modal-aniadir-alumno .modal-footer .btn {
+    /* line 238, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    #modal-aniadir-profesor .modal-footer .btn,
+    #modal-aniadir-alumno .modal-footer .btn,
+    #modal-aniadir-noticiario .modal-footer .btn,
+    #modal-aniadir-gestor .modal-footer .btn {
       margin: .8em; }
-  /* line 240, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-  #modal-aniadir-profesor h5, #modal-aniadir-alumno h5 {
+  /* line 243, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor h5,
+  #modal-aniadir-alumno h5,
+  #modal-aniadir-noticiario h5,
+  #modal-aniadir-gestor h5 {
     font-weight: 700;
     margin-bottom: 1.5em;
     font-size: 20px; }
-  /* line 246, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-  #modal-aniadir-profesor h6, #modal-aniadir-alumno h6 {
+  /* line 249, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor h6,
+  #modal-aniadir-alumno h6,
+  #modal-aniadir-noticiario h6,
+  #modal-aniadir-gestor h6 {
     font-weight: 100;
     border-bottom: 1px solid #033766;
     margin-bottom: 2em;
     margin-top: 1.5em;
     color: #033766;
     text-transform: uppercase; }
-  /* line 255, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-  #modal-aniadir-profesor option, #modal-aniadir-alumno option {
+  /* line 258, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor option,
+  #modal-aniadir-alumno option,
+  #modal-aniadir-noticiario option,
+  #modal-aniadir-gestor option {
     padding: .3em 0; }
-  /* line 261, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-  #modal-aniadir-profesor .contenedor-comentarios label, #modal-aniadir-alumno .contenedor-comentarios label {
+  /* line 264, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor .contenedor-comentarios label,
+  #modal-aniadir-alumno .contenedor-comentarios label,
+  #modal-aniadir-noticiario .contenedor-comentarios label,
+  #modal-aniadir-gestor .contenedor-comentarios label {
     padding: 0; }
-  /* line 265, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
-  #modal-aniadir-profesor .contenedor-comentarios textarea, #modal-aniadir-alumno .contenedor-comentarios textarea {
+  /* line 268, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #modal-aniadir-profesor .contenedor-comentarios textarea,
+  #modal-aniadir-alumno .contenedor-comentarios textarea,
+  #modal-aniadir-noticiario .contenedor-comentarios textarea,
+  #modal-aniadir-gestor .contenedor-comentarios textarea {
     margin-left: -.5em; }
 
 /*# sourceMappingURL=estilos.css.map */
