@@ -25,7 +25,7 @@
             <div class="collapse navbar-toggleable-xs" id="nav-content">
                     <ul class="nav navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="principal-gestor.html" title="Ir a Panel Principal" >
+                            <a class="nav-link" href="../principal-gestor.html" title="Ir a Panel Principal" >
                                 <i class="fa fa-home fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Ir a Panel Principal </span>
                             </a>
@@ -88,7 +88,7 @@
             </div>
         
             <div class="panel-principal text-xs-center">
-                <img src="../assets/imagenes/icono.png">
+                <img src="../../assets/imagenes/logo.png">
                 <h1><a href="../principal-gestor.html">Panel Principal</a> / Añadir Elemento</h1>
                 <hr/>
                 <div class="panel-opciones">
@@ -102,7 +102,8 @@
                                    data-target="#modal-aniadir-profesor"></i> <p> Registrar <br/> Profesor </p>
                             </div>
                             <div class="col-md-6 col-xs-12">
-                                <i class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i> <p> Registrar <br/> Alumno </p>
+                                <i class="fa fa-graduation-cap fa-4x" aria-hidden="true" data-toggle="modal"
+                                   data-target="#modal-aniadir-alumno"></i> <p> Registrar <br/> Alumno </p>
                             </div>
                         </div>
                         <div class="row">
@@ -137,7 +138,7 @@
  <!------- MODALES ------->
     
  <!-- REGISTRAR PROFESOR -->
- <div class="modal fade" id="modal-aniadir-profesor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal fade" id="modal-aniadir-profesor" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -187,13 +188,13 @@
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Nacido en:</label>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <input class="form-control" type="text" id="nacimiento-profesor">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Nacionalidad:</label>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <input class="form-control" type="text" id="nacionalidad-profesor">
                 </div>
             </div>
@@ -204,25 +205,25 @@
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Calle:</label>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <input class="form-control" type="text" id="calle-profesor">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Código Postal:</label>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <input class="form-control" type="text" id="cp-profesor">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Población:</label>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <input class="form-control" type="text" id="poblacion-profesor">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Provincia:</label>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <input class="form-control" type="text" id="provincia-profesor">
                 </div>
             </div>
@@ -239,19 +240,19 @@
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">E-mail:</label>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <input class="form-control" type="text" id="email-profesor">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Teléfono:</label>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <input class="form-control" type="text" id="tlf-profesor">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Cursos a impartir:</label>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <select multiple class="form-control" id="cursos-profesor">
                         <option>[A1] - Nivel Básico - 1er Curso</option>
                         <option>[A2] - Nivel Básico - 2º Curso</option>
@@ -265,11 +266,161 @@
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Foto perfil:</label>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <input class="form-control file" type="file" id="foto-profesor">
                 </div>
             </div>
         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Registrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+ <!-- REGISTRAR ALUMNO -->
+ <div class="modal fade" id="modal-aniadir-alumno" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+            <div class="row text-xs-center">
+                <h5>REGISTRAR ALUMNO</h5>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h6> Datos personales </h6>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Nombre:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="nombre-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Apellido 1:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="apellido-1-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Apellido 2:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="apellido-2-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">NIF / NIE:</label>
+                <div class="col-md-4">
+                    <input class="form-control" type="text" id="nifnie-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">F. de nacimiento:</label>
+                <div class="col-md-4">
+                    <input class="form-control" type="text" id="fecha-nacimiento-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Nacido en:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="nacimiento-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Nacionalidad:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="nacionalidad-alumno">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h6> Datos de dirección </h6>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Calle:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="calle-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Código Postal:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="cp-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Población:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="poblacion-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Provincia:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="provincia-alumno">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h6> Datos profesionales </h6>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Fecha de alta:</label>
+                <div class="col-md-4">
+                    <input class="form-control" type="text" id="fecha-alta-alumno" disabled>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">E-mail:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="email-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Teléfono:</label>
+                <div class="col-md-7">
+                    <input class="form-control" type="text" id="tlf-alumno">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Selección de curso:</label>
+                <div class="col-md-7">
+                    <select class="form-control" id="curso-alumno">
+                        <option>[A1] - Nivel Básico - 1er Curso</option>
+                        <option>[A2] - Nivel Básico - 2º Curso</option>
+                        <option>[B1] - Nivel Intermedio - 3er Curso</option>
+                        <option>[B2] - Nivel Avanzado - 4º Curso</option>
+                        <option>[B2] - Nivel Avanzado - 5º Curso</option>
+                        <option>[C1] - Nivel Avanzado - 6º Curso</option>
+                        <option>[C2] - Nivel Avanzado - 7º Curso</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Foto perfil:</label>
+                <div class="col-md-7">
+                    <input class="form-control file" type="file" id="foto-alumno">
+                </div>
+            </div>
+            <div class="form-group contenedor-comentarios">
+                <label class="col-md-3 col-form-label push-md-1">Comentarios:</label>
+                    <div class="col-md-7">
+                        <textarea class="form-control" id="comentario-alumno" rows="7"></textarea>
+                    </div>
+                </div>
+            </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -284,5 +435,6 @@
     <script src="../../assets/js/bootstrap.min.js"></script>
     <script src="../../assets/js/jquery-ui.js"></script>
     <script src="../assets/js/script.js"></script>
+    
 </body>
 </html>
