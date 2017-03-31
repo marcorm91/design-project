@@ -1,9 +1,12 @@
 $(document).ready(function() {
+    
+    // Ocultar subpaneles de búsqueda tras la carga inicial de la página.
+    $("#subpanel-busqueda-profesor").hide();
 
     // Capturamos el año actual para adaptarlo al copyright del footer.
     $("#fechaActual").append((new Date).getFullYear());
     
-    /*** MODAL REGISTRAR ***/
+    /*** MODALES DE REGISTRO ***/
         
     // Comprobamos que la fecha lleve un 0 delante en el día o mes cuando éstos son < 10.
     if((new Date).getDate() < 10){
@@ -35,5 +38,18 @@ $(document).ready(function() {
                 $("body").css("overflow", "auto");
             }
     });
+    
+    /*** SUBPANELES DE BÚSQUEDA ***/
+    $("#busqueda-profesor").on("click", function(){
+               
+        $(".panel-opciones").hide();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./buscar-elemento.html'> Buscar elemento </a>"+
+                                               "/ Búsqueda de profesor </h1>");
+        $("#subpanel-busqueda-profesor").show();
+        
+    });
+    
+    
     
 });
