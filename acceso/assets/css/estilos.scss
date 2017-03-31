@@ -14,7 +14,8 @@
 #bg-academy-principal-alumn, 
 #bg-academy-principal-gest, 
 #bg-academy-principal-notic,
-#bg-academy-principal-gest-new{
+#bg-academy-principal-gest-new,
+#bg-academy-principal-gest-buscar{
             
     #cabeceraPrincipal {
         
@@ -112,6 +113,7 @@
             font-family: School;
             font-size: 14px;
             color: $negro;
+            
         }
         
         i:hover{
@@ -195,7 +197,8 @@
         
 }
 
-#bg-academy-principal-gest-new{
+#bg-academy-principal-gest-new,
+#bg-academy-principal-gest-buscar{
     
     font-family: Roboto;
     
@@ -239,6 +242,7 @@
             margin: .8em;
         }
     }
+     
     
     h5{
         font-weight: 700;
@@ -269,6 +273,15 @@
             margin-left: -.5em;
         }
     }
+}
+
+/** Subpaneles de búsqueda **/
+#subpanel-busqueda-profesor{
+    
+    h1{
+        font-size: 18px;
+    }
+    
 }
 
 
