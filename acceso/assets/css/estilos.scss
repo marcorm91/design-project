@@ -42,6 +42,12 @@
             color: $blanco !important;
             background-color: $blanco;
         }
+        
+        #nav-content{
+            ul li a{
+               font-size: 0.9em;
+            }            
+        }
 
         a.nav-link {
             margin-top: 0.4em;
@@ -273,7 +279,8 @@
 }
 
 /** Subpaneles de búsqueda **/
-#subpanel-busqueda-profesor{
+#subpanel-busqueda-profesor,
+#subpanel-busqueda-alumno{
     
     h1{
         font-size: 18px;
@@ -309,12 +316,35 @@
         
     }
     
-    .paginacion .page-link{
+    .paginacion-busq .page-link{
         border: none;
     }
     
-    .paginacion .page-link:hover{
+    .paginacion-busq .page-link:hover{
         background-color: $blanco;
+    }
+    
+    .btn-atras{
+        font-family: Roboto;
+        cursor: default;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: 100;
+        color: $azulOscuro;
+        margin-bottom: 1em;
+        span{
+            font-weight: bolder;
+            color: #0275d8;
+            text-transform: uppercase;
+            font-family: Roboto;
+            font-size: 15px;
+        }
+        span:hover{
+            color: #033766;
+        }
+        i{
+            font-size: 15px;
+        }
     }
     
     @media (min-width: 0px) and (max-width:575px) {
