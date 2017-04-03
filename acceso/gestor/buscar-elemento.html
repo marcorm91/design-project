@@ -55,7 +55,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" title="Ir a Ver Incidencias de Profesores y Alumnos">
+                            <a class="nav-link" href="./ver-incidencias.html" title="Ir a Ver Incidencias de Profesores y Alumnos">
                                 <i class="fa fa-commenting fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Ir a Ver Incidencias de Profesores y Alumnos </span>
                             </a>
@@ -115,11 +115,11 @@
                         <div class="row">
                             <div class="col-md-6 col-xs-12">
                                 <i class="fa fa-newspaper-o fa-4x" aria-hidden="true" data-toggle="modal"
-                                   data-target="#modal-aniadir-noticiario"></i> <p> Búsqueda de <br/> Noticiario </p>
+                                   id="busqueda-noticiario"></i> <p> Búsqueda de <br/> Noticiario </p>
                             </div>
                             <div class="col-md-6 col-xs-12">
                                 <i class="fa fa-user-o fa-4x" aria-hidden="true" data-toggle="modal"
-                                   data-target="#modal-aniadir-gestor"></i> <p> Búsqueda de <br/> Gestor </p>
+                                   id="busqueda-gestor"></i> <p> Búsqueda de <br/> Gestor </p>
                             </div>
                         </div>
                         <div class="row">
@@ -326,6 +326,172 @@
                       <td>35656677Z</td>
                       <td>adelina@gmail.com</td>
                       <td>C1 - Nivel Avanzado</td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                    </tr>
+                  </tbody>
+                </table> 
+            </div>
+        </div>
+        
+        <div class="row paginacion-busq">
+            <div class="col-xs-12 text-xs-center">
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Siguiente</span>
+                          </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12 text-xs-center btn-atras">
+                <a href="buscar-elemento.html"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"> <span> Volver </span> </i></a>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- Subpanel noticiario -->
+<div id="subpanel-busqueda-noticiario">
+    <div class="container">
+        <div class="row menu-busqueda">
+            <div class="col-md-3 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon"> <i class="fa fa-search fa-1x" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Palabra clave">
+                </div>
+            </div>
+            
+            <div class="col-md-2">
+                <button type="button" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Nombre</th>
+                      <th>Apellido 1</th>
+                      <th>Apellido 2</th>
+                      <th>E-mail</th>
+                      <th>+ info</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Marco</td>
+                      <td>Romero</td>
+                      <td>Martín</td>
+                      <td>marco@gmail.com</td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Antonio</td>
+                      <td>Guzmán</td>
+                      <td>Martínez</td>
+                      <td>antonio@gmail.com</td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                    </tr>
+                  </tbody>
+                </table> 
+            </div>
+        </div>
+        
+        <div class="row paginacion-busq">
+            <div class="col-xs-12 text-xs-center">
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Siguiente</span>
+                          </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12 text-xs-center btn-atras">
+                <a href="buscar-elemento.html"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"> <span> Volver </span> </i></a>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- Subpanel noticiario -->
+<div id="subpanel-busqueda-gestor">
+    <div class="container">
+        <div class="row menu-busqueda">
+            <div class="col-md-3 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon"> <i class="fa fa-search fa-1x" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Palabra clave">
+                </div>
+            </div>
+            
+            <div class="col-md-2">
+                <button type="button" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Nombre</th>
+                      <th>Apellido 1</th>
+                      <th>Apellido 2</th>
+                      <th>E-mail</th>
+                      <th>+ info</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Marco</td>
+                      <td>Romero</td>
+                      <td>Martín</td>
+                      <td>marco@gmail.com</td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Antonio</td>
+                      <td>Guzmán</td>
+                      <td>Martínez</td>
+                      <td>antonio@gmail.com</td>
                       <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
                     </tr>
                   </tbody>
