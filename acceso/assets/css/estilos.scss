@@ -16,7 +16,8 @@
 #bg-academy-principal-notic,
 #bg-academy-principal-gest-new,
 #bg-academy-principal-gest-buscar,
-#bg-academy-principal-gest-incidencias{
+#bg-academy-principal-gest-incidencias,
+#bg-academy-principal-gest-miperfil{
             
     #cabeceraPrincipal {
         
@@ -203,9 +204,33 @@
 
 #bg-academy-principal-gest-new,
 #bg-academy-principal-gest-buscar,
-#bg-academy-principal-gest-incidencias{
+#bg-academy-principal-gest-incidencias,
+#bg-academy-principal-gest-miperfil{
     
     font-family: Roboto;
+    
+    .panel-opciones{
+        
+        .resolucion-imagen{
+            font-size: 12px;
+            font-style: italic;
+        }
+        
+        .imagen-perfil{
+                        
+            img{
+                width: 8em;
+                height: 10em;
+                border: 1px solid black; 
+                border-radius: 100px;
+            }   
+        }
+        
+        #img-modificar-gest-perfil{
+            padding-bottom: 1.5em;
+        }
+        
+    }
     
     .panel-opciones > h2{
         font-size: 25px;
