@@ -17,7 +17,8 @@
 #bg-academy-principal-gest-new,
 #bg-academy-principal-gest-buscar,
 #bg-academy-principal-gest-incidencias,
-#bg-academy-principal-gest-miperfil{
+#bg-academy-principal-gest-miperfil,
+#bg-academy-principal-not-new{
             
     #cabeceraPrincipal {
         
@@ -148,6 +149,18 @@
         color: cornflowerblue;
     }
     
+    .form-publicacion-art{
+        
+        background-color: $grisClaro;
+        
+        cursor: default;
+
+        > .row{
+            padding: .8em;
+        }
+       
+    }
+    
      @media (min-width: 0px) and (max-width:575px) {
         #cabeceraPrincipal i.fa{
             display: none;
@@ -205,7 +218,8 @@
 #bg-academy-principal-gest-new,
 #bg-academy-principal-gest-buscar,
 #bg-academy-principal-gest-incidencias,
-#bg-academy-principal-gest-miperfil{
+#bg-academy-principal-gest-miperfil,
+#bg-academy-principal-not-new{
     
     font-family: Roboto;
     
@@ -223,6 +237,7 @@
                 height: 10em;
                 border: 1px solid black; 
                 border-radius: 100px;
+                margin-bottom: .5em;
             }   
         }
         
