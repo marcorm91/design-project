@@ -15,7 +15,10 @@
 #bg-academy-principal-gest, 
 #bg-academy-principal-notic,
 #bg-academy-principal-gest-new,
-#bg-academy-principal-gest-buscar{
+#bg-academy-principal-gest-buscar,
+#bg-academy-principal-gest-incidencias,
+#bg-academy-principal-gest-miperfil,
+#bg-academy-principal-not-new{
             
     #cabeceraPrincipal {
         
@@ -146,6 +149,18 @@
         color: cornflowerblue;
     }
     
+    .form-publicacion-art{
+        
+        background-color: $grisClaro;
+        
+        cursor: default;
+
+        > .row{
+            padding: .8em;
+        }
+       
+    }
+    
      @media (min-width: 0px) and (max-width:575px) {
         #cabeceraPrincipal i.fa{
             display: none;
@@ -201,9 +216,36 @@
 }
 
 #bg-academy-principal-gest-new,
-#bg-academy-principal-gest-buscar{
+#bg-academy-principal-gest-buscar,
+#bg-academy-principal-gest-incidencias,
+#bg-academy-principal-gest-miperfil,
+#bg-academy-principal-not-new{
     
     font-family: Roboto;
+    
+    .panel-opciones{
+        
+        .resolucion-imagen{
+            font-size: 12px;
+            font-style: italic;
+        }
+        
+        .imagen-perfil{
+                        
+            img{
+                width: 8em;
+                height: 10em;
+                border: 1px solid black; 
+                border-radius: 100px;
+                margin-bottom: .5em;
+            }   
+        }
+        
+        #img-modificar-gest-perfil{
+            padding-bottom: 1.5em;
+        }
+        
+    }
     
     .panel-opciones > h2{
         font-size: 25px;
@@ -278,9 +320,13 @@
     }
 }
 
-/** Subpaneles de búsqueda **/
+/** Subpaneles de búsqueda, incidencia **/
 #subpanel-busqueda-profesor,
-#subpanel-busqueda-alumno{
+#subpanel-busqueda-alumno,
+#subpanel-busqueda-noticiario,
+#subpanel-busqueda-gestor,
+#subpanel-incidencia-profesor,
+#subpanel-incidencia-alumno{
     
     h1{
         font-size: 18px;
@@ -311,7 +357,32 @@
         }
         
         .tabla-info{
-            padding-left: 2em;
+            font-size: 1.5em;
+            padding-left: 1.2em;
+        }
+        
+        .tabla-incidencia-ver{
+            padding-left: 2.8em;
+            font-size: 1.5em;
+            a{
+                color: #FAAC58;
+            }
+            a:hover{
+                color: #FF8000;
+            }
+        }
+        
+        .tabla-incidencia-resolucion{
+            
+            padding-left: 3em;
+            
+            i.fa-thumbs-up{
+                color: forestgreen;
+            }
+            
+            i.fa-thumbs-down{
+                color: #C94040;
+            }
         }
         
     }
