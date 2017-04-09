@@ -17,17 +17,27 @@ $(document).ready(function() {
     if((new Date).getDate() < 10 && (new Date).getMonth() < 10){
        $("#fecha-alta-profesor, #fecha-alta-alumno, #fecha-alta-noticiario, #fecha-alta-gestor").
        val("0" + (new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear()); 
+            
+       // Aprovechamos la condición para añadir artículo. (Fecha de publicación)
+       $("#fecha-publ").append("0" + (new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
+        
     }else
         if((new Date).getMonth() < 10){
             $("#fecha-alta-profesor, #fecha-alta-alumno, #fecha-alta-noticiario, #fecha-alta-gestor").
             val("0" + (new Date).getDate() + "/" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
+            
+            // Aprovechamos la condición para añadir artículo. (Fecha de publicación)
+            $("#fecha-publ").append("0" + (new Date).getDate() + "/" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
+            
         }else 
             if((new Date).getDate() < 10){
                  $("#fecha-alta-profesor, #fecha-alta-alumno, #fecha-alta-noticiario, #fecha-alta-gestor").
                  val((new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
-            }
-    
-            
+                
+                  // Aprovechamos la condición para añadir artículo. (Fecha de publicación)
+                  $("#fecha-publ").append((new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
+                
+            }            
         
     $("#fecha-nacimiento-profesor, #fecha-nacimiento-alumno").datepicker();
     
@@ -95,6 +105,9 @@ $(document).ready(function() {
                                                "/ Incidencias de alumno </h1>");
         $("#subpanel-incidencia-alumno").show();
     });
+    
+    /*** Añadiendo fecha de publicación de artículo ***/
+    
     
     
 });
