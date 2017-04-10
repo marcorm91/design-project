@@ -746,31 +746,42 @@
 /* line 364, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-not-modificar .panel-opciones {
   background-color: #FFFFFF; }
+  /* line 367, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #bg-academy-principal-not-modificar .panel-opciones .menu-busqueda {
+    padding-bottom: 2em;
+    padding-top: 1em; }
 
-/* line 368, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 373, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-not-modificar table {
   cursor: default;
   font-size: 14px;
   margin-top: 2em; }
-  /* line 373, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 378, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-not-modificar table thead {
     background-color: #033766;
     color: #FFFFFF;
     font-weight: 100; }
-  /* line 379, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 384, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-not-modificar table td {
     vertical-align: middle; }
+  /* line 388, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  #bg-academy-principal-not-modificar table .tabla-mod {
+    padding-left: 2.5em; }
+    /* line 390, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    #bg-academy-principal-not-modificar table .tabla-mod i {
+      color: orange;
+      font-size: 1.5em; }
 
-/* line 384, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 398, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-not-modificar .paginacion-busq .page-link {
   border: none; }
 
-/* line 388, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 402, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-not-modificar .paginacion-busq .page-link:hover {
   background-color: #FFFFFF; }
 
 /** Subpaneles de búsqueda, incidencia **/
-/* line 402, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 418, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor h1,
 #subpanel-busqueda-alumno h1,
 #subpanel-busqueda-noticiario h1,
@@ -779,7 +790,7 @@
 #subpanel-incidencia-alumno h1 {
   font-size: 18px; }
 
-/* line 406, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 422, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor .menu-busqueda,
 #subpanel-busqueda-alumno .menu-busqueda,
 #subpanel-busqueda-noticiario .menu-busqueda,
@@ -787,7 +798,7 @@
 #subpanel-incidencia-profesor .menu-busqueda,
 #subpanel-incidencia-alumno .menu-busqueda {
   margin-top: 1.5em; }
-  /* line 409, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 425, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .menu-busqueda input, #subpanel-busqueda-profesor .menu-busqueda select,
   #subpanel-busqueda-alumno .menu-busqueda input,
   #subpanel-busqueda-alumno .menu-busqueda select,
@@ -801,7 +812,7 @@
   #subpanel-incidencia-alumno .menu-busqueda select {
     z-index: 0; }
 
-/* line 415, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 431, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor table,
 #subpanel-busqueda-alumno table,
 #subpanel-busqueda-noticiario table,
@@ -811,7 +822,7 @@
   margin: 2.5em 0;
   cursor: default;
   font-size: 14px; }
-  /* line 420, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 436, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table thead,
   #subpanel-busqueda-alumno table thead,
   #subpanel-busqueda-noticiario table thead,
@@ -821,7 +832,7 @@
     background-color: #033766;
     color: #FFFFFF;
     font-weight: 100; }
-  /* line 426, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 442, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table td,
   #subpanel-busqueda-alumno table td,
   #subpanel-busqueda-noticiario table td,
@@ -829,7 +840,7 @@
   #subpanel-incidencia-profesor table td,
   #subpanel-incidencia-alumno table td {
     vertical-align: middle; }
-  /* line 430, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 446, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table .tabla-info,
   #subpanel-busqueda-alumno table .tabla-info,
   #subpanel-busqueda-noticiario table .tabla-info,
@@ -838,7 +849,7 @@
   #subpanel-incidencia-alumno table .tabla-info {
     font-size: 1.5em;
     padding-left: 1.2em; }
-  /* line 435, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 451, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table .tabla-incidencia-ver,
   #subpanel-busqueda-alumno table .tabla-incidencia-ver,
   #subpanel-busqueda-noticiario table .tabla-incidencia-ver,
@@ -847,7 +858,7 @@
   #subpanel-incidencia-alumno table .tabla-incidencia-ver {
     padding-left: 2.8em;
     font-size: 1.5em; }
-    /* line 438, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 454, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-ver a,
     #subpanel-busqueda-alumno table .tabla-incidencia-ver a,
     #subpanel-busqueda-noticiario table .tabla-incidencia-ver a,
@@ -855,7 +866,7 @@
     #subpanel-incidencia-profesor table .tabla-incidencia-ver a,
     #subpanel-incidencia-alumno table .tabla-incidencia-ver a {
       color: #FAAC58; }
-    /* line 441, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 457, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-ver a:hover,
     #subpanel-busqueda-alumno table .tabla-incidencia-ver a:hover,
     #subpanel-busqueda-noticiario table .tabla-incidencia-ver a:hover,
@@ -863,7 +874,7 @@
     #subpanel-incidencia-profesor table .tabla-incidencia-ver a:hover,
     #subpanel-incidencia-alumno table .tabla-incidencia-ver a:hover {
       color: #FF8000; }
-  /* line 446, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 462, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table .tabla-incidencia-resolucion,
   #subpanel-busqueda-alumno table .tabla-incidencia-resolucion,
   #subpanel-busqueda-noticiario table .tabla-incidencia-resolucion,
@@ -871,7 +882,7 @@
   #subpanel-incidencia-profesor table .tabla-incidencia-resolucion,
   #subpanel-incidencia-alumno table .tabla-incidencia-resolucion {
     padding-left: 3em; }
-    /* line 450, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 466, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
     #subpanel-busqueda-alumno table .tabla-incidencia-resolucion i.fa-thumbs-up,
     #subpanel-busqueda-noticiario table .tabla-incidencia-resolucion i.fa-thumbs-up,
@@ -879,7 +890,7 @@
     #subpanel-incidencia-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
     #subpanel-incidencia-alumno table .tabla-incidencia-resolucion i.fa-thumbs-up {
       color: forestgreen; }
-    /* line 454, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 470, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down,
     #subpanel-busqueda-alumno table .tabla-incidencia-resolucion i.fa-thumbs-down,
     #subpanel-busqueda-noticiario table .tabla-incidencia-resolucion i.fa-thumbs-down,
@@ -888,7 +899,7 @@
     #subpanel-incidencia-alumno table .tabla-incidencia-resolucion i.fa-thumbs-down {
       color: #C94040; }
 
-/* line 461, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 477, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor .paginacion-busq .page-link,
 #subpanel-busqueda-alumno .paginacion-busq .page-link,
 #subpanel-busqueda-noticiario .paginacion-busq .page-link,
@@ -897,7 +908,7 @@
 #subpanel-incidencia-alumno .paginacion-busq .page-link {
   border: none; }
 
-/* line 465, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 481, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor .paginacion-busq .page-link:hover,
 #subpanel-busqueda-alumno .paginacion-busq .page-link:hover,
 #subpanel-busqueda-noticiario .paginacion-busq .page-link:hover,
@@ -906,7 +917,7 @@
 #subpanel-incidencia-alumno .paginacion-busq .page-link:hover {
   background-color: #FFFFFF; }
 
-/* line 469, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 485, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor .btn-atras,
 #subpanel-busqueda-alumno .btn-atras,
 #subpanel-busqueda-noticiario .btn-atras,
@@ -920,7 +931,7 @@
   font-weight: 100;
   color: #033766;
   margin-bottom: 1em; }
-  /* line 477, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 493, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .btn-atras span,
   #subpanel-busqueda-alumno .btn-atras span,
   #subpanel-busqueda-noticiario .btn-atras span,
@@ -932,7 +943,7 @@
     text-transform: uppercase;
     font-family: Roboto;
     font-size: 15px; }
-  /* line 484, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 500, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .btn-atras span:hover,
   #subpanel-busqueda-alumno .btn-atras span:hover,
   #subpanel-busqueda-noticiario .btn-atras span:hover,
@@ -940,7 +951,7 @@
   #subpanel-incidencia-profesor .btn-atras span:hover,
   #subpanel-incidencia-alumno .btn-atras span:hover {
     color: #033766; }
-  /* line 487, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 503, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .btn-atras i,
   #subpanel-busqueda-alumno .btn-atras i,
   #subpanel-busqueda-noticiario .btn-atras i,
@@ -950,7 +961,7 @@
     font-size: 15px; }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  /* line 493, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 509, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table,
   #subpanel-busqueda-alumno table,
   #subpanel-busqueda-noticiario table,

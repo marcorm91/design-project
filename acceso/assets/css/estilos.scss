@@ -363,6 +363,11 @@
     
     .panel-opciones{
          background-color: $blanco;
+        
+        .menu-busqueda{
+            padding-bottom: 2em; 
+            padding-top: 1em;
+        }
     }
     
     table{
@@ -379,6 +384,15 @@
         td{
             vertical-align: middle;
         }
+        
+        .tabla-mod{
+            padding-left: 2.5em;
+            i{
+                color:orange;
+                font-size: 1.5em;
+            }
+        }
+        
     }
     
     .paginacion-busq .page-link{
@@ -388,6 +402,8 @@
     .paginacion-busq .page-link:hover{
         background-color: $blanco;
     }
+    
+   
     
 }
 
