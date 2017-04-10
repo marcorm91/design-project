@@ -21,7 +21,8 @@
 #bg-academy-principal-not-new,
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
-#bg-academy-principal-not-modificar{
+#bg-academy-principal-not-modificar,
+#bg-academy-principal-not-eliminar{
             
     #cabeceraPrincipal {
         
@@ -225,7 +226,8 @@
 #bg-academy-principal-not-new,
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
-#bg-academy-principal-not-modificar{
+#bg-academy-principal-not-modificar,
+#bg-academy-principal-not-eliminar{
     
     font-family: Roboto;
     
@@ -358,8 +360,9 @@
     }
 }
 
-/** Para tabla modificar **/
-#bg-academy-principal-not-modificar{
+/** Para tabla modificar y eliminar **/
+#bg-academy-principal-not-modificar,
+#bg-academy-principal-not-eliminar{
     
     .panel-opciones{
          background-color: $blanco;
@@ -385,11 +388,22 @@
             vertical-align: middle;
         }
         
-        .tabla-mod{
+        .tabla-mod, .tabla-eli{
             padding-left: 2.5em;
             i{
-                color:orange;
                 font-size: 1.5em;
+            }
+        }
+        
+        .tabla-mod{
+            i{
+                color: orange;
+            }
+        }
+        
+        .tabla-eli{
+            i{
+                color: red;
             }
         }
         
