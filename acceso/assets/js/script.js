@@ -17,12 +17,15 @@ $(document).ready(function() {
     if((new Date).getDate() < 10 && (new Date).getMonth() < 10){
        $("#fecha-alta-profesor, #fecha-alta-alumno, #fecha-alta-noticiario, #fecha-alta-gestor").
        val("0" + (new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear()); 
+        
+        // Fecha (Modificar ver-perfil.html de Gestor)
+        $("#alta-modificar-gest-perfil").val
             
        // Aprovechamos la condición para añadir artículo. (Fecha de publicación)
        $("#fecha-publ").append("0" + (new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
         
     }else
-        if((new Date).getMonth() < 10){
+        if((new Date).getDate() < 10){
             $("#fecha-alta-profesor, #fecha-alta-alumno, #fecha-alta-noticiario, #fecha-alta-gestor").
             val("0" + (new Date).getDate() + "/" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
             
@@ -30,7 +33,7 @@ $(document).ready(function() {
             $("#fecha-publ").append("0" + (new Date).getDate() + "/" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
             
         }else 
-            if((new Date).getDate() < 10){
+            if((new Date).getMonth() < 10){
                  $("#fecha-alta-profesor, #fecha-alta-alumno, #fecha-alta-noticiario, #fecha-alta-gestor").
                  val((new Date).getDate() + "/0" + ((new Date).getMonth()+1) + "/" + (new Date).getFullYear());
                 
