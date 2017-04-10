@@ -18,7 +18,10 @@
 #bg-academy-principal-gest-buscar,
 #bg-academy-principal-gest-incidencias,
 #bg-academy-principal-gest-miperfil,
-#bg-academy-principal-not-new{
+#bg-academy-principal-not-new,
+#bg-academy-principal-not-miperfil,
+#bg-academy-principal-not-ayuda,
+#bg-academy-principal-not-modificar{
             
     #cabeceraPrincipal {
         
@@ -219,7 +222,10 @@
 #bg-academy-principal-gest-buscar,
 #bg-academy-principal-gest-incidencias,
 #bg-academy-principal-gest-miperfil,
-#bg-academy-principal-not-new{
+#bg-academy-principal-not-new,
+#bg-academy-principal-not-miperfil,
+#bg-academy-principal-not-ayuda,
+#bg-academy-principal-not-modificar{
     
     font-family: Roboto;
     
@@ -254,12 +260,44 @@
         cursor: default;
     }
     
+    .title{
+        font-size: 25px;
+        padding: .2em 0;
+        font-weight: 600;
+        cursor: default;
+    }
+    
+    #accordion{
+        i{
+            margin: 0 .3em;
+        }
+        button{
+           border: none; 
+           outline: none;
+        }
+        button:hover{
+            background-color: #0275d8;
+            cursor: default;
+            border: none;
+        }
+        button:focus{
+            background-color: #0275d8;
+        }
+    }
+    
     
     @media (min-width: 0px) and (max-width:575px) {
         
         .panel-opciones > h2{
             font-size: 20px;
             padding: 1em 0;
+            font-weight: 600;
+            cursor: default;
+        }
+        
+        .panel-opciones .title{
+            font-size: 20px;
+            padding: .2em 0;
             font-weight: 600;
             cursor: default;
         }
@@ -318,6 +356,39 @@
             margin-left: -.5em;
         }
     }
+}
+
+/** Para tabla modificar **/
+#bg-academy-principal-not-modificar{
+    
+    .panel-opciones{
+         background-color: $blanco;
+    }
+    
+    table{
+        cursor: default;
+        font-size: 14px;
+        margin-top: 2em;
+        
+        thead{
+            background-color: $azulOscuro;
+            color: $blanco;
+            font-weight: 100;
+        }
+        
+        td{
+            vertical-align: middle;
+        }
+    }
+    
+    .paginacion-busq .page-link{
+        border: none;
+    }
+    
+    .paginacion-busq .page-link:hover{
+        background-color: $blanco;
+    }
+    
 }
 
 /** Subpaneles de búsqueda, incidencia **/
