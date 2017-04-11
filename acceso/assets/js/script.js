@@ -5,8 +5,16 @@ $(document).ready(function() {
     $("#subpanel-busqueda-alumno").hide();
     $("#subpanel-busqueda-noticiario").hide();
     $("#subpanel-busqueda-gestor").hide();
-    $("#subpanel-incidencia-profesor").hide();
+    $("#subpanel-busqueda-curso").hide();
+    $("#subpanel-busqueda-curso").hide();
+    $("#subpanel-eliminar-profesor").hide();
+    $("#subpanel-eliminar-alumno").hide();
+    $("#subpanel-eliminar-noticiario").hide();
+    $("#subpanel-eliminar-curso").hide();
+    $("#subpanel-eliminar-gestor").hide();
     $("#subpanel-incidencia-alumno").hide();
+    $("#subpanel-incidencia-profesor").hide();
+    
 
     // Capturamos el año actual para adaptarlo al copyright del footer.
     $("#fechaActual").append((new Date).getFullYear());
@@ -61,56 +69,104 @@ $(document).ready(function() {
     
     /*** SUBPANELES DE BÚSQUEDA ***/
     $("#busqueda-profesor").on("click", function(){     
-        $(".panel-opciones").hide();
+        $(".panel-opciones").slideToggle();
         $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
                                                "/ <a href='./buscar-elemento.html'> Buscar elemento </a>"+
                                                "/ Búsqueda de profesor </h1>");
-        $("#subpanel-busqueda-profesor").show();
+        $("#subpanel-busqueda-profesor").slideToggle();
     });
     
     $("#busqueda-alumno").on("click", function(){
-        $(".panel-opciones").hide();
+        $(".panel-opciones").slideToggle();
         $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
                                                "/ <a href='./buscar-elemento.html'> Buscar elemento </a>"+
                                                "/ Búsqueda de alumno </h1>");
-        $("#subpanel-busqueda-alumno").show();
+        $("#subpanel-busqueda-alumno").slideToggle();
     });
     
     $("#busqueda-noticiario").on("click", function(){
-        $(".panel-opciones").hide();
+        $(".panel-opciones").slideToggle();
         $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
                                                "/ <a href='./buscar-elemento.html'> Buscar elemento </a>"+
                                                "/ Búsqueda de noticiario </h1>");
-        $("#subpanel-busqueda-noticiario").show();
+        $("#subpanel-busqueda-noticiario").slideToggle();
     });
     
     $("#busqueda-gestor").on("click", function(){
-        $(".panel-opciones").hide();
+        $(".panel-opciones").slideToggle();
         $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
                                                "/ <a href='./buscar-elemento.html'> Buscar elemento </a>"+
                                                "/ Búsqueda de gestor </h1>");
-        $("#subpanel-busqueda-gestor").show();
+        $("#subpanel-busqueda-gestor").slideToggle();
     });
     
     /*** SUBPANELES DE INCIDENCIAS ***/
     $("#incidencias-profesor").on("click", function(){     
-        $(".panel-opciones").hide();
+        $(".panel-opciones").slideToggle();
         $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
                                                "/ <a href='./ver-incidencias.html'> Tipo de incidencia </a>"+
                                                "/ Incidencias de profesor </h1>");
-        $("#subpanel-incidencia-profesor").show();
+        $("#subpanel-incidencia-profesor").slideToggle();
     });
     
     $("#incidencias-alumno").on("click", function(){     
-        $(".panel-opciones").hide();
+        $(".panel-opciones").slideToggle();
         $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
                                                "/ <a href='./ver-incidencias.html'> Tipo de incidencia </a>"+
                                                "/ Incidencias de alumno </h1>");
-        $("#subpanel-incidencia-alumno").show();
+        $("#subpanel-incidencia-alumno").slideToggle();
     });
     
-    /*** Añadiendo fecha de publicación de artículo ***/
+    /*** SUBPANELES DE BÚSQUEDA ***/
+    $("#busqueda-curso").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./buscar-elemento.html'> Buscar elemento </a>"+
+                                               "/ Búsqueda de curso </h1>");
+        $("#subpanel-busqueda-curso").slideToggle();
+    });
     
+    /*** SUBPANELES DE ELIMINAR ***/
+    $("#eliminar-profesor").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./eliminar-elemento.html'> Eliminar Elemento </a>"+
+                                               "/ Eliminar profesor </h1>");
+        $("#subpanel-eliminar-profesor").slideToggle();
+    });
+    
+    $("#eliminar-alumno").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./eliminar-elemento.html'> Eliminar Elemento </a>"+
+                                               "/ Eliminar alumno </h1>");
+        $("#subpanel-eliminar-alumno").slideToggle();
+    });
+    
+    $("#eliminar-curso").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./eliminar-elemento.html'> Eliminar Elemento </a>"+
+                                               "/ Eliminar curso </h1>");
+        $("#subpanel-eliminar-curso").slideToggle();
+    });
+    
+    $("#eliminar-noticiario").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./eliminar-elemento.html'> Eliminar Elemento </a>"+
+                                               "/ Eliminar noticiario </h1>");
+        $("#subpanel-eliminar-noticiario").slideToggle();
+    });
+    
+    $("#eliminar-gestor").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./eliminar-elemento.html'> Eliminar Elemento </a>"+
+                                               "/ Eliminar gestor </h1>");
+        $("#subpanel-eliminar-gestor").slideToggle();
+    });
+     
     
     
 });
