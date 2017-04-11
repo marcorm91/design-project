@@ -37,7 +37,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" title="Ir a Eliminar Elemento">
+                            <a class="nav-link" href="./eliminar-elemento.html" title="Ir a Eliminar Elemento">
                                 <i class="fa fa-minus fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Ir a Eliminar Elemento </span>
                             </a>
@@ -109,27 +109,29 @@
                     
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-briefcase fa-4x" aria-hidden="true" data-toggle="modal" 
                                    data-target="#modal-aniadir-profesor"></i> <p> Registrar <br/> Profesor </p>
                             </div>
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-graduation-cap fa-4x" aria-hidden="true" data-toggle="modal"
                                    data-target="#modal-aniadir-alumno"></i> <p> Registrar <br/> Alumno </p>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-newspaper-o fa-4x" aria-hidden="true" data-toggle="modal"
                                    data-target="#modal-aniadir-noticiario"></i> <p> Registrar <br/> Noticiario </p>
                             </div>
-                            <div class="col-md-6 col-xs-12">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-user-o fa-4x" aria-hidden="true" data-toggle="modal"
                                    data-target="#modal-aniadir-gestor"></i> <p> Registrar <br/> Gestor </p>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-xs-12">
+                            <div class="col-md-4 col-xs-12">
+                                <i class="fa fa-book fa-4x" aria-hidden="true" data-toggle="modal"
+                                   data-target="#modal-aniadir-curso"></i> <p> Registrar <br/> Curso </p>
+                            </div>
+                            <div class="col-md-4 col-xs-12">
                                 <a href="../principal-gestor.html"> <i class="fa fa-arrow-left fa-4x" aria-hidden="true"></i>  </a>
                                 <p> Volver </p>
                             </div>
@@ -265,8 +267,22 @@
                 </div>
             </div>
             <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Año promoción:</label>
+                <div class="col-md-7">
+                    <!-- PROMOCIONES CURSOS REGISTRADOS PREVIAMENTE -->
+                    <select class="form-control" id="anio-curso">
+                        <option>2011 - 2012</option>
+                        <option>2012 - 2013</option>
+                        <option>2013 - 2014</option>
+                        <option>2014 - 2015</option>
+                        <option>2015 - 2016</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Cursos a impartir:</label>
                 <div class="col-md-7">
+                    <!-- CURSOS REGISTRADOS PREVIAMENTE -->
                     <select multiple class="form-control" id="cursos-profesor">
                         <option>[A1] - Nivel Básico - 1er Curso</option>
                         <option>[A2] - Nivel Básico - 2º Curso</option>
@@ -409,11 +425,25 @@
                 </div>
             </div>
             <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Año promoción:</label>
+                <div class="col-md-7">
+                    <!-- PROMOCIONES CURSOS REGISTRADOS PREVIAMENTE -->
+                    <select class="form-control" id="anio-curso">
+                        <option>2011 - 2012</option>
+                        <option>2012 - 2013</option>
+                        <option>2013 - 2014</option>
+                        <option>2014 - 2015</option>
+                        <option>2015 - 2016</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
                 <label class="col-md-3 col-form-label push-md-1">Selección de curso:</label>
                 <div class="col-md-7">
+                    <!-- CURSOS REGISTRADOS PREVIAMENTE -->
                     <select class="form-control" id="curso-alumno">
                         <option>[A1] - Nivel Básico - 1er Curso</option>
-                        <option>[A2] - Nivel Básico - 2º Curso</option>
+                        <option>[A2] - Nivel Básico - 2º Curso </option>
                         <option>[B1] - Nivel Intermedio - 3er Curso</option>
                         <option>[B2] - Nivel Avanzado - 4º Curso</option>
                         <option>[B2] - Nivel Avanzado - 5º Curso</option>
@@ -572,6 +602,61 @@
                 <label class="col-md-3 col-form-label push-md-1">Teléfono:</label>
                 <div class="col-md-4">
                     <input class="form-control" type="text" id="tlf-gestor">
+                </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Registrar</button>
+      </div>
+    </div>
+  </div>
+ </div>  
+</div>
+    
+<!-- REGISTRAR CURSO -->
+ <div class="modal fade" id="modal-aniadir-curso" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+            <div class="row text-xs-center">
+                <h5>REGISTRAR CURSO</h5>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h6> Datos curso </h6>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Tipo curso:</label>
+                <div class="col-md-7">
+                    <select class="form-control" id="curso-alumno">
+                        <option>[A1] - Nivel Básico - 1er Curso</option>
+                        <option>[A2] - Nivel Básico - 2º Curso</option>
+                        <option>[B1] - Nivel Intermedio - 3er Curso</option>
+                        <option>[B2] - Nivel Avanzado - 4º Curso</option>
+                        <option>[B2] - Nivel Avanzado - 5º Curso</option>
+                        <option>[C1] - Nivel Avanzado - 6º Curso</option>
+                        <option>[C2] - Nivel Avanzado - 7º Curso</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Año inicio: </label>
+                <div class="col-md-2">
+                    <input class="form-control" type="text" id="anio-inicial-curso">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label push-md-1">Año fin: </label>
+                <div class="col-md-2">
+                    <input class="form-control" type="text" id="anio-fin-curso">
                 </div>
             </div>
       </div>

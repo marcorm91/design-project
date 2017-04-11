@@ -37,7 +37,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" title="Ir a Eliminar Elemento">
+                            <a class="nav-link" href="./eliminar-elemento.html" title="Ir a Eliminar Elemento">
                                 <i class="fa fa-minus fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Ir a Eliminar Elemento </span>
                             </a>
@@ -109,27 +109,29 @@
                     
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-briefcase fa-4x" aria-hidden="true" data-toggle="modal" 
                                    id="busqueda-profesor"></i> <p> Búsqueda de <br/> Profesor </p>
                             </div>
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-graduation-cap fa-4x" aria-hidden="true" data-toggle="modal"
                                    id="busqueda-alumno"></i> <p> Búsqueda de <br/> Alumno </p>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-newspaper-o fa-4x" aria-hidden="true" data-toggle="modal"
                                    id="busqueda-noticiario"></i> <p> Búsqueda de <br/> Noticiario </p>
                             </div>
-                            <div class="col-md-6 col-xs-12">
+                        </div>
+                        <div class="row">                       
+                            <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-user-o fa-4x" aria-hidden="true" data-toggle="modal"
                                    id="busqueda-gestor"></i> <p> Búsqueda de <br/> Gestor </p>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-xs-12">
+                            <div class="col-md-4 col-xs-12">
+                                <i class="fa fa-book fa-4x" aria-hidden="true" data-toggle="modal"
+                                   id="busqueda-curso"></i> <p> Búsqueda de <br/> Curso </p>
+                            </div>
+                            <div class="col-md-4 col-xs-12">
                                 <a href="../principal-gestor.html"> <i class="fa fa-arrow-left fa-4x" aria-hidden="true"></i>  </a>
                                 <p> Volver </p>
                             </div>
@@ -454,6 +456,85 @@
     </div>
 </div>
     
+<!-- Subpanel curso -->
+<div id="subpanel-busqueda-curso">
+    <div class="container">
+        <div class="row menu-busqueda">
+            <div class="col-md-3 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon"> <i class="fa fa-search fa-1x" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Palabra clave">
+                </div>
+            </div>
+            
+            <div class="col-md-2">
+                <button type="button" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Año inicio</th>
+                      <th>Año fin</th>
+                      <th>Curso</th>
+                      <th>Alumnos inscritos</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>2011</td>
+                      <td>2012</td>
+                      <td>[A1] - Nivel Básico - 1er Curso</td>
+                      <td> 12 </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>2011</td>
+                      <td>2012</td>
+                      <td>[B2] - Nivel Avanzado - 4º Curso</td>
+                      <td> 8 </td>
+                    </tr>
+                  </tbody>
+                </table> 
+            </div>
+        </div>
+        
+        <div class="row paginacion-busq">
+            <div class="col-xs-12 text-xs-center">
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Siguiente</span>
+                          </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12 text-xs-center btn-atras">
+                 <a href="buscar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Subpanel noticiario -->
 <div id="subpanel-busqueda-gestor">
     <div class="container">
