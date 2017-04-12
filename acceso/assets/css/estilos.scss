@@ -11,9 +11,12 @@
 }
 
 
+/* PANELES PRINCIPALES */
 #bg-academy-principal-alumn, 
 #bg-academy-principal-gest, 
 #bg-academy-principal-notic,
+
+/* PANELES DE GESTOR */
 #bg-academy-principal-gest-new,
 #bg-academy-principal-gest-buscar,
 #bg-academy-principal-gest-incidencias,
@@ -21,6 +24,11 @@
 #bg-academy-principal-gest-eliminar,
 #bg-academy-principal-gest-modificar,
 #bg-academy-principal-gest-ayuda,
+
+/* PANELES DE ALUMNO */
+#bg-academy-principal-alumn-matricula,
+
+/* PANELES DE NOTICIERO */
 #bg-academy-principal-not-new,
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
@@ -233,7 +241,8 @@
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
 #bg-academy-principal-not-modificar,
-#bg-academy-principal-not-eliminar{
+#bg-academy-principal-not-eliminar,
+#bg-academy-principal-alumn-matricula{
     
     font-family: Roboto;
     

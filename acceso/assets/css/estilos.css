@@ -7,7 +7,8 @@
   font-family: School;
   src: url("../../../assets/fonts/Old Bookshop HK.ttf"); }
 
-/* line 30, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* PANELES PRINCIPALES */
+/* line 38, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn #cabeceraPrincipal,
 #bg-academy-principal-gest #cabeceraPrincipal,
 #bg-academy-principal-notic #cabeceraPrincipal,
@@ -18,6 +19,7 @@
 #bg-academy-principal-gest-eliminar #cabeceraPrincipal,
 #bg-academy-principal-gest-modificar #cabeceraPrincipal,
 #bg-academy-principal-gest-ayuda #cabeceraPrincipal,
+#bg-academy-principal-alumn-matricula #cabeceraPrincipal,
 #bg-academy-principal-not-new #cabeceraPrincipal,
 #bg-academy-principal-not-miperfil #cabeceraPrincipal,
 #bg-academy-principal-not-ayuda #cabeceraPrincipal,
@@ -27,7 +29,7 @@
   width: 100%;
   z-index: 1;
   font-family: Roboto; }
-  /* line 37, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 45, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal .navbar,
   #bg-academy-principal-gest #cabeceraPrincipal .navbar,
   #bg-academy-principal-notic #cabeceraPrincipal .navbar,
@@ -38,13 +40,14 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal .navbar,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal .navbar,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal .navbar,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal .navbar,
   #bg-academy-principal-not-new #cabeceraPrincipal .navbar,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal .navbar,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal .navbar,
   #bg-academy-principal-not-modificar #cabeceraPrincipal .navbar,
   #bg-academy-principal-not-eliminar #cabeceraPrincipal .navbar {
     border-radius: 0; }
-  /* line 41, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 49, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal .bg-faded,
   #bg-academy-principal-gest #cabeceraPrincipal .bg-faded,
   #bg-academy-principal-notic #cabeceraPrincipal .bg-faded,
@@ -55,13 +58,14 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal .bg-faded,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal .bg-faded,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal .bg-faded,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal .bg-faded,
   #bg-academy-principal-not-new #cabeceraPrincipal .bg-faded,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal .bg-faded,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal .bg-faded,
   #bg-academy-principal-not-modificar #cabeceraPrincipal .bg-faded,
   #bg-academy-principal-not-eliminar #cabeceraPrincipal .bg-faded {
     background-color: #033766; }
-  /* line 45, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 53, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal i.fa.fa-bars,
   #bg-academy-principal-gest #cabeceraPrincipal i.fa.fa-bars,
   #bg-academy-principal-notic #cabeceraPrincipal i.fa.fa-bars,
@@ -72,13 +76,14 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal i.fa.fa-bars,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal i.fa.fa-bars,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal i.fa.fa-bars,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal i.fa.fa-bars,
   #bg-academy-principal-not-new #cabeceraPrincipal i.fa.fa-bars,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal i.fa.fa-bars,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal i.fa.fa-bars,
   #bg-academy-principal-not-modificar #cabeceraPrincipal i.fa.fa-bars,
   #bg-academy-principal-not-eliminar #cabeceraPrincipal i.fa.fa-bars {
     border: none; }
-  /* line 49, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 57, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
   #bg-academy-principal-gest #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
   #bg-academy-principal-notic #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
@@ -89,6 +94,7 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
   #bg-academy-principal-not-new #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal button.navbar-toggler.hidden-sm-up,
@@ -98,7 +104,7 @@
     outline: none;
     color: #FFFFFF !important;
     background-color: #FFFFFF; }
-  /* line 57, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 65, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal #nav-content ul li a,
   #bg-academy-principal-gest #cabeceraPrincipal #nav-content ul li a,
   #bg-academy-principal-notic #cabeceraPrincipal #nav-content ul li a,
@@ -109,13 +115,14 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal #nav-content ul li a,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal #nav-content ul li a,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal #nav-content ul li a,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal #nav-content ul li a,
   #bg-academy-principal-not-new #cabeceraPrincipal #nav-content ul li a,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal #nav-content ul li a,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal #nav-content ul li a,
   #bg-academy-principal-not-modificar #cabeceraPrincipal #nav-content ul li a,
   #bg-academy-principal-not-eliminar #cabeceraPrincipal #nav-content ul li a {
     font-size: 0.9em; }
-  /* line 62, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 70, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal a.nav-link,
   #bg-academy-principal-gest #cabeceraPrincipal a.nav-link,
   #bg-academy-principal-notic #cabeceraPrincipal a.nav-link,
@@ -126,6 +133,7 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal a.nav-link,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal a.nav-link,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal a.nav-link,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal a.nav-link,
   #bg-academy-principal-not-new #cabeceraPrincipal a.nav-link,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal a.nav-link,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal a.nav-link,
@@ -133,7 +141,7 @@
   #bg-academy-principal-not-eliminar #cabeceraPrincipal a.nav-link {
     margin-top: 0.4em;
     color: #FFFFFF !important; }
-  /* line 67, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 75, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal li.nav-item,
   #bg-academy-principal-gest #cabeceraPrincipal li.nav-item,
   #bg-academy-principal-notic #cabeceraPrincipal li.nav-item,
@@ -144,13 +152,14 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal li.nav-item,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal li.nav-item,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal li.nav-item,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal li.nav-item,
   #bg-academy-principal-not-new #cabeceraPrincipal li.nav-item,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal li.nav-item,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal li.nav-item,
   #bg-academy-principal-not-modificar #cabeceraPrincipal li.nav-item,
   #bg-academy-principal-not-eliminar #cabeceraPrincipal li.nav-item {
     padding-left: 1.5em; }
-  /* line 71, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 79, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal i.fa:hover,
   #bg-academy-principal-gest #cabeceraPrincipal i.fa:hover,
   #bg-academy-principal-notic #cabeceraPrincipal i.fa:hover,
@@ -161,13 +170,14 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal i.fa:hover,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal i.fa:hover,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal i.fa:hover,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal i.fa:hover,
   #bg-academy-principal-not-new #cabeceraPrincipal i.fa:hover,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal i.fa:hover,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal i.fa:hover,
   #bg-academy-principal-not-modificar #cabeceraPrincipal i.fa:hover,
   #bg-academy-principal-not-eliminar #cabeceraPrincipal i.fa:hover {
     color: cornflowerblue; }
-  /* line 75, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 83, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal li#conectadoComo.nav-item,
   #bg-academy-principal-gest #cabeceraPrincipal li#conectadoComo.nav-item,
   #bg-academy-principal-notic #cabeceraPrincipal li#conectadoComo.nav-item,
@@ -178,6 +188,7 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal li#conectadoComo.nav-item,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal li#conectadoComo.nav-item,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal li#conectadoComo.nav-item,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal li#conectadoComo.nav-item,
   #bg-academy-principal-not-new #cabeceraPrincipal li#conectadoComo.nav-item,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal li#conectadoComo.nav-item,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal li#conectadoComo.nav-item,
@@ -187,7 +198,7 @@
     padding-top: 0.5em;
     cursor: default;
     z-index: 2; }
-    /* line 80, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 88, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #bg-academy-principal-alumn #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
     #bg-academy-principal-gest #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
     #bg-academy-principal-notic #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
@@ -198,13 +209,14 @@
     #bg-academy-principal-gest-eliminar #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
     #bg-academy-principal-gest-modificar #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
     #bg-academy-principal-gest-ayuda #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
+    #bg-academy-principal-alumn-matricula #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
     #bg-academy-principal-not-new #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
     #bg-academy-principal-not-miperfil #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
     #bg-academy-principal-not-ayuda #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
     #bg-academy-principal-not-modificar #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link,
     #bg-academy-principal-not-eliminar #cabeceraPrincipal li#conectadoComo.nav-item span.nav-link {
       color: #FFFFFF; }
-    /* line 83, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 91, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #bg-academy-principal-alumn #cabeceraPrincipal li#conectadoComo.nav-item #quien,
     #bg-academy-principal-alumn #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-gest #cabeceraPrincipal li#conectadoComo.nav-item #quien,
@@ -225,6 +237,8 @@
     #bg-academy-principal-gest-modificar #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-gest-ayuda #cabeceraPrincipal li#conectadoComo.nav-item #quien,
     #bg-academy-principal-gest-ayuda #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
+    #bg-academy-principal-alumn-matricula #cabeceraPrincipal li#conectadoComo.nav-item #quien,
+    #bg-academy-principal-alumn-matricula #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-not-new #cabeceraPrincipal li#conectadoComo.nav-item #quien,
     #bg-academy-principal-not-new #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-not-miperfil #cabeceraPrincipal li#conectadoComo.nav-item #quien,
@@ -238,7 +252,7 @@
       font-weight: bolder;
       color: #FFFFFF;
       text-decoration: none; }
-    /* line 89, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 97, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #bg-academy-principal-alumn #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-gest #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-notic #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
@@ -249,6 +263,7 @@
     #bg-academy-principal-gest-eliminar #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-gest-modificar #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-gest-ayuda #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
+    #bg-academy-principal-alumn-matricula #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-not-new #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-not-miperfil #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
     #bg-academy-principal-not-ayuda #cabeceraPrincipal li#conectadoComo.nav-item #desconectar,
@@ -256,7 +271,7 @@
     #bg-academy-principal-not-eliminar #cabeceraPrincipal li#conectadoComo.nav-item #desconectar {
       font-weight: normal; }
 
-/* line 96, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 104, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn .panel-principal > h1,
 #bg-academy-principal-gest .panel-principal > h1,
 #bg-academy-principal-notic .panel-principal > h1,
@@ -267,6 +282,7 @@
 #bg-academy-principal-gest-eliminar .panel-principal > h1,
 #bg-academy-principal-gest-modificar .panel-principal > h1,
 #bg-academy-principal-gest-ayuda .panel-principal > h1,
+#bg-academy-principal-alumn-matricula .panel-principal > h1,
 #bg-academy-principal-not-new .panel-principal > h1,
 #bg-academy-principal-not-miperfil .panel-principal > h1,
 #bg-academy-principal-not-ayuda .panel-principal > h1,
@@ -278,7 +294,7 @@
   font-weight: bolder;
   font-family: Roboto; }
 
-/* line 104, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 112, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn .panel-principal > h1 a:hover,
 #bg-academy-principal-gest .panel-principal > h1 a:hover,
 #bg-academy-principal-notic .panel-principal > h1 a:hover,
@@ -289,6 +305,7 @@
 #bg-academy-principal-gest-eliminar .panel-principal > h1 a:hover,
 #bg-academy-principal-gest-modificar .panel-principal > h1 a:hover,
 #bg-academy-principal-gest-ayuda .panel-principal > h1 a:hover,
+#bg-academy-principal-alumn-matricula .panel-principal > h1 a:hover,
 #bg-academy-principal-not-new .panel-principal > h1 a:hover,
 #bg-academy-principal-not-miperfil .panel-principal > h1 a:hover,
 #bg-academy-principal-not-ayuda .panel-principal > h1 a:hover,
@@ -296,7 +313,7 @@
 #bg-academy-principal-not-eliminar .panel-principal > h1 a:hover {
   text-decoration: none; }
 
-/* line 108, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 116, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn .panel-principal > img,
 #bg-academy-principal-gest .panel-principal > img,
 #bg-academy-principal-notic .panel-principal > img,
@@ -307,6 +324,7 @@
 #bg-academy-principal-gest-eliminar .panel-principal > img,
 #bg-academy-principal-gest-modificar .panel-principal > img,
 #bg-academy-principal-gest-ayuda .panel-principal > img,
+#bg-academy-principal-alumn-matricula .panel-principal > img,
 #bg-academy-principal-not-new .panel-principal > img,
 #bg-academy-principal-not-miperfil .panel-principal > img,
 #bg-academy-principal-not-ayuda .panel-principal > img,
@@ -315,7 +333,7 @@
   padding-top: 5em;
   width: 50%; }
 
-/* line 113, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 121, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn .panel-opciones,
 #bg-academy-principal-gest .panel-opciones,
 #bg-academy-principal-notic .panel-opciones,
@@ -326,6 +344,7 @@
 #bg-academy-principal-gest-eliminar .panel-opciones,
 #bg-academy-principal-gest-modificar .panel-opciones,
 #bg-academy-principal-gest-ayuda .panel-opciones,
+#bg-academy-principal-alumn-matricula .panel-opciones,
 #bg-academy-principal-not-new .panel-opciones,
 #bg-academy-principal-not-miperfil .panel-opciones,
 #bg-academy-principal-not-ayuda .panel-opciones,
@@ -333,7 +352,7 @@
 #bg-academy-principal-not-eliminar .panel-opciones {
   margin: 1em;
   background-color: #E6E6E6; }
-  /* line 118, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 126, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-opciones .row i,
   #bg-academy-principal-gest .panel-opciones .row i,
   #bg-academy-principal-notic .panel-opciones .row i,
@@ -344,6 +363,7 @@
   #bg-academy-principal-gest-eliminar .panel-opciones .row i,
   #bg-academy-principal-gest-modificar .panel-opciones .row i,
   #bg-academy-principal-gest-ayuda .panel-opciones .row i,
+  #bg-academy-principal-alumn-matricula .panel-opciones .row i,
   #bg-academy-principal-not-new .panel-opciones .row i,
   #bg-academy-principal-not-miperfil .panel-opciones .row i,
   #bg-academy-principal-not-ayuda .panel-opciones .row i,
@@ -352,7 +372,7 @@
     padding: 0.4em;
     color: #000000;
     font-size: 50px; }
-  /* line 124, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 132, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-opciones p,
   #bg-academy-principal-gest .panel-opciones p,
   #bg-academy-principal-notic .panel-opciones p,
@@ -363,6 +383,7 @@
   #bg-academy-principal-gest-eliminar .panel-opciones p,
   #bg-academy-principal-gest-modificar .panel-opciones p,
   #bg-academy-principal-gest-ayuda .panel-opciones p,
+  #bg-academy-principal-alumn-matricula .panel-opciones p,
   #bg-academy-principal-not-new .panel-opciones p,
   #bg-academy-principal-not-miperfil .panel-opciones p,
   #bg-academy-principal-not-ayuda .panel-opciones p,
@@ -375,7 +396,7 @@
     font-family: School;
     font-size: 14px;
     color: #000000; }
-  /* line 135, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 143, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-opciones i:hover,
   #bg-academy-principal-gest .panel-opciones i:hover,
   #bg-academy-principal-notic .panel-opciones i:hover,
@@ -386,13 +407,14 @@
   #bg-academy-principal-gest-eliminar .panel-opciones i:hover,
   #bg-academy-principal-gest-modificar .panel-opciones i:hover,
   #bg-academy-principal-gest-ayuda .panel-opciones i:hover,
+  #bg-academy-principal-alumn-matricula .panel-opciones i:hover,
   #bg-academy-principal-not-new .panel-opciones i:hover,
   #bg-academy-principal-not-miperfil .panel-opciones i:hover,
   #bg-academy-principal-not-ayuda .panel-opciones i:hover,
   #bg-academy-principal-not-modificar .panel-opciones i:hover,
   #bg-academy-principal-not-eliminar .panel-opciones i:hover {
     cursor: pointer; }
-  /* line 140, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 148, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-opciones .row,
   #bg-academy-principal-gest .panel-opciones .row,
   #bg-academy-principal-notic .panel-opciones .row,
@@ -403,6 +425,7 @@
   #bg-academy-principal-gest-eliminar .panel-opciones .row,
   #bg-academy-principal-gest-modificar .panel-opciones .row,
   #bg-academy-principal-gest-ayuda .panel-opciones .row,
+  #bg-academy-principal-alumn-matricula .panel-opciones .row,
   #bg-academy-principal-not-new .panel-opciones .row,
   #bg-academy-principal-not-miperfil .panel-opciones .row,
   #bg-academy-principal-not-ayuda .panel-opciones .row,
@@ -411,7 +434,7 @@
     margin-left: 20%;
     margin-right: 20%; }
 
-/* line 146, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 154, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn footer,
 #bg-academy-principal-gest footer,
 #bg-academy-principal-notic footer,
@@ -422,6 +445,7 @@
 #bg-academy-principal-gest-eliminar footer,
 #bg-academy-principal-gest-modificar footer,
 #bg-academy-principal-gest-ayuda footer,
+#bg-academy-principal-alumn-matricula footer,
 #bg-academy-principal-not-new footer,
 #bg-academy-principal-not-miperfil footer,
 #bg-academy-principal-not-ayuda footer,
@@ -429,7 +453,7 @@
 #bg-academy-principal-not-eliminar footer {
   padding: 1em;
   font-weight: 600; }
-  /* line 149, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 157, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn footer span,
   #bg-academy-principal-gest footer span,
   #bg-academy-principal-notic footer span,
@@ -440,6 +464,7 @@
   #bg-academy-principal-gest-eliminar footer span,
   #bg-academy-principal-gest-modificar footer span,
   #bg-academy-principal-gest-ayuda footer span,
+  #bg-academy-principal-alumn-matricula footer span,
   #bg-academy-principal-not-new footer span,
   #bg-academy-principal-not-miperfil footer span,
   #bg-academy-principal-not-ayuda footer span,
@@ -448,7 +473,7 @@
     cursor: default;
     font-size: 12px; }
 
-/* line 155, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 163, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn .btn-select,
 #bg-academy-principal-gest .btn-select,
 #bg-academy-principal-notic .btn-select,
@@ -459,6 +484,7 @@
 #bg-academy-principal-gest-eliminar .btn-select,
 #bg-academy-principal-gest-modificar .btn-select,
 #bg-academy-principal-gest-ayuda .btn-select,
+#bg-academy-principal-alumn-matricula .btn-select,
 #bg-academy-principal-not-new .btn-select,
 #bg-academy-principal-not-miperfil .btn-select,
 #bg-academy-principal-not-ayuda .btn-select,
@@ -466,7 +492,7 @@
 #bg-academy-principal-not-eliminar .btn-select {
   color: cornflowerblue; }
 
-/* line 159, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 167, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn .form-publicacion-art,
 #bg-academy-principal-gest .form-publicacion-art,
 #bg-academy-principal-notic .form-publicacion-art,
@@ -477,6 +503,7 @@
 #bg-academy-principal-gest-eliminar .form-publicacion-art,
 #bg-academy-principal-gest-modificar .form-publicacion-art,
 #bg-academy-principal-gest-ayuda .form-publicacion-art,
+#bg-academy-principal-alumn-matricula .form-publicacion-art,
 #bg-academy-principal-not-new .form-publicacion-art,
 #bg-academy-principal-not-miperfil .form-publicacion-art,
 #bg-academy-principal-not-ayuda .form-publicacion-art,
@@ -484,7 +511,7 @@
 #bg-academy-principal-not-eliminar .form-publicacion-art {
   background-color: #E6E6E6;
   cursor: default; }
-  /* line 165, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 173, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .form-publicacion-art > .row,
   #bg-academy-principal-gest .form-publicacion-art > .row,
   #bg-academy-principal-notic .form-publicacion-art > .row,
@@ -495,6 +522,7 @@
   #bg-academy-principal-gest-eliminar .form-publicacion-art > .row,
   #bg-academy-principal-gest-modificar .form-publicacion-art > .row,
   #bg-academy-principal-gest-ayuda .form-publicacion-art > .row,
+  #bg-academy-principal-alumn-matricula .form-publicacion-art > .row,
   #bg-academy-principal-not-new .form-publicacion-art > .row,
   #bg-academy-principal-not-miperfil .form-publicacion-art > .row,
   #bg-academy-principal-not-ayuda .form-publicacion-art > .row,
@@ -503,7 +531,7 @@
     padding: .8em; }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  /* line 172, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 180, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn #cabeceraPrincipal i.fa,
   #bg-academy-principal-gest #cabeceraPrincipal i.fa,
   #bg-academy-principal-notic #cabeceraPrincipal i.fa,
@@ -514,13 +542,14 @@
   #bg-academy-principal-gest-eliminar #cabeceraPrincipal i.fa,
   #bg-academy-principal-gest-modificar #cabeceraPrincipal i.fa,
   #bg-academy-principal-gest-ayuda #cabeceraPrincipal i.fa,
+  #bg-academy-principal-alumn-matricula #cabeceraPrincipal i.fa,
   #bg-academy-principal-not-new #cabeceraPrincipal i.fa,
   #bg-academy-principal-not-miperfil #cabeceraPrincipal i.fa,
   #bg-academy-principal-not-ayuda #cabeceraPrincipal i.fa,
   #bg-academy-principal-not-modificar #cabeceraPrincipal i.fa,
   #bg-academy-principal-not-eliminar #cabeceraPrincipal i.fa {
     display: none; }
-  /* line 175, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 183, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn nav,
   #bg-academy-principal-gest nav,
   #bg-academy-principal-notic nav,
@@ -531,13 +560,14 @@
   #bg-academy-principal-gest-eliminar nav,
   #bg-academy-principal-gest-modificar nav,
   #bg-academy-principal-gest-ayuda nav,
+  #bg-academy-principal-alumn-matricula nav,
   #bg-academy-principal-not-new nav,
   #bg-academy-principal-not-miperfil nav,
   #bg-academy-principal-not-ayuda nav,
   #bg-academy-principal-not-modificar nav,
   #bg-academy-principal-not-eliminar nav {
     font-weight: bolder; }
-  /* line 179, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 187, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .text-xs-center.conectadoMobile,
   #bg-academy-principal-gest .text-xs-center.conectadoMobile,
   #bg-academy-principal-notic .text-xs-center.conectadoMobile,
@@ -548,6 +578,7 @@
   #bg-academy-principal-gest-eliminar .text-xs-center.conectadoMobile,
   #bg-academy-principal-gest-modificar .text-xs-center.conectadoMobile,
   #bg-academy-principal-gest-ayuda .text-xs-center.conectadoMobile,
+  #bg-academy-principal-alumn-matricula .text-xs-center.conectadoMobile,
   #bg-academy-principal-not-new .text-xs-center.conectadoMobile,
   #bg-academy-principal-not-miperfil .text-xs-center.conectadoMobile,
   #bg-academy-principal-not-ayuda .text-xs-center.conectadoMobile,
@@ -555,7 +586,7 @@
   #bg-academy-principal-not-eliminar .text-xs-center.conectadoMobile {
     padding-top: 5em;
     margin-bottom: -3em; }
-  /* line 184, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 192, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-principal > h1,
   #bg-academy-principal-gest .panel-principal > h1,
   #bg-academy-principal-notic .panel-principal > h1,
@@ -566,6 +597,7 @@
   #bg-academy-principal-gest-eliminar .panel-principal > h1,
   #bg-academy-principal-gest-modificar .panel-principal > h1,
   #bg-academy-principal-gest-ayuda .panel-principal > h1,
+  #bg-academy-principal-alumn-matricula .panel-principal > h1,
   #bg-academy-principal-not-new .panel-principal > h1,
   #bg-academy-principal-not-miperfil .panel-principal > h1,
   #bg-academy-principal-not-ayuda .panel-principal > h1,
@@ -573,7 +605,7 @@
   #bg-academy-principal-not-eliminar .panel-principal > h1 {
     padding-top: 2em;
     font-size: 20px; }
-  /* line 189, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 197, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-opciones .row i,
   #bg-academy-principal-gest .panel-opciones .row i,
   #bg-academy-principal-notic .panel-opciones .row i,
@@ -584,13 +616,14 @@
   #bg-academy-principal-gest-eliminar .panel-opciones .row i,
   #bg-academy-principal-gest-modificar .panel-opciones .row i,
   #bg-academy-principal-gest-ayuda .panel-opciones .row i,
+  #bg-academy-principal-alumn-matricula .panel-opciones .row i,
   #bg-academy-principal-not-new .panel-opciones .row i,
   #bg-academy-principal-not-miperfil .panel-opciones .row i,
   #bg-academy-principal-not-ayuda .panel-opciones .row i,
   #bg-academy-principal-not-modificar .panel-opciones .row i,
   #bg-academy-principal-not-eliminar .panel-opciones .row i {
     font-size: 50px; }
-  /* line 193, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 201, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-opciones .row div,
   #bg-academy-principal-gest .panel-opciones .row div,
   #bg-academy-principal-notic .panel-opciones .row div,
@@ -601,6 +634,7 @@
   #bg-academy-principal-gest-eliminar .panel-opciones .row div,
   #bg-academy-principal-gest-modificar .panel-opciones .row div,
   #bg-academy-principal-gest-ayuda .panel-opciones .row div,
+  #bg-academy-principal-alumn-matricula .panel-opciones .row div,
   #bg-academy-principal-not-new .panel-opciones .row div,
   #bg-academy-principal-not-miperfil .panel-opciones .row div,
   #bg-academy-principal-not-ayuda .panel-opciones .row div,
@@ -608,7 +642,7 @@
   #bg-academy-principal-not-eliminar .panel-opciones .row div {
     margin-top: 1em;
     margin-bottom: 1em; }
-  /* line 198, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 206, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-principal img,
   #bg-academy-principal-gest .panel-principal img,
   #bg-academy-principal-notic .panel-principal img,
@@ -619,6 +653,7 @@
   #bg-academy-principal-gest-eliminar .panel-principal img,
   #bg-academy-principal-gest-modificar .panel-principal img,
   #bg-academy-principal-gest-ayuda .panel-principal img,
+  #bg-academy-principal-alumn-matricula .panel-principal img,
   #bg-academy-principal-not-new .panel-principal img,
   #bg-academy-principal-not-miperfil .panel-principal img,
   #bg-academy-principal-not-ayuda .panel-principal img,
@@ -627,7 +662,7 @@
     width: 80%; } }
 
 @media (min-width: 576px) and (max-width: 991px) {
-  /* line 207, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 215, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .text-xs-center.conectadoMobile,
   #bg-academy-principal-gest .text-xs-center.conectadoMobile,
   #bg-academy-principal-notic .text-xs-center.conectadoMobile,
@@ -638,6 +673,7 @@
   #bg-academy-principal-gest-eliminar .text-xs-center.conectadoMobile,
   #bg-academy-principal-gest-modificar .text-xs-center.conectadoMobile,
   #bg-academy-principal-gest-ayuda .text-xs-center.conectadoMobile,
+  #bg-academy-principal-alumn-matricula .text-xs-center.conectadoMobile,
   #bg-academy-principal-not-new .text-xs-center.conectadoMobile,
   #bg-academy-principal-not-miperfil .text-xs-center.conectadoMobile,
   #bg-academy-principal-not-ayuda .text-xs-center.conectadoMobile,
@@ -645,7 +681,7 @@
   #bg-academy-principal-not-eliminar .text-xs-center.conectadoMobile {
     padding-top: 6em;
     margin-bottom: -3em; }
-  /* line 212, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 220, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-principal > h1,
   #bg-academy-principal-gest .panel-principal > h1,
   #bg-academy-principal-notic .panel-principal > h1,
@@ -656,6 +692,7 @@
   #bg-academy-principal-gest-eliminar .panel-principal > h1,
   #bg-academy-principal-gest-modificar .panel-principal > h1,
   #bg-academy-principal-gest-ayuda .panel-principal > h1,
+  #bg-academy-principal-alumn-matricula .panel-principal > h1,
   #bg-academy-principal-not-new .panel-principal > h1,
   #bg-academy-principal-not-miperfil .panel-principal > h1,
   #bg-academy-principal-not-ayuda .panel-principal > h1,
@@ -663,7 +700,7 @@
   #bg-academy-principal-not-eliminar .panel-principal > h1 {
     padding-top: 1em;
     font-size: 30px; }
-  /* line 217, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 225, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn .panel-principal img,
   #bg-academy-principal-gest .panel-principal img,
   #bg-academy-principal-notic .panel-principal img,
@@ -674,6 +711,7 @@
   #bg-academy-principal-gest-eliminar .panel-principal img,
   #bg-academy-principal-gest-modificar .panel-principal img,
   #bg-academy-principal-gest-ayuda .panel-principal img,
+  #bg-academy-principal-alumn-matricula .panel-principal img,
   #bg-academy-principal-not-new .panel-principal img,
   #bg-academy-principal-not-miperfil .panel-principal img,
   #bg-academy-principal-not-ayuda .panel-principal img,
@@ -681,7 +719,7 @@
   #bg-academy-principal-not-eliminar .panel-principal img {
     width: 80%; } }
 
-/* line 225, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 233, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-gest-new,
 #bg-academy-principal-gest-buscar,
 #bg-academy-principal-gest-incidencias,
@@ -693,9 +731,10 @@
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
 #bg-academy-principal-not-modificar,
-#bg-academy-principal-not-eliminar {
+#bg-academy-principal-not-eliminar,
+#bg-academy-principal-alumn-matricula {
   font-family: Roboto; }
-  /* line 242, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 251, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new .panel-opciones .resolucion-imagen,
   #bg-academy-principal-gest-buscar .panel-opciones .resolucion-imagen,
   #bg-academy-principal-gest-incidencias .panel-opciones .resolucion-imagen,
@@ -707,10 +746,11 @@
   #bg-academy-principal-not-miperfil .panel-opciones .resolucion-imagen,
   #bg-academy-principal-not-ayuda .panel-opciones .resolucion-imagen,
   #bg-academy-principal-not-modificar .panel-opciones .resolucion-imagen,
-  #bg-academy-principal-not-eliminar .panel-opciones .resolucion-imagen {
+  #bg-academy-principal-not-eliminar .panel-opciones .resolucion-imagen,
+  #bg-academy-principal-alumn-matricula .panel-opciones .resolucion-imagen {
     font-size: 12px;
     font-style: italic; }
-  /* line 249, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 258, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new .panel-opciones .imagen-perfil img,
   #bg-academy-principal-gest-buscar .panel-opciones .imagen-perfil img,
   #bg-academy-principal-gest-incidencias .panel-opciones .imagen-perfil img,
@@ -722,13 +762,14 @@
   #bg-academy-principal-not-miperfil .panel-opciones .imagen-perfil img,
   #bg-academy-principal-not-ayuda .panel-opciones .imagen-perfil img,
   #bg-academy-principal-not-modificar .panel-opciones .imagen-perfil img,
-  #bg-academy-principal-not-eliminar .panel-opciones .imagen-perfil img {
+  #bg-academy-principal-not-eliminar .panel-opciones .imagen-perfil img,
+  #bg-academy-principal-alumn-matricula .panel-opciones .imagen-perfil img {
     width: 8em;
     height: 10em;
     border: 1px solid black;
     border-radius: 100px;
     margin-bottom: .5em; }
-  /* line 258, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 267, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new .panel-opciones #img-modificar-gest-perfil,
   #bg-academy-principal-gest-buscar .panel-opciones #img-modificar-gest-perfil,
   #bg-academy-principal-gest-incidencias .panel-opciones #img-modificar-gest-perfil,
@@ -740,9 +781,10 @@
   #bg-academy-principal-not-miperfil .panel-opciones #img-modificar-gest-perfil,
   #bg-academy-principal-not-ayuda .panel-opciones #img-modificar-gest-perfil,
   #bg-academy-principal-not-modificar .panel-opciones #img-modificar-gest-perfil,
-  #bg-academy-principal-not-eliminar .panel-opciones #img-modificar-gest-perfil {
+  #bg-academy-principal-not-eliminar .panel-opciones #img-modificar-gest-perfil,
+  #bg-academy-principal-alumn-matricula .panel-opciones #img-modificar-gest-perfil {
     padding-bottom: 1.5em; }
-  /* line 264, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 273, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new .panel-opciones > h2,
   #bg-academy-principal-gest-buscar .panel-opciones > h2,
   #bg-academy-principal-gest-incidencias .panel-opciones > h2,
@@ -754,12 +796,13 @@
   #bg-academy-principal-not-miperfil .panel-opciones > h2,
   #bg-academy-principal-not-ayuda .panel-opciones > h2,
   #bg-academy-principal-not-modificar .panel-opciones > h2,
-  #bg-academy-principal-not-eliminar .panel-opciones > h2 {
+  #bg-academy-principal-not-eliminar .panel-opciones > h2,
+  #bg-academy-principal-alumn-matricula .panel-opciones > h2 {
     font-size: 25px;
     padding: 1em 0;
     font-weight: 600;
     cursor: default; }
-  /* line 271, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 280, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new .title,
   #bg-academy-principal-gest-buscar .title,
   #bg-academy-principal-gest-incidencias .title,
@@ -771,12 +814,13 @@
   #bg-academy-principal-not-miperfil .title,
   #bg-academy-principal-not-ayuda .title,
   #bg-academy-principal-not-modificar .title,
-  #bg-academy-principal-not-eliminar .title {
+  #bg-academy-principal-not-eliminar .title,
+  #bg-academy-principal-alumn-matricula .title {
     font-size: 25px;
     padding: .2em 0;
     font-weight: 600;
     cursor: default; }
-  /* line 279, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 288, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new #accordion i,
   #bg-academy-principal-gest-buscar #accordion i,
   #bg-academy-principal-gest-incidencias #accordion i,
@@ -788,9 +832,10 @@
   #bg-academy-principal-not-miperfil #accordion i,
   #bg-academy-principal-not-ayuda #accordion i,
   #bg-academy-principal-not-modificar #accordion i,
-  #bg-academy-principal-not-eliminar #accordion i {
+  #bg-academy-principal-not-eliminar #accordion i,
+  #bg-academy-principal-alumn-matricula #accordion i {
     margin: 0 .3em; }
-  /* line 282, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 291, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new #accordion button,
   #bg-academy-principal-gest-buscar #accordion button,
   #bg-academy-principal-gest-incidencias #accordion button,
@@ -802,10 +847,11 @@
   #bg-academy-principal-not-miperfil #accordion button,
   #bg-academy-principal-not-ayuda #accordion button,
   #bg-academy-principal-not-modificar #accordion button,
-  #bg-academy-principal-not-eliminar #accordion button {
+  #bg-academy-principal-not-eliminar #accordion button,
+  #bg-academy-principal-alumn-matricula #accordion button {
     border: none;
     outline: none; }
-  /* line 286, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 295, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new #accordion button:hover,
   #bg-academy-principal-gest-buscar #accordion button:hover,
   #bg-academy-principal-gest-incidencias #accordion button:hover,
@@ -817,11 +863,12 @@
   #bg-academy-principal-not-miperfil #accordion button:hover,
   #bg-academy-principal-not-ayuda #accordion button:hover,
   #bg-academy-principal-not-modificar #accordion button:hover,
-  #bg-academy-principal-not-eliminar #accordion button:hover {
+  #bg-academy-principal-not-eliminar #accordion button:hover,
+  #bg-academy-principal-alumn-matricula #accordion button:hover {
     background-color: #0275d8;
     cursor: default;
     border: none; }
-  /* line 291, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 300, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new #accordion button:focus,
   #bg-academy-principal-gest-buscar #accordion button:focus,
   #bg-academy-principal-gest-incidencias #accordion button:focus,
@@ -833,9 +880,10 @@
   #bg-academy-principal-not-miperfil #accordion button:focus,
   #bg-academy-principal-not-ayuda #accordion button:focus,
   #bg-academy-principal-not-modificar #accordion button:focus,
-  #bg-academy-principal-not-eliminar #accordion button:focus {
+  #bg-academy-principal-not-eliminar #accordion button:focus,
+  #bg-academy-principal-alumn-matricula #accordion button:focus {
     background-color: #0275d8; }
-  /* line 296, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 305, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-gest-new .tabla-info .fa.fa-trash.text-danger,
   #bg-academy-principal-gest-buscar .tabla-info .fa.fa-trash.text-danger,
   #bg-academy-principal-gest-incidencias .tabla-info .fa.fa-trash.text-danger,
@@ -847,10 +895,11 @@
   #bg-academy-principal-not-miperfil .tabla-info .fa.fa-trash.text-danger,
   #bg-academy-principal-not-ayuda .tabla-info .fa.fa-trash.text-danger,
   #bg-academy-principal-not-modificar .tabla-info .fa.fa-trash.text-danger,
-  #bg-academy-principal-not-eliminar .tabla-info .fa.fa-trash.text-danger {
+  #bg-academy-principal-not-eliminar .tabla-info .fa.fa-trash.text-danger,
+  #bg-academy-principal-alumn-matricula .tabla-info .fa.fa-trash.text-danger {
     padding-left: .4em; }
   @media (min-width: 0px) and (max-width: 575px) {
-    /* line 303, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 312, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #bg-academy-principal-gest-new .panel-opciones > h2,
     #bg-academy-principal-gest-buscar .panel-opciones > h2,
     #bg-academy-principal-gest-incidencias .panel-opciones > h2,
@@ -862,12 +911,13 @@
     #bg-academy-principal-not-miperfil .panel-opciones > h2,
     #bg-academy-principal-not-ayuda .panel-opciones > h2,
     #bg-academy-principal-not-modificar .panel-opciones > h2,
-    #bg-academy-principal-not-eliminar .panel-opciones > h2 {
+    #bg-academy-principal-not-eliminar .panel-opciones > h2,
+    #bg-academy-principal-alumn-matricula .panel-opciones > h2 {
       font-size: 20px;
       padding: 1em 0;
       font-weight: 600;
       cursor: default; }
-    /* line 310, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 319, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #bg-academy-principal-gest-new .panel-opciones .title,
     #bg-academy-principal-gest-buscar .panel-opciones .title,
     #bg-academy-principal-gest-incidencias .panel-opciones .title,
@@ -879,14 +929,15 @@
     #bg-academy-principal-not-miperfil .panel-opciones .title,
     #bg-academy-principal-not-ayuda .panel-opciones .title,
     #bg-academy-principal-not-modificar .panel-opciones .title,
-    #bg-academy-principal-not-eliminar .panel-opciones .title {
+    #bg-academy-principal-not-eliminar .panel-opciones .title,
+    #bg-academy-principal-alumn-matricula .panel-opciones .title {
       font-size: 20px;
       padding: .2em 0;
       font-weight: 600;
       cursor: default; } }
 
 /** Modales **/
-/* line 322, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 331, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #modal-aniadir-profesor,
 #modal-aniadir-alumno,
 #modal-aniadir-noticiario,
@@ -894,7 +945,7 @@
 #modal-aniadir-curso {
   font-family: Roboto;
   cursor: default; }
-  /* line 331, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 340, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #modal-aniadir-profesor .modal-header, #modal-aniadir-profesor .modal-footer,
   #modal-aniadir-alumno .modal-header,
   #modal-aniadir-alumno .modal-footer,
@@ -905,21 +956,21 @@
   #modal-aniadir-curso .modal-header,
   #modal-aniadir-curso .modal-footer {
     border: none; }
-  /* line 335, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 344, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #modal-aniadir-profesor .modal-footer,
   #modal-aniadir-alumno .modal-footer,
   #modal-aniadir-noticiario .modal-footer,
   #modal-aniadir-gestor .modal-footer,
   #modal-aniadir-curso .modal-footer {
     text-align: center; }
-    /* line 337, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 346, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #modal-aniadir-profesor .modal-footer .btn,
     #modal-aniadir-alumno .modal-footer .btn,
     #modal-aniadir-noticiario .modal-footer .btn,
     #modal-aniadir-gestor .modal-footer .btn,
     #modal-aniadir-curso .modal-footer .btn {
       margin: .8em; }
-  /* line 343, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 352, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #modal-aniadir-profesor h5,
   #modal-aniadir-alumno h5,
   #modal-aniadir-noticiario h5,
@@ -928,7 +979,7 @@
     font-weight: 700;
     margin-bottom: 1.5em;
     font-size: 20px; }
-  /* line 349, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 358, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #modal-aniadir-profesor h6,
   #modal-aniadir-alumno h6,
   #modal-aniadir-noticiario h6,
@@ -940,21 +991,21 @@
     margin-top: 1.5em;
     color: #033766;
     text-transform: uppercase; }
-  /* line 358, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 367, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #modal-aniadir-profesor option,
   #modal-aniadir-alumno option,
   #modal-aniadir-noticiario option,
   #modal-aniadir-gestor option,
   #modal-aniadir-curso option {
     padding: .3em 0; }
-  /* line 364, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 373, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #modal-aniadir-profesor .contenedor-comentarios label,
   #modal-aniadir-alumno .contenedor-comentarios label,
   #modal-aniadir-noticiario .contenedor-comentarios label,
   #modal-aniadir-gestor .contenedor-comentarios label,
   #modal-aniadir-curso .contenedor-comentarios label {
     padding: 0; }
-  /* line 368, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 377, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #modal-aniadir-profesor .contenedor-comentarios textarea,
   #modal-aniadir-alumno .contenedor-comentarios textarea,
   #modal-aniadir-noticiario .contenedor-comentarios textarea,
@@ -963,63 +1014,63 @@
     margin-left: -.5em; }
 
 /** Para tabla modificar y eliminar **/
-/* line 378, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 387, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-not-modificar .panel-opciones,
 #bg-academy-principal-not-eliminar .panel-opciones {
   background-color: #FFFFFF; }
-  /* line 381, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 390, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-not-modificar .panel-opciones .menu-busqueda,
   #bg-academy-principal-not-eliminar .panel-opciones .menu-busqueda {
     padding-bottom: 2em;
     padding-top: 1em; }
 
-/* line 387, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 396, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-not-modificar table,
 #bg-academy-principal-not-eliminar table {
   cursor: default;
   font-size: 14px;
   margin-top: 2em; }
-  /* line 392, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 401, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-not-modificar table thead,
   #bg-academy-principal-not-eliminar table thead {
     background-color: #033766;
     color: #FFFFFF;
     font-weight: 100; }
-  /* line 398, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 407, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-not-modificar table td,
   #bg-academy-principal-not-eliminar table td {
     vertical-align: middle; }
-  /* line 402, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 411, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-not-modificar table .tabla-mod, #bg-academy-principal-not-modificar table .tabla-eli,
   #bg-academy-principal-not-eliminar table .tabla-mod,
   #bg-academy-principal-not-eliminar table .tabla-eli {
     padding-left: 2.5em; }
-    /* line 404, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 413, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #bg-academy-principal-not-modificar table .tabla-mod i, #bg-academy-principal-not-modificar table .tabla-eli i,
     #bg-academy-principal-not-eliminar table .tabla-mod i,
     #bg-academy-principal-not-eliminar table .tabla-eli i {
       font-size: 1.5em; }
-  /* line 410, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 419, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-not-modificar table .tabla-mod i,
   #bg-academy-principal-not-eliminar table .tabla-mod i {
     color: orange; }
-  /* line 416, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 425, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-not-modificar table .tabla-eli i,
   #bg-academy-principal-not-eliminar table .tabla-eli i {
     color: red; }
 
-/* line 422, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 431, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-not-modificar .paginacion-busq .page-link,
 #bg-academy-principal-not-eliminar .paginacion-busq .page-link {
   border: none; }
 
-/* line 426, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 435, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-not-modificar .paginacion-busq .page-link:hover,
 #bg-academy-principal-not-eliminar .paginacion-busq .page-link:hover {
   background-color: #FFFFFF; }
 
 /** Subpaneles de búsqueda, incidencia, eliminar **/
-/* line 451, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 460, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor h1,
 #subpanel-busqueda-alumno h1,
 #subpanel-busqueda-noticiario h1,
@@ -1039,7 +1090,7 @@
 #subpanel-modificar-gestor h1 {
   font-size: 18px; }
 
-/* line 455, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 464, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor .menu-busqueda,
 #subpanel-busqueda-alumno .menu-busqueda,
 #subpanel-busqueda-noticiario .menu-busqueda,
@@ -1058,7 +1109,7 @@
 #subpanel-modificar-curso .menu-busqueda,
 #subpanel-modificar-gestor .menu-busqueda {
   margin-top: 1.5em; }
-  /* line 458, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 467, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .menu-busqueda input, #subpanel-busqueda-profesor .menu-busqueda select,
   #subpanel-busqueda-alumno .menu-busqueda input,
   #subpanel-busqueda-alumno .menu-busqueda select,
@@ -1094,7 +1145,7 @@
   #subpanel-modificar-gestor .menu-busqueda select {
     z-index: 0; }
 
-/* line 464, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 473, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor table,
 #subpanel-busqueda-alumno table,
 #subpanel-busqueda-noticiario table,
@@ -1115,7 +1166,7 @@
   margin: 2.5em 0;
   cursor: default;
   font-size: 14px; }
-  /* line 469, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 478, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table thead,
   #subpanel-busqueda-alumno table thead,
   #subpanel-busqueda-noticiario table thead,
@@ -1136,7 +1187,7 @@
     background-color: #033766;
     color: #FFFFFF;
     font-weight: 100; }
-  /* line 475, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 484, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table td,
   #subpanel-busqueda-alumno table td,
   #subpanel-busqueda-noticiario table td,
@@ -1155,7 +1206,7 @@
   #subpanel-modificar-curso table td,
   #subpanel-modificar-gestor table td {
     vertical-align: middle; }
-  /* line 479, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 488, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table .tabla-info,
   #subpanel-busqueda-alumno table .tabla-info,
   #subpanel-busqueda-noticiario table .tabla-info,
@@ -1175,7 +1226,7 @@
   #subpanel-modificar-gestor table .tabla-info {
     font-size: 1.5em;
     padding-left: 1.2em; }
-    /* line 483, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 492, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-info .fa.fa-pencil,
     #subpanel-busqueda-alumno table .tabla-info .fa.fa-pencil,
     #subpanel-busqueda-noticiario table .tabla-info .fa.fa-pencil,
@@ -1194,7 +1245,7 @@
     #subpanel-modificar-curso table .tabla-info .fa.fa-pencil,
     #subpanel-modificar-gestor table .tabla-info .fa.fa-pencil {
       padding-left: .5em; }
-  /* line 488, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 497, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table .tabla-incidencia-ver,
   #subpanel-busqueda-alumno table .tabla-incidencia-ver,
   #subpanel-busqueda-noticiario table .tabla-incidencia-ver,
@@ -1214,7 +1265,7 @@
   #subpanel-modificar-gestor table .tabla-incidencia-ver {
     padding-left: 2.8em;
     font-size: 1.5em; }
-    /* line 491, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 500, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-ver a,
     #subpanel-busqueda-alumno table .tabla-incidencia-ver a,
     #subpanel-busqueda-noticiario table .tabla-incidencia-ver a,
@@ -1233,7 +1284,7 @@
     #subpanel-modificar-curso table .tabla-incidencia-ver a,
     #subpanel-modificar-gestor table .tabla-incidencia-ver a {
       color: #FAAC58; }
-    /* line 494, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 503, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-ver a:hover,
     #subpanel-busqueda-alumno table .tabla-incidencia-ver a:hover,
     #subpanel-busqueda-noticiario table .tabla-incidencia-ver a:hover,
@@ -1252,7 +1303,7 @@
     #subpanel-modificar-curso table .tabla-incidencia-ver a:hover,
     #subpanel-modificar-gestor table .tabla-incidencia-ver a:hover {
       color: #FF8000; }
-  /* line 499, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 508, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table .tabla-incidencia-resolucion,
   #subpanel-busqueda-alumno table .tabla-incidencia-resolucion,
   #subpanel-busqueda-noticiario table .tabla-incidencia-resolucion,
@@ -1271,7 +1322,7 @@
   #subpanel-modificar-curso table .tabla-incidencia-resolucion,
   #subpanel-modificar-gestor table .tabla-incidencia-resolucion {
     padding-left: 3em; }
-    /* line 503, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 512, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
     #subpanel-busqueda-alumno table .tabla-incidencia-resolucion i.fa-thumbs-up,
     #subpanel-busqueda-noticiario table .tabla-incidencia-resolucion i.fa-thumbs-up,
@@ -1290,7 +1341,7 @@
     #subpanel-modificar-curso table .tabla-incidencia-resolucion i.fa-thumbs-up,
     #subpanel-modificar-gestor table .tabla-incidencia-resolucion i.fa-thumbs-up {
       color: forestgreen; }
-    /* line 507, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 516, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down,
     #subpanel-busqueda-alumno table .tabla-incidencia-resolucion i.fa-thumbs-down,
     #subpanel-busqueda-noticiario table .tabla-incidencia-resolucion i.fa-thumbs-down,
@@ -1310,7 +1361,7 @@
     #subpanel-modificar-gestor table .tabla-incidencia-resolucion i.fa-thumbs-down {
       color: #C94040; }
 
-/* line 514, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 523, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor .paginacion-busq .page-link,
 #subpanel-busqueda-alumno .paginacion-busq .page-link,
 #subpanel-busqueda-noticiario .paginacion-busq .page-link,
@@ -1330,7 +1381,7 @@
 #subpanel-modificar-gestor .paginacion-busq .page-link {
   border: none; }
 
-/* line 518, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 527, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor .paginacion-busq .page-link:hover,
 #subpanel-busqueda-alumno .paginacion-busq .page-link:hover,
 #subpanel-busqueda-noticiario .paginacion-busq .page-link:hover,
@@ -1350,7 +1401,7 @@
 #subpanel-modificar-gestor .paginacion-busq .page-link:hover {
   background-color: #FFFFFF; }
 
-/* line 522, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 531, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-busqueda-profesor .btn-atras,
 #subpanel-busqueda-alumno .btn-atras,
 #subpanel-busqueda-noticiario .btn-atras,
@@ -1375,7 +1426,7 @@
   font-weight: 100;
   color: #033766;
   margin-bottom: 1em; }
-  /* line 530, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 539, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .btn-atras span,
   #subpanel-busqueda-alumno .btn-atras span,
   #subpanel-busqueda-noticiario .btn-atras span,
@@ -1398,7 +1449,7 @@
     text-transform: uppercase;
     font-family: Roboto;
     font-size: 15px; }
-  /* line 537, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 546, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .btn-atras span:hover,
   #subpanel-busqueda-alumno .btn-atras span:hover,
   #subpanel-busqueda-noticiario .btn-atras span:hover,
@@ -1417,7 +1468,7 @@
   #subpanel-modificar-curso .btn-atras span:hover,
   #subpanel-modificar-gestor .btn-atras span:hover {
     color: #033766; }
-  /* line 540, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 549, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .btn-atras i,
   #subpanel-busqueda-alumno .btn-atras i,
   #subpanel-busqueda-noticiario .btn-atras i,
@@ -1438,7 +1489,7 @@
     font-size: 15px; }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  /* line 546, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 555, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table,
   #subpanel-busqueda-alumno table,
   #subpanel-busqueda-noticiario table,
