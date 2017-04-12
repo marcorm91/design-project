@@ -18,12 +18,14 @@
 #bg-academy-principal-gest-buscar,
 #bg-academy-principal-gest-incidencias,
 #bg-academy-principal-gest-miperfil,
+#bg-academy-principal-gest-eliminar,
+#bg-academy-principal-gest-modificar,
+#bg-academy-principal-gest-ayuda,
 #bg-academy-principal-not-new,
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
 #bg-academy-principal-not-modificar,
-#bg-academy-principal-not-eliminar,
-#bg-academy-principal-gest-eliminar{
+#bg-academy-principal-not-eliminar {
             
     #cabeceraPrincipal {
         
@@ -225,6 +227,8 @@
 #bg-academy-principal-gest-incidencias,
 #bg-academy-principal-gest-miperfil,
 #bg-academy-principal-gest-eliminar,
+#bg-academy-principal-gest-modificar,
+#bg-academy-principal-gest-ayuda,
 #bg-academy-principal-not-new,
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
@@ -287,6 +291,10 @@
         button:focus{
             background-color: #0275d8;
         }
+    }
+    
+    .tabla-info .fa.fa-trash.text-danger {
+            padding-left: .4em;
     }
     
     
@@ -409,9 +417,8 @@
                 color: red;
             }
         }
-        
     }
-    
+        
     .paginacion-busq .page-link{
         border: none;
     }
@@ -422,7 +429,7 @@
     
 }
 
-/** Subpaneles de búsqueda, incidencia **/
+/** Subpaneles de búsqueda, incidencia, eliminar **/
 #subpanel-busqueda-profesor,
 #subpanel-busqueda-alumno,
 #subpanel-busqueda-noticiario,
@@ -434,8 +441,12 @@
 #subpanel-eliminar-alumno,
 #subpanel-eliminar-noticiario,
 #subpanel-eliminar-curso,
-#subpanel-eliminar-gestor
-{
+#subpanel-eliminar-gestor,
+#subpanel-modificar-profesor,
+#subpanel-modificar-alumno,
+#subpanel-modificar-noticiario,
+#subpanel-modificar-curso,
+#subpanel-modificar-gestor {
     
     h1{
         font-size: 18px;
@@ -468,6 +479,10 @@
         .tabla-info{
             font-size: 1.5em;
             padding-left: 1.2em;
+            
+            .fa.fa-pencil {
+                padding-left: .5em;
+            }
         }
         
         .tabla-incidencia-ver{
