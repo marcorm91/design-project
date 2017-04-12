@@ -1,20 +1,9 @@
 $(document).ready(function() {
     
     // Ocultar subpaneles de búsqueda, incidencias, ... tras la carga inicial de la página.
-    $("#subpanel-busqueda-profesor").hide();
-    $("#subpanel-busqueda-alumno").hide();
-    $("#subpanel-busqueda-noticiario").hide();
-    $("#subpanel-busqueda-gestor").hide();
-    $("#subpanel-busqueda-curso").hide();
-    $("#subpanel-busqueda-curso").hide();
-    $("#subpanel-eliminar-profesor").hide();
-    $("#subpanel-eliminar-alumno").hide();
-    $("#subpanel-eliminar-noticiario").hide();
-    $("#subpanel-eliminar-curso").hide();
-    $("#subpanel-eliminar-gestor").hide();
-    $("#subpanel-incidencia-alumno").hide();
-    $("#subpanel-incidencia-profesor").hide();
-    
+    $("div[id^='subpanel']").each(function(){
+        $(this).hide();
+    });
 
     // Capturamos el año actual para adaptarlo al copyright del footer.
     $("#fechaActual").append((new Date).getFullYear());
@@ -165,6 +154,47 @@ $(document).ready(function() {
                                                "/ <a href='./eliminar-elemento.html'> Eliminar Elemento </a>"+
                                                "/ Eliminar gestor </h1>");
         $("#subpanel-eliminar-gestor").slideToggle();
+    });
+    
+    /*** SUBPANELES DE MODIFICAR ***/
+    $("#modificar-profesor").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./modificar-elemento.html'> Modificar Elemento </a>"+
+                                               "/ Modificar profesor </h1>");
+        $("#subpanel-modificar-profesor").slideToggle();
+    });
+    
+    $("#modificar-alumno").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./modificar-elemento.html'> Modificar Elemento </a>"+
+                                               "/ Modificar alumno </h1>");
+        $("#subpanel-modificar-alumno").slideToggle();
+    });
+    
+    $("#modificar-curso").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./modificar-elemento.html'> Modificar Elemento </a>"+
+                                               "/ Modificar curso </h1>");
+        $("#subpanel-modificar-curso").slideToggle();
+    });
+    
+    $("#modificar-noticiario").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./modificar-elemento.html'> Modificar Elemento </a>"+
+                                               "/ Modificar noticiario </h1>");
+        $("#subpanel-modificar-noticiario").slideToggle();
+    });
+    
+    $("#modificar-gestor").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-gestor.html'>Panel Principal</a> "+
+                                               "/ <a href='./modificar-elemento.html'> Modificar Elemento </a>"+
+                                               "/ Eliminar gestor </h1>");
+        $("#subpanel-modificar-gestor").slideToggle();
     });
      
     
