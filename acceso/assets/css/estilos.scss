@@ -241,8 +241,7 @@
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
 #bg-academy-principal-not-modificar,
-#bg-academy-principal-not-eliminar,
-#bg-academy-principal-alumn-matricula{
+#bg-academy-principal-not-eliminar{
     
     font-family: Roboto;
     
@@ -555,6 +554,48 @@
         table{
             font-size: 11px;
         }   
+    }
+    
+}
+
+/*** PANELES ALUMNO ***/
+#bg-academy-principal-alumn-matricula{
+    
+    .p-alumno{
+        
+        .row{
+            margin: 1.5em 0;
+            cursor: default;
+        }
+                
+        h2{
+            font-family: Roboto;
+            padding-top: 1em;
+            font-weight: 600;
+            font-size: 23px;
+            cursor: default;
+        }
+        
+        .subtitular{
+            color: $azulOscuro;
+            border-bottom: 1px solid $azulOscuro;
+            margin: 1em 0;
+           
+        }
+        
+        .fixed-text{
+            color: $azulOscuro;
+        }
+        
+        .pdf{
+            padding: 1em 0;
+        }
+        
+        
+        p{
+            font-family: Arial;
+        }
+                
     }
     
 }
