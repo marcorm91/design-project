@@ -39,7 +39,7 @@ $(document).ready(function() {
                 
             }            
         
-    $("#fecha-nacimiento-profesor, #fecha-nacimiento-alumno").datepicker();
+    $("#fecha-nacimiento-profesor, #fecha-nacimiento-alumno, #fnac-modificar-alumn-perfil").datepicker();
     
     // Cuando boton-collapse que es el botón de menú en dispositivo mobile se abre, no le daremos ninguna funcionalidad
     // a los elementos del body.
