@@ -27,6 +27,7 @@
 
 /* PANELES DE ALUMNO */
 #bg-academy-principal-alumn-matricula,
+#bg-academy-principal-alumn-miperfil,
 
 /* PANELES DE NOTICIERO */
 #bg-academy-principal-not-new,
@@ -241,7 +242,8 @@
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
 #bg-academy-principal-not-modificar,
-#bg-academy-principal-not-eliminar{
+#bg-academy-principal-not-eliminar,
+#bg-academy-principal-alumn-miperfil{
     
     font-family: Roboto;
     
@@ -281,6 +283,10 @@
         padding: .2em 0;
         font-weight: 600;
         cursor: default;
+    }
+    
+    .btn-enviar{
+        padding: 1em 0;
     }
     
     #accordion{
