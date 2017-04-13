@@ -11,17 +11,30 @@
 }
 
 
+/* PANELES PRINCIPALES */
 #bg-academy-principal-alumn, 
 #bg-academy-principal-gest, 
 #bg-academy-principal-notic,
+
+/* PANELES DE GESTOR */
 #bg-academy-principal-gest-new,
 #bg-academy-principal-gest-buscar,
 #bg-academy-principal-gest-incidencias,
 #bg-academy-principal-gest-miperfil,
+#bg-academy-principal-gest-eliminar,
+#bg-academy-principal-gest-modificar,
+#bg-academy-principal-gest-ayuda,
+
+/* PANELES DE ALUMNO */
+#bg-academy-principal-alumn-matricula,
+#bg-academy-principal-alumn-miperfil,
+
+/* PANELES DE NOTICIERO */
 #bg-academy-principal-not-new,
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
-#bg-academy-principal-not-modificar{
+#bg-academy-principal-not-modificar,
+#bg-academy-principal-not-eliminar {
             
     #cabeceraPrincipal {
         
@@ -222,10 +235,15 @@
 #bg-academy-principal-gest-buscar,
 #bg-academy-principal-gest-incidencias,
 #bg-academy-principal-gest-miperfil,
+#bg-academy-principal-gest-eliminar,
+#bg-academy-principal-gest-modificar,
+#bg-academy-principal-gest-ayuda,
 #bg-academy-principal-not-new,
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
-#bg-academy-principal-not-modificar{
+#bg-academy-principal-not-modificar,
+#bg-academy-principal-not-eliminar,
+#bg-academy-principal-alumn-miperfil{
     
     font-family: Roboto;
     
@@ -267,6 +285,10 @@
         cursor: default;
     }
     
+    .btn-enviar{
+        padding: 1em 0;
+    }
+    
     #accordion{
         i{
             margin: 0 .3em;
@@ -283,6 +305,10 @@
         button:focus{
             background-color: #0275d8;
         }
+    }
+    
+    .tabla-info .fa.fa-trash.text-danger {
+            padding-left: .4em;
     }
     
     
@@ -310,7 +336,8 @@
 #modal-aniadir-profesor, 
 #modal-aniadir-alumno,
 #modal-aniadir-noticiario,
-#modal-aniadir-gestor{
+#modal-aniadir-gestor,
+#modal-aniadir-curso{
     
     font-family: Roboto;
     cursor: default;
@@ -358,8 +385,9 @@
     }
 }
 
-/** Para tabla modificar **/
-#bg-academy-principal-not-modificar{
+/** Para tabla modificar y eliminar **/
+#bg-academy-principal-not-modificar,
+#bg-academy-principal-not-eliminar{
     
     .panel-opciones{
          background-color: $blanco;
@@ -385,16 +413,26 @@
             vertical-align: middle;
         }
         
-        .tabla-mod{
+        .tabla-mod, .tabla-eli{
             padding-left: 2.5em;
             i{
-                color:orange;
                 font-size: 1.5em;
             }
         }
         
+        .tabla-mod{
+            i{
+                color: orange;
+            }
+        }
+        
+        .tabla-eli{
+            i{
+                color: red;
+            }
+        }
     }
-    
+        
     .paginacion-busq .page-link{
         border: none;
     }
@@ -403,17 +441,26 @@
         background-color: $blanco;
     }
     
-   
-    
 }
 
-/** Subpaneles de búsqueda, incidencia **/
+/** Subpaneles de búsqueda, incidencia, eliminar **/
 #subpanel-busqueda-profesor,
 #subpanel-busqueda-alumno,
 #subpanel-busqueda-noticiario,
 #subpanel-busqueda-gestor,
+#subpanel-busqueda-curso,
 #subpanel-incidencia-profesor,
-#subpanel-incidencia-alumno{
+#subpanel-incidencia-alumno,
+#subpanel-eliminar-profesor,
+#subpanel-eliminar-alumno,
+#subpanel-eliminar-noticiario,
+#subpanel-eliminar-curso,
+#subpanel-eliminar-gestor,
+#subpanel-modificar-profesor,
+#subpanel-modificar-alumno,
+#subpanel-modificar-noticiario,
+#subpanel-modificar-curso,
+#subpanel-modificar-gestor {
     
     h1{
         font-size: 18px;
@@ -446,6 +493,10 @@
         .tabla-info{
             font-size: 1.5em;
             padding-left: 1.2em;
+            
+            .fa.fa-pencil {
+                padding-left: .5em;
+            }
         }
         
         .tabla-incidencia-ver{
@@ -513,4 +564,44 @@
     
 }
 
-
+/*** PANELES ALUMNO ***/
+#bg-academy-principal-alumn-matricula{
+    
+    .p-alumno{
+        
+        .row{
+            margin: 1.5em 0;
+            cursor: default;
+        }
+                
+        h2{
+            font-family: Roboto;
+            padding-top: 1em;
+            font-weight: 600;
+            font-size: 23px;
+            cursor: default;
+        }
+        
+        .subtitular{
+            color: $azulOscuro;
+            border-bottom: 1px solid $azulOscuro;
+            margin: 1em 0;
+           
+        }
+        
+        .fixed-text{
+            color: $azulOscuro;
+        }
+        
+        .pdf{
+            padding: 1em 0;
+        }
+        
+        
+        p{
+            font-family: Arial;
+        }
+                
+    }
+    
+}
