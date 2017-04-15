@@ -1,10 +1,5 @@
 $(document).ready(function() {
     
-    // Ocultar subpaneles de búsqueda, incidencias, ... tras la carga inicial de la página.
-    $("div[id^='subpanel']").each(function(){
-        $(this).hide();
-    });
-
     // Capturamos el año actual para adaptarlo al copyright del footer.
     $("#fechaActual").append((new Date).getFullYear());
     
