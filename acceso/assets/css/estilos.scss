@@ -28,6 +28,7 @@
 /* PANELES DE ALUMNO */
 #bg-academy-principal-alumn-matricula,
 #bg-academy-principal-alumn-miperfil,
+#bg-academy-principal-alumn-calif,
 
 /* PANELES DE NOTICIERO */
 #bg-academy-principal-not-new,
@@ -243,7 +244,8 @@
 #bg-academy-principal-not-ayuda,
 #bg-academy-principal-not-modificar,
 #bg-academy-principal-not-eliminar,
-#bg-academy-principal-alumn-miperfil{
+#bg-academy-principal-alumn-miperfil,
+#bg-academy-principal-alumn-calif{
     
     font-family: Roboto;
     
@@ -287,6 +289,58 @@
     
     .btn-enviar{
         padding: 1em 0;
+    }
+    
+    .tit-notas-alumno{
+        h3{
+            color: $azulOscuro;
+            font-size: 20px;
+            font-weight: bolder;
+            border-bottom: 1px solid $azulOscuro;
+            margin-bottom: -.2em;
+        }
+    }
+    
+    .tareas-notas-alumno{
+        h4{
+            font-size: 18px;
+            font-weight: bolder;
+        }
+        h5{
+            font-size: 15px;
+        }
+        span{
+            display: block;
+            > span{
+                display: inline;
+            }
+        }
+        .fecha-alumno-calif{
+            font-size: 15px;
+            font-style: italic;
+        }
+        .nota-alumno-calif{
+            font-size: 15px;
+            font-weight: bolder;
+            margin: 0.5em 0;
+        }
+        hr{
+            margin: 1.5em 8em;
+        }
+    }
+    
+    .pdf{
+        i{
+            padding: .3em;
+            font-size: 50px;
+            cursor: pointer;
+        }
+        p{
+            font-size: 14px;
+            font-family: Arial;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
     }
     
     #accordion{
@@ -461,6 +515,8 @@
 #subpanel-modificar-noticiario,
 #subpanel-modificar-curso,
 #subpanel-modificar-gestor {
+    
+    display: none;
     
     h1{
         font-size: 18px;
