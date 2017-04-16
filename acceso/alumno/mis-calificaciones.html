@@ -110,12 +110,13 @@
                              <h2 class="title"> Mis Calificaciones </h2>
                         </div>
                     </div>
+                    <!-- TAREAS -->
                     <div class="row">
-                        <div class="col-xs-12 tit-notas-alumno">
-                            <h3> Tareas </h3>
+                        <div class="col-xs-12" id="tit-tareas-notas-alumno">
+                            <h3 data-toggle="collapse" data-target="#tareas" aria-expanded="true"> Tareas <i class="fa fa-chevron-down" aria-hidden="true"></i></h3>
                         </div>
                     </div>
-                    <div class="row tareas-notas-alumno">
+                    <div class="row tareas-notas-alumno collapse in" id="tareas" >
                         <div class="col-xs-12">
                             <h4 class="titulo-alumno-calif">Tarea Comprensión Escrita 1</h4>
                             <h5 class="descripcion-alumno-calif text-justify">
@@ -134,30 +135,32 @@
                             <span class="nota-alumno-calif">Nota: <span id="nota-2" class="text-success">6,1</span></span>
                         </div>
                     </div>
+                    <!-- EXÁMENES -->
                     <div class="row">
-                        <div class="col-xs-12 tit-notas-alumno">
-                            <h3> Exámenes </h3>
+                        <div class="col-xs-12" id="tit-examenes-notas-alumno">
+                            <h3 data-toggle="collapse" data-target="#examenes" aria-expanded="true"> Exámenes <i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
                         </div>
                     </div>
-                    <div class="row tareas-notas-alumno">
-                        <div class="col-xs-12">
-                            <h4 class="titulo-alumno-calif">Examen Comprensión Escrita 1</h4>
-                            <h5 class="descripcion-alumno-calif text-justify">
-                                Realizado en clase sobre vocabulario de ropa y vestidos.
-                            </h5>
-                            <span class="fecha-alumno-calif">01/04/2017</span>
-                            <span class="nota-alumno-calif">Nota: <span id="nota-3" class="text-danger">3,1</span></span>
-                            <hr/>
+                        <div class="row tareas-notas-alumno collapse in" id="examenes" aria-expanded="true">
+                            <div class="col-xs-12">
+                                <h4 class="titulo-alumno-calif">Examen Comprensión Escrita 1</h4>
+                                <h5 class="descripcion-alumno-calif text-justify">
+                                    Realizado en clase sobre vocabulario de ropa y vestidos.
+                                </h5>
+                                <span class="fecha-alumno-calif">01/04/2017</span>
+                                <span class="nota-alumno-calif">Nota: <span id="nota-3" class="text-danger">3,1</span></span>
+                                <hr/>
+                            </div>
+                            <div class="col-xs-12">
+                                <h4 class="titulo-alumno-calif">Examen Comprensión Escrita 2</h4>
+                                <h5 class="descripcion-alumno-calif text-justify">
+                                    Realizado en clase sobre vocabulario de animales y paisajes.
+                                </h5>
+                                <span class="fecha-alumno-calif">05/04/2017</span>
+                                <span class="nota-alumno-calif">Nota: <span id="nota-4" class="text-success">8</span></span>
+                            </div>
                         </div>
-                        <div class="col-xs-12">
-                            <h4 class="titulo-alumno-calif">Examen Comprensión Escrita 2</h4>
-                            <h5 class="descripcion-alumno-calif text-justify">
-                                Realizado en clase sobre vocabulario de animales y paisajes.
-                            </h5>
-                            <span class="fecha-alumno-calif">05/04/2017</span>
-                            <span class="nota-alumno-calif">Nota: <span id="nota-4" class="text-success">8</span></span>
-                        </div>
-                    </div>
+               
                     <div class="row text-xs-center pdf">                           
                         <div class="col-xs-12">
                             <i class="fa fa-file-pdf-o text-danger" aria-hidden="true"></i>
