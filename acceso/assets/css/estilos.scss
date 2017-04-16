@@ -291,13 +291,14 @@
         padding: 1em 0;
     }
     
-    .tit-notas-alumno{
+    #tit-tareas-notas-alumno, #tit-examenes-notas-alumno{
         h3{
             color: $azulOscuro;
             font-size: 20px;
             font-weight: bolder;
             border-bottom: 1px solid $azulOscuro;
             margin-bottom: -.2em;
+            cursor: pointer;
         }
     }
     

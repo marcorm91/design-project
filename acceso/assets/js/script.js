@@ -191,6 +191,28 @@ $(document).ready(function() {
                                                "/ Eliminar gestor </h1>");
         $("#subpanel-modificar-gestor").slideToggle();
     });
+    
+    
+    /*** MIS CALIFICACIONES (ALUMNOS) ***/
+    $("#tit-tareas-notas-alumno").on("click", function(){
+        if($("#tit-tareas-notas-alumno > h3").attr("aria-expanded") === "true"){
+            $("#tit-tareas-notas-alumno > h3 > i").removeClass("fa-chevron-down");
+            $("#tit-tareas-notas-alumno > h3 > i").addClass("fa-chevron-up");
+        }else{
+            $("#tit-tareas-notas-alumno > h3 > i").removeClass("fa-chevron-up");
+            $("#tit-tareas-notas-alumno > h3 > i").addClass("fa-chevron-down");
+        }      
+    });
+    
+    $("#tit-examenes-notas-alumno").on("click", function(){
+        if($("#tit-examenes-notas-alumno > h3").attr("aria-expanded") === "true"){
+            $("#tit-examenes-notas-alumno > h3 > i").removeClass("fa-chevron-down");
+            $("#tit-examenes-notas-alumno > h3 > i").addClass("fa-chevron-up");
+        }else{
+            $("#tit-examenes-notas-alumno > h3 > i").removeClass("fa-chevron-up");
+            $("#tit-examenes-notas-alumno > h3 > i").addClass("fa-chevron-down");
+        }      
+    });
      
     
     
