@@ -29,13 +29,16 @@
 #bg-academy-principal-alumn-matricula,
 #bg-academy-principal-alumn-miperfil,
 #bg-academy-principal-alumn-calif,
+#bg-academy-principal-alumn-regincidencia,
+#bg-academy-principal-alumn-verincidencia,
+#bg-academy-principal-alumn-ayuda,
 
 /* PANELES DE NOTICIERO */
 #bg-academy-principal-not-new,
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
 #bg-academy-principal-not-modificar,
-#bg-academy-principal-not-eliminar {
+#bg-academy-principal-not-eliminar{
             
     #cabeceraPrincipal {
         
@@ -245,7 +248,10 @@
 #bg-academy-principal-not-modificar,
 #bg-academy-principal-not-eliminar,
 #bg-academy-principal-alumn-miperfil,
-#bg-academy-principal-alumn-calif{
+#bg-academy-principal-alumn-calif,
+#bg-academy-principal-alumn-regincidencia,
+#bg-academy-principal-alumn-verincidencia,
+#bg-academy-principal-alumn-ayuda{
     
     font-family: Roboto;
     
@@ -442,7 +448,8 @@
 
 /** Para tabla modificar y eliminar **/
 #bg-academy-principal-not-modificar,
-#bg-academy-principal-not-eliminar{
+#bg-academy-principal-not-eliminar,
+#bg-academy-principal-alumn-verincidencia {
     
     .panel-opciones{
          background-color: $blanco;
@@ -661,6 +668,36 @@
                 
     }
     
+}
+
+//Ver-incidencias de alumnos y profesores
+#bg-academy-principal-alumn-verincidencia{
+    
+    .form-publicacion-art{
+        background-color: $blanco;
+    }
+    
+    table{
+        margin: 0 auto;
+        width: 100%;
+        td,th{
+            text-align: center;
+        }
+        td{
+            background-color: $blanco;
+        }
+        .tabla-incidencia-ver, .tabla-incidencia-resolucion{
+            font-size: 1.5em;
+        }
+    }
+    
+    .btn-enviar{
+        margin-top: 1.5em;
+    }
+    
+    .advertencia{
+        margin-top: 2em;
+    }
 }
 
 
