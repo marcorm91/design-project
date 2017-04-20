@@ -191,6 +191,15 @@ $(document).ready(function() {
                                                "/ Eliminar gestor </h1>");
         $("#subpanel-modificar-gestor").slideToggle();
     });
+
+    /*** SUBPANELES DE CURSO (ALUMNOS) ***/
+    $("#alumno-calendario").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-alumno.html'>Panel Principal</a> "+
+                                               "/ <a href='./curso.html'> Mi Curso </a>"+
+                                               "/ Calendario </h1>");
+        $("#subpanel-calendario-alumno").slideToggle();
+    });
     
     
     /*** MIS CALIFICACIONES (ALUMNOS) ***/
