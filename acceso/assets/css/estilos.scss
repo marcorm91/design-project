@@ -32,6 +32,7 @@
 #bg-academy-principal-alumn-regincidencia,
 #bg-academy-principal-alumn-verincidencia,
 #bg-academy-principal-alumn-ayuda,
+#bg-academy-principal-alumn-curso,
 
 /* PANELES DE NOTICIERO */
 #bg-academy-principal-not-new,
@@ -251,7 +252,8 @@
 #bg-academy-principal-alumn-calif,
 #bg-academy-principal-alumn-regincidencia,
 #bg-academy-principal-alumn-verincidencia,
-#bg-academy-principal-alumn-ayuda{
+#bg-academy-principal-alumn-ayuda,
+#bg-academy-principal-alumn-curso{
     
     font-family: Roboto;
     
@@ -522,7 +524,8 @@
 #subpanel-modificar-alumno,
 #subpanel-modificar-noticiario,
 #subpanel-modificar-curso,
-#subpanel-modificar-gestor {
+#subpanel-modificar-gestor,
+#subpanel-calendario-alumno{
     
     display: none;
     
@@ -698,6 +701,84 @@
     .advertencia{
         margin-top: 2em;
     }
+}
+
+/*** Subpanel de calendario de alumno **/
+#subpanel-calendario-alumno{
+    
+    margin-top: 2em;
+    
+    .btn-atras{
+        margin-bottom: 3em;
+    }
+
+    /** Tabla calendario **/
+    #calendario{
+        border-collapse: separate;
+        padding-left: 12.8em;
+
+        td{
+            cursor: pointer;
+            margin: 15px;
+            padding: 18px;
+            background-color: #FFF;
+            border: solid 1px $grisOscuro;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        th{
+           cursor: default;
+           padding-left: 2em;
+           padding-right: 2em;
+           background-color: $azulOscuro;
+           border: solid 1px #000;
+           color: $blanco;
+        }
+    }
+
+    .hoy{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 1em;
+        button{
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    #mesActual {
+        font-weight: bolder;
+        font-size: 25px;
+        margin-top: .5em;
+    }
+
+
+    #calendario .sinFecha{
+        background-color: #E6E6E6;
+        opacity: 0.5;
+        cursor: default;
+        padding: 15px;
+    }
+
+    #calendario .conFecha{
+        cursor: pointer;
+        margin: 15px;
+        padding: 15px;
+        background-color: #FFF;
+        text-align: center;
+    }
+
+    #calendario .finde{
+        cursor: default;
+        color: red;
+    }
+
+    #calendario .encima:hover{
+        background-color: #dddfff ;
+    }
+    
 }
 
 
