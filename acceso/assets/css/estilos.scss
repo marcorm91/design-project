@@ -525,7 +525,8 @@
 #subpanel-modificar-noticiario,
 #subpanel-modificar-curso,
 #subpanel-modificar-gestor,
-#subpanel-calendario-alumno{
+#subpanel-calendario-alumno,
+#subpanel-apuntes-alumno{
     
     display: none;
     
@@ -776,9 +777,27 @@
     }
 
     #calendario .encima:hover{
-        background-color: #dddfff ;
+        background-color: #dddfff;
     }
     
+}
+
+#subpanel-apuntes-alumno{
+    .table{
+        
+        margin-top: -.5em;
+        
+        .descarga-apuntes i{
+            margin-left: 28px;
+            cursor: pointer; 
+            font-size: 20px;
+        }
+        
+    }
+    
+    .btn-atras{
+        margin: 2.5em 0;
+    }
 }
 
 

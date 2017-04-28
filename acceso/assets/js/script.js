@@ -201,6 +201,14 @@ $(document).ready(function() {
         $("#subpanel-calendario-alumno").slideToggle();
     });
     
+    $("#alumno-apuntes").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-alumno.html'>Panel Principal</a> "+
+                                               "/ <a href='./curso.html'> Mi Curso </a>"+
+                                               "/ Apuntes </h1>");
+        $("#subpanel-apuntes-alumno").slideToggle();
+    });
+    
     
     /*** MIS CALIFICACIONES (ALUMNOS) ***/
     $("#tit-tareas-notas-alumno").on("click", function(){
