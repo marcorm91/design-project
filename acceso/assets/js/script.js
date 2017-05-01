@@ -209,6 +209,22 @@ $(document).ready(function() {
         $("#subpanel-apuntes-alumno").slideToggle();
     });
     
+    $("#alumno-tareas").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-alumno.html'>Panel Principal</a> "+
+                                               "/ <a href='./curso.html'> Mi Curso </a>"+
+                                               "/ Tareas </h1>");
+        $("#subpanel-tareas-alumno").slideToggle();
+    });
+    
+    $("#alumno-examenes").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-alumno.html'>Panel Principal</a> "+
+                                               "/ <a href='./curso.html'> Mi Curso </a>"+
+                                               "/ Exámenes </h1>");
+        $("#subpanel-examenes-alumno").slideToggle();
+    });
+    
     
     /*** MIS CALIFICACIONES (ALUMNOS) ***/
     $("#tit-tareas-notas-alumno").on("click", function(){
