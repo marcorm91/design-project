@@ -526,7 +526,9 @@
 #subpanel-modificar-curso,
 #subpanel-modificar-gestor,
 #subpanel-calendario-alumno,
-#subpanel-apuntes-alumno{
+#subpanel-apuntes-alumno,
+#subpanel-tareas-alumno,
+#subpanel-examenes-alumno{
     
     display: none;
     
@@ -782,7 +784,9 @@
     
 }
 
-#subpanel-apuntes-alumno{
+#subpanel-apuntes-alumno,
+#subpanel-tareas-alumno,
+#subpanel-examenes-alumno{
     .table{
         
         margin-top: -.5em;
@@ -790,6 +794,12 @@
         .descarga-apuntes i{
             margin-left: 28px;
             cursor: pointer; 
+            font-size: 20px;
+        }
+        
+        .sube-tarea i{
+            margin-left: 8px;
+            cursor: pointer;
             font-size: 20px;
         }
         
