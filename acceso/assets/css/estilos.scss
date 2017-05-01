@@ -15,6 +15,13 @@
 #bg-academy-principal-alumn, 
 #bg-academy-principal-gest, 
 #bg-academy-principal-notic,
+#bg-academy-principal-prof,
+
+/* PANELES DE PROFESOR */
+#bg-academy-principal-prof-ayuda,
+#bg-academy-principal-prof-miperfil,
+#bg-academy-principal-prof-verincidencia,
+#bg-academy-principal-prof-regincidencia,
 
 /* PANELES DE GESTOR */
 #bg-academy-principal-gest-new,
@@ -253,7 +260,10 @@
 #bg-academy-principal-alumn-regincidencia,
 #bg-academy-principal-alumn-verincidencia,
 #bg-academy-principal-alumn-ayuda,
-#bg-academy-principal-alumn-curso{
+#bg-academy-principal-alumn-curso,
+#bg-academy-principal-prof-ayuda,
+#bg-academy-principal-prof-miperfil,
+#bg-academy-principal-prof-verincidencia{
     
     font-family: Roboto;
     
@@ -451,7 +461,8 @@
 /** Para tabla modificar y eliminar **/
 #bg-academy-principal-not-modificar,
 #bg-academy-principal-not-eliminar,
-#bg-academy-principal-alumn-verincidencia {
+#bg-academy-principal-alumn-verincidencia,
+#bg-academy-principal-prof-verincidencia{
     
     .panel-opciones{
          background-color: $blanco;
@@ -677,7 +688,8 @@
 }
 
 //Ver-incidencias de alumnos y profesores
-#bg-academy-principal-alumn-verincidencia{
+#bg-academy-principal-alumn-verincidencia,
+#bg-academy-principal-prof-verincidencia{
     
     .form-publicacion-art{
         background-color: $blanco;
