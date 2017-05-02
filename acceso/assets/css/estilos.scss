@@ -22,6 +22,7 @@
 #bg-academy-principal-prof-miperfil,
 #bg-academy-principal-prof-verincidencia,
 #bg-academy-principal-prof-regincidencia,
+#bg-academy-principal-prof-cursos,
 
 /* PANELES DE GESTOR */
 #bg-academy-principal-gest-new,
@@ -263,7 +264,8 @@
 #bg-academy-principal-alumn-curso,
 #bg-academy-principal-prof-ayuda,
 #bg-academy-principal-prof-miperfil,
-#bg-academy-principal-prof-verincidencia{
+#bg-academy-principal-prof-verincidencia,
+#bg-academy-principal-prof-cursos{
     
     font-family: Roboto;
     
@@ -539,7 +541,11 @@
 #subpanel-calendario-alumno,
 #subpanel-apuntes-alumno,
 #subpanel-tareas-alumno,
-#subpanel-examenes-alumno{
+#subpanel-examenes-alumno,
+#subpanel-calendario-profesor,
+#subpanel-sub-tarea-profesor,
+#subpanel-sub-examen-profesor,
+#subpanel-sub-apuntes-profesor{
     
     display: none;
     
@@ -719,7 +725,8 @@
 }
 
 /*** Subpanel de calendario de alumno **/
-#subpanel-calendario-alumno{
+#subpanel-calendario-alumno,
+#subpanel-calendario-profesor{
     
     margin-top: 2em;
     
@@ -798,7 +805,10 @@
 
 #subpanel-apuntes-alumno,
 #subpanel-tareas-alumno,
-#subpanel-examenes-alumno{
+#subpanel-examenes-alumno,
+#subpanel-sub-tarea-profesor,
+#subpanel-sub-examen-profesor,
+#subpanel-sub-apuntes-profesor{
     .table{
         
         margin-top: -.5em;
@@ -819,6 +829,12 @@
     
     .btn-atras{
         margin: 2.5em 0;
+        a{
+            text-decoration: none;
+        }
+        #reg-tarea, #reg-examen, #reg-apuntes{
+            margin-left: 1em;
+        }
     }
 }
 
