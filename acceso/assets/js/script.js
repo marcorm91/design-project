@@ -35,6 +35,7 @@ $(document).ready(function() {
             }            
         
     $("#fecha-nacimiento-profesor, #fecha-nacimiento-alumno, #fnac-modificar-alumn-perfil").datepicker();
+    $("#fecha-limite-subida-tarea, #fecha-limite-subida-examen").datepicker({minDate:0});
     
     // Cuando boton-collapse que es el botón de menú en dispositivo mobile se abre, no le daremos ninguna funcionalidad
     // a los elementos del body.
@@ -224,6 +225,41 @@ $(document).ready(function() {
                                                "/ Exámenes </h1>");
         $("#subpanel-examenes-alumno").slideToggle();
     });
+    
+    /*** SUBPANELES DE CURSO (PROFESOR) ***/
+    $("#profesor-calendario").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-profesor.html'>Panel Principal</a> "+
+                                               "/ <a href='./cursos.html'> Mis Cursos Asignados </a>"+
+                                               "/ Calendario </h1>");
+        $("#subpanel-calendario-profesor").slideToggle();
+    });
+    
+    $("#profesor-tareas").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-profesor.html'>Panel Principal</a> "+
+                                               "/ <a href='./cursos.html'> Mis Cursos Asignados </a>"+
+                                               "/ Subir Tarea </h1>");
+        $("#subpanel-sub-tarea-profesor").slideToggle();
+    });
+    
+    $("#profesor-examenes").on("click", function(){     
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-profesor.html'>Panel Principal</a> "+
+                                               "/ <a href='./cursos.html'> Mis Cursos Asignados </a>"+
+                                               "/ Subir Examen </h1>");
+        $("#subpanel-sub-examen-profesor").slideToggle();
+    });
+    
+    $("#profesor-apuntes").on("click", function(){  
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-profesor.html'>Panel Principal</a> "+
+                                               "/ <a href='./cursos.html'> Mis Cursos Asignados </a>"+
+                                               "/ Subir Apuntes </h1>");
+        $("#subpanel-sub-apuntes-profesor").slideToggle();
+    });
+    
+    
     
     
     /*** MIS CALIFICACIONES (ALUMNOS) ***/
