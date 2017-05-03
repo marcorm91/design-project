@@ -545,7 +545,10 @@
 #subpanel-calendario-profesor,
 #subpanel-sub-tarea-profesor,
 #subpanel-sub-examen-profesor,
-#subpanel-sub-apuntes-profesor{
+#subpanel-sub-apuntes-profesor,
+#subpanel-list-alumnos-profesor,
+#subpanel-tareas-alumnos-profesor,
+#subpanel-examenes-alumnos-profesor{
     
     display: none;
     
@@ -808,7 +811,15 @@
 #subpanel-examenes-alumno,
 #subpanel-sub-tarea-profesor,
 #subpanel-sub-examen-profesor,
-#subpanel-sub-apuntes-profesor{
+#subpanel-sub-apuntes-profesor,
+#subpanel-list-alumnos-profesor,
+#subpanel-tareas-alumnos-profesor,
+#subpanel-examenes-alumnos-profesor{
+    
+    .menu-busqueda{
+        margin-bottom: 1.5em;
+    }
+    
     .table{
         
         margin-top: -.5em;

@@ -1981,9 +1981,12 @@
 #subpanel-calendario-profesor,
 #subpanel-sub-tarea-profesor,
 #subpanel-sub-examen-profesor,
-#subpanel-sub-apuntes-profesor {
+#subpanel-sub-apuntes-profesor,
+#subpanel-list-alumnos-profesor,
+#subpanel-tareas-alumnos-profesor,
+#subpanel-examenes-alumnos-profesor {
   display: none; }
-  /* line 552, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 555, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor h1,
   #subpanel-busqueda-alumno h1,
   #subpanel-busqueda-noticiario h1,
@@ -2008,9 +2011,12 @@
   #subpanel-calendario-profesor h1,
   #subpanel-sub-tarea-profesor h1,
   #subpanel-sub-examen-profesor h1,
-  #subpanel-sub-apuntes-profesor h1 {
+  #subpanel-sub-apuntes-profesor h1,
+  #subpanel-list-alumnos-profesor h1,
+  #subpanel-tareas-alumnos-profesor h1,
+  #subpanel-examenes-alumnos-profesor h1 {
     font-size: 18px; }
-  /* line 556, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 559, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .menu-busqueda,
   #subpanel-busqueda-alumno .menu-busqueda,
   #subpanel-busqueda-noticiario .menu-busqueda,
@@ -2035,9 +2041,12 @@
   #subpanel-calendario-profesor .menu-busqueda,
   #subpanel-sub-tarea-profesor .menu-busqueda,
   #subpanel-sub-examen-profesor .menu-busqueda,
-  #subpanel-sub-apuntes-profesor .menu-busqueda {
+  #subpanel-sub-apuntes-profesor .menu-busqueda,
+  #subpanel-list-alumnos-profesor .menu-busqueda,
+  #subpanel-tareas-alumnos-profesor .menu-busqueda,
+  #subpanel-examenes-alumnos-profesor .menu-busqueda {
     margin-top: 1.5em; }
-    /* line 559, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 562, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor .menu-busqueda input, #subpanel-busqueda-profesor .menu-busqueda select,
     #subpanel-busqueda-alumno .menu-busqueda input,
     #subpanel-busqueda-alumno .menu-busqueda select,
@@ -2086,9 +2095,15 @@
     #subpanel-sub-examen-profesor .menu-busqueda input,
     #subpanel-sub-examen-profesor .menu-busqueda select,
     #subpanel-sub-apuntes-profesor .menu-busqueda input,
-    #subpanel-sub-apuntes-profesor .menu-busqueda select {
+    #subpanel-sub-apuntes-profesor .menu-busqueda select,
+    #subpanel-list-alumnos-profesor .menu-busqueda input,
+    #subpanel-list-alumnos-profesor .menu-busqueda select,
+    #subpanel-tareas-alumnos-profesor .menu-busqueda input,
+    #subpanel-tareas-alumnos-profesor .menu-busqueda select,
+    #subpanel-examenes-alumnos-profesor .menu-busqueda input,
+    #subpanel-examenes-alumnos-profesor .menu-busqueda select {
       z-index: 0; }
-  /* line 565, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 568, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor table,
   #subpanel-busqueda-alumno table,
   #subpanel-busqueda-noticiario table,
@@ -2113,11 +2128,14 @@
   #subpanel-calendario-profesor table,
   #subpanel-sub-tarea-profesor table,
   #subpanel-sub-examen-profesor table,
-  #subpanel-sub-apuntes-profesor table {
+  #subpanel-sub-apuntes-profesor table,
+  #subpanel-list-alumnos-profesor table,
+  #subpanel-tareas-alumnos-profesor table,
+  #subpanel-examenes-alumnos-profesor table {
     margin: 2.5em 0;
     cursor: default;
     font-size: 14px; }
-    /* line 570, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 573, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table thead,
     #subpanel-busqueda-alumno table thead,
     #subpanel-busqueda-noticiario table thead,
@@ -2142,11 +2160,14 @@
     #subpanel-calendario-profesor table thead,
     #subpanel-sub-tarea-profesor table thead,
     #subpanel-sub-examen-profesor table thead,
-    #subpanel-sub-apuntes-profesor table thead {
+    #subpanel-sub-apuntes-profesor table thead,
+    #subpanel-list-alumnos-profesor table thead,
+    #subpanel-tareas-alumnos-profesor table thead,
+    #subpanel-examenes-alumnos-profesor table thead {
       background-color: #033766;
       color: #FFFFFF;
       font-weight: 100; }
-    /* line 576, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 579, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table td,
     #subpanel-busqueda-alumno table td,
     #subpanel-busqueda-noticiario table td,
@@ -2171,9 +2192,12 @@
     #subpanel-calendario-profesor table td,
     #subpanel-sub-tarea-profesor table td,
     #subpanel-sub-examen-profesor table td,
-    #subpanel-sub-apuntes-profesor table td {
+    #subpanel-sub-apuntes-profesor table td,
+    #subpanel-list-alumnos-profesor table td,
+    #subpanel-tareas-alumnos-profesor table td,
+    #subpanel-examenes-alumnos-profesor table td {
       vertical-align: middle; }
-    /* line 580, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 583, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-info,
     #subpanel-busqueda-alumno table .tabla-info,
     #subpanel-busqueda-noticiario table .tabla-info,
@@ -2198,10 +2222,13 @@
     #subpanel-calendario-profesor table .tabla-info,
     #subpanel-sub-tarea-profesor table .tabla-info,
     #subpanel-sub-examen-profesor table .tabla-info,
-    #subpanel-sub-apuntes-profesor table .tabla-info {
+    #subpanel-sub-apuntes-profesor table .tabla-info,
+    #subpanel-list-alumnos-profesor table .tabla-info,
+    #subpanel-tareas-alumnos-profesor table .tabla-info,
+    #subpanel-examenes-alumnos-profesor table .tabla-info {
       font-size: 1.5em;
       padding-left: 1.2em; }
-      /* line 584, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+      /* line 587, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
       #subpanel-busqueda-profesor table .tabla-info .fa.fa-pencil,
       #subpanel-busqueda-alumno table .tabla-info .fa.fa-pencil,
       #subpanel-busqueda-noticiario table .tabla-info .fa.fa-pencil,
@@ -2226,9 +2253,12 @@
       #subpanel-calendario-profesor table .tabla-info .fa.fa-pencil,
       #subpanel-sub-tarea-profesor table .tabla-info .fa.fa-pencil,
       #subpanel-sub-examen-profesor table .tabla-info .fa.fa-pencil,
-      #subpanel-sub-apuntes-profesor table .tabla-info .fa.fa-pencil {
+      #subpanel-sub-apuntes-profesor table .tabla-info .fa.fa-pencil,
+      #subpanel-list-alumnos-profesor table .tabla-info .fa.fa-pencil,
+      #subpanel-tareas-alumnos-profesor table .tabla-info .fa.fa-pencil,
+      #subpanel-examenes-alumnos-profesor table .tabla-info .fa.fa-pencil {
         padding-left: .5em; }
-    /* line 589, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 592, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-ver,
     #subpanel-busqueda-alumno table .tabla-incidencia-ver,
     #subpanel-busqueda-noticiario table .tabla-incidencia-ver,
@@ -2253,10 +2283,13 @@
     #subpanel-calendario-profesor table .tabla-incidencia-ver,
     #subpanel-sub-tarea-profesor table .tabla-incidencia-ver,
     #subpanel-sub-examen-profesor table .tabla-incidencia-ver,
-    #subpanel-sub-apuntes-profesor table .tabla-incidencia-ver {
+    #subpanel-sub-apuntes-profesor table .tabla-incidencia-ver,
+    #subpanel-list-alumnos-profesor table .tabla-incidencia-ver,
+    #subpanel-tareas-alumnos-profesor table .tabla-incidencia-ver,
+    #subpanel-examenes-alumnos-profesor table .tabla-incidencia-ver {
       padding-left: 2.8em;
       font-size: 1.5em; }
-      /* line 592, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+      /* line 595, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
       #subpanel-busqueda-profesor table .tabla-incidencia-ver a,
       #subpanel-busqueda-alumno table .tabla-incidencia-ver a,
       #subpanel-busqueda-noticiario table .tabla-incidencia-ver a,
@@ -2281,9 +2314,12 @@
       #subpanel-calendario-profesor table .tabla-incidencia-ver a,
       #subpanel-sub-tarea-profesor table .tabla-incidencia-ver a,
       #subpanel-sub-examen-profesor table .tabla-incidencia-ver a,
-      #subpanel-sub-apuntes-profesor table .tabla-incidencia-ver a {
+      #subpanel-sub-apuntes-profesor table .tabla-incidencia-ver a,
+      #subpanel-list-alumnos-profesor table .tabla-incidencia-ver a,
+      #subpanel-tareas-alumnos-profesor table .tabla-incidencia-ver a,
+      #subpanel-examenes-alumnos-profesor table .tabla-incidencia-ver a {
         color: #FAAC58; }
-      /* line 595, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+      /* line 598, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
       #subpanel-busqueda-profesor table .tabla-incidencia-ver a:hover,
       #subpanel-busqueda-alumno table .tabla-incidencia-ver a:hover,
       #subpanel-busqueda-noticiario table .tabla-incidencia-ver a:hover,
@@ -2308,9 +2344,12 @@
       #subpanel-calendario-profesor table .tabla-incidencia-ver a:hover,
       #subpanel-sub-tarea-profesor table .tabla-incidencia-ver a:hover,
       #subpanel-sub-examen-profesor table .tabla-incidencia-ver a:hover,
-      #subpanel-sub-apuntes-profesor table .tabla-incidencia-ver a:hover {
+      #subpanel-sub-apuntes-profesor table .tabla-incidencia-ver a:hover,
+      #subpanel-list-alumnos-profesor table .tabla-incidencia-ver a:hover,
+      #subpanel-tareas-alumnos-profesor table .tabla-incidencia-ver a:hover,
+      #subpanel-examenes-alumnos-profesor table .tabla-incidencia-ver a:hover {
         color: #FF8000; }
-    /* line 600, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 603, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table .tabla-incidencia-resolucion,
     #subpanel-busqueda-alumno table .tabla-incidencia-resolucion,
     #subpanel-busqueda-noticiario table .tabla-incidencia-resolucion,
@@ -2335,9 +2374,12 @@
     #subpanel-calendario-profesor table .tabla-incidencia-resolucion,
     #subpanel-sub-tarea-profesor table .tabla-incidencia-resolucion,
     #subpanel-sub-examen-profesor table .tabla-incidencia-resolucion,
-    #subpanel-sub-apuntes-profesor table .tabla-incidencia-resolucion {
+    #subpanel-sub-apuntes-profesor table .tabla-incidencia-resolucion,
+    #subpanel-list-alumnos-profesor table .tabla-incidencia-resolucion,
+    #subpanel-tareas-alumnos-profesor table .tabla-incidencia-resolucion,
+    #subpanel-examenes-alumnos-profesor table .tabla-incidencia-resolucion {
       padding-left: 3em; }
-      /* line 604, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+      /* line 607, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
       #subpanel-busqueda-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
       #subpanel-busqueda-alumno table .tabla-incidencia-resolucion i.fa-thumbs-up,
       #subpanel-busqueda-noticiario table .tabla-incidencia-resolucion i.fa-thumbs-up,
@@ -2362,9 +2404,12 @@
       #subpanel-calendario-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
       #subpanel-sub-tarea-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
       #subpanel-sub-examen-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
-      #subpanel-sub-apuntes-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up {
+      #subpanel-sub-apuntes-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
+      #subpanel-list-alumnos-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
+      #subpanel-tareas-alumnos-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up,
+      #subpanel-examenes-alumnos-profesor table .tabla-incidencia-resolucion i.fa-thumbs-up {
         color: forestgreen; }
-      /* line 608, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+      /* line 611, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
       #subpanel-busqueda-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down,
       #subpanel-busqueda-alumno table .tabla-incidencia-resolucion i.fa-thumbs-down,
       #subpanel-busqueda-noticiario table .tabla-incidencia-resolucion i.fa-thumbs-down,
@@ -2389,9 +2434,12 @@
       #subpanel-calendario-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down,
       #subpanel-sub-tarea-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down,
       #subpanel-sub-examen-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down,
-      #subpanel-sub-apuntes-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down {
+      #subpanel-sub-apuntes-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down,
+      #subpanel-list-alumnos-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down,
+      #subpanel-tareas-alumnos-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down,
+      #subpanel-examenes-alumnos-profesor table .tabla-incidencia-resolucion i.fa-thumbs-down {
         color: #C94040; }
-  /* line 615, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 618, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .paginacion-busq .page-link,
   #subpanel-busqueda-alumno .paginacion-busq .page-link,
   #subpanel-busqueda-noticiario .paginacion-busq .page-link,
@@ -2416,9 +2464,12 @@
   #subpanel-calendario-profesor .paginacion-busq .page-link,
   #subpanel-sub-tarea-profesor .paginacion-busq .page-link,
   #subpanel-sub-examen-profesor .paginacion-busq .page-link,
-  #subpanel-sub-apuntes-profesor .paginacion-busq .page-link {
+  #subpanel-sub-apuntes-profesor .paginacion-busq .page-link,
+  #subpanel-list-alumnos-profesor .paginacion-busq .page-link,
+  #subpanel-tareas-alumnos-profesor .paginacion-busq .page-link,
+  #subpanel-examenes-alumnos-profesor .paginacion-busq .page-link {
     border: none; }
-  /* line 619, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 622, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .paginacion-busq .page-link:hover,
   #subpanel-busqueda-alumno .paginacion-busq .page-link:hover,
   #subpanel-busqueda-noticiario .paginacion-busq .page-link:hover,
@@ -2443,9 +2494,12 @@
   #subpanel-calendario-profesor .paginacion-busq .page-link:hover,
   #subpanel-sub-tarea-profesor .paginacion-busq .page-link:hover,
   #subpanel-sub-examen-profesor .paginacion-busq .page-link:hover,
-  #subpanel-sub-apuntes-profesor .paginacion-busq .page-link:hover {
+  #subpanel-sub-apuntes-profesor .paginacion-busq .page-link:hover,
+  #subpanel-list-alumnos-profesor .paginacion-busq .page-link:hover,
+  #subpanel-tareas-alumnos-profesor .paginacion-busq .page-link:hover,
+  #subpanel-examenes-alumnos-profesor .paginacion-busq .page-link:hover {
     background-color: #FFFFFF; }
-  /* line 623, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 626, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-busqueda-profesor .btn-atras,
   #subpanel-busqueda-alumno .btn-atras,
   #subpanel-busqueda-noticiario .btn-atras,
@@ -2470,7 +2524,10 @@
   #subpanel-calendario-profesor .btn-atras,
   #subpanel-sub-tarea-profesor .btn-atras,
   #subpanel-sub-examen-profesor .btn-atras,
-  #subpanel-sub-apuntes-profesor .btn-atras {
+  #subpanel-sub-apuntes-profesor .btn-atras,
+  #subpanel-list-alumnos-profesor .btn-atras,
+  #subpanel-tareas-alumnos-profesor .btn-atras,
+  #subpanel-examenes-alumnos-profesor .btn-atras {
     font-family: Roboto;
     cursor: default;
     font-size: 12px;
@@ -2478,7 +2535,7 @@
     font-weight: 100;
     color: #033766;
     margin-bottom: 1em; }
-    /* line 631, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 634, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor .btn-atras span,
     #subpanel-busqueda-alumno .btn-atras span,
     #subpanel-busqueda-noticiario .btn-atras span,
@@ -2503,13 +2560,16 @@
     #subpanel-calendario-profesor .btn-atras span,
     #subpanel-sub-tarea-profesor .btn-atras span,
     #subpanel-sub-examen-profesor .btn-atras span,
-    #subpanel-sub-apuntes-profesor .btn-atras span {
+    #subpanel-sub-apuntes-profesor .btn-atras span,
+    #subpanel-list-alumnos-profesor .btn-atras span,
+    #subpanel-tareas-alumnos-profesor .btn-atras span,
+    #subpanel-examenes-alumnos-profesor .btn-atras span {
       font-weight: bolder;
       color: #0275d8;
       text-transform: uppercase;
       font-family: Roboto;
       font-size: 15px; }
-    /* line 638, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 641, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor .btn-atras span:hover,
     #subpanel-busqueda-alumno .btn-atras span:hover,
     #subpanel-busqueda-noticiario .btn-atras span:hover,
@@ -2534,9 +2594,12 @@
     #subpanel-calendario-profesor .btn-atras span:hover,
     #subpanel-sub-tarea-profesor .btn-atras span:hover,
     #subpanel-sub-examen-profesor .btn-atras span:hover,
-    #subpanel-sub-apuntes-profesor .btn-atras span:hover {
+    #subpanel-sub-apuntes-profesor .btn-atras span:hover,
+    #subpanel-list-alumnos-profesor .btn-atras span:hover,
+    #subpanel-tareas-alumnos-profesor .btn-atras span:hover,
+    #subpanel-examenes-alumnos-profesor .btn-atras span:hover {
       color: #033766; }
-    /* line 641, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 644, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor .btn-atras i,
     #subpanel-busqueda-alumno .btn-atras i,
     #subpanel-busqueda-noticiario .btn-atras i,
@@ -2561,10 +2624,13 @@
     #subpanel-calendario-profesor .btn-atras i,
     #subpanel-sub-tarea-profesor .btn-atras i,
     #subpanel-sub-examen-profesor .btn-atras i,
-    #subpanel-sub-apuntes-profesor .btn-atras i {
+    #subpanel-sub-apuntes-profesor .btn-atras i,
+    #subpanel-list-alumnos-profesor .btn-atras i,
+    #subpanel-tareas-alumnos-profesor .btn-atras i,
+    #subpanel-examenes-alumnos-profesor .btn-atras i {
       font-size: 15px; }
   @media (min-width: 0px) and (max-width: 575px) {
-    /* line 647, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 650, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-busqueda-profesor table,
     #subpanel-busqueda-alumno table,
     #subpanel-busqueda-noticiario table,
@@ -2589,16 +2655,19 @@
     #subpanel-calendario-profesor table,
     #subpanel-sub-tarea-profesor table,
     #subpanel-sub-examen-profesor table,
-    #subpanel-sub-apuntes-profesor table {
+    #subpanel-sub-apuntes-profesor table,
+    #subpanel-list-alumnos-profesor table,
+    #subpanel-tareas-alumnos-profesor table,
+    #subpanel-examenes-alumnos-profesor table {
       font-size: 11px; } }
 
 /*** PANELES ALUMNO ***/
-/* line 659, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 662, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-matricula .p-alumno .row {
   margin: 1.5em 0;
   cursor: default; }
 
-/* line 664, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 667, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-matricula .p-alumno h2 {
   font-family: Roboto;
   padding-top: 1em;
@@ -2606,75 +2675,75 @@
   font-size: 23px;
   cursor: default; }
 
-/* line 672, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 675, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-matricula .p-alumno .subtitular {
   color: #033766;
   border-bottom: 1px solid #033766;
   margin: 1em 0; }
 
-/* line 679, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 682, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-matricula .p-alumno .fixed-text {
   color: #033766; }
 
-/* line 683, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 686, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-matricula .p-alumno .pdf {
   padding: 1em 0; }
 
-/* line 688, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 691, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-matricula .p-alumno p {
   font-family: Arial; }
 
-/* line 700, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 703, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-verincidencia .form-publicacion-art,
 #bg-academy-principal-prof-verincidencia .form-publicacion-art {
   background-color: #FFFFFF; }
 
-/* line 704, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 707, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-verincidencia table,
 #bg-academy-principal-prof-verincidencia table {
   margin: 0 auto;
   width: 100%; }
-  /* line 707, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 710, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn-verincidencia table td, #bg-academy-principal-alumn-verincidencia table th,
   #bg-academy-principal-prof-verincidencia table td,
   #bg-academy-principal-prof-verincidencia table th {
     text-align: center; }
-  /* line 710, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 713, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn-verincidencia table td,
   #bg-academy-principal-prof-verincidencia table td {
     background-color: #FFFFFF; }
-  /* line 713, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 716, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #bg-academy-principal-alumn-verincidencia table .tabla-incidencia-ver, #bg-academy-principal-alumn-verincidencia table .tabla-incidencia-resolucion,
   #bg-academy-principal-prof-verincidencia table .tabla-incidencia-ver,
   #bg-academy-principal-prof-verincidencia table .tabla-incidencia-resolucion {
     font-size: 1.5em; }
 
-/* line 718, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 721, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-verincidencia .btn-enviar,
 #bg-academy-principal-prof-verincidencia .btn-enviar {
   margin-top: 1.5em; }
 
-/* line 722, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 725, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #bg-academy-principal-alumn-verincidencia .advertencia,
 #bg-academy-principal-prof-verincidencia .advertencia {
   margin-top: 2em; }
 
 /*** Subpanel de calendario de alumno **/
-/* line 728, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 731, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-calendario-alumno,
 #subpanel-calendario-profesor {
   margin-top: 2em;
   /** Tabla calendario **/ }
-  /* line 733, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 736, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-calendario-alumno .btn-atras,
   #subpanel-calendario-profesor .btn-atras {
     margin-bottom: 3em; }
-  /* line 738, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 741, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-calendario-alumno #calendario,
   #subpanel-calendario-profesor #calendario {
     border-collapse: separate;
     padding-left: 12.8em; }
-    /* line 742, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 745, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-calendario-alumno #calendario td,
     #subpanel-calendario-profesor #calendario td {
       cursor: pointer;
@@ -2684,7 +2753,7 @@
       border: solid 1px #9F9F9F;
       text-align: center;
       font-weight: bolder; }
-    /* line 752, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 755, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-calendario-alumno #calendario th,
     #subpanel-calendario-profesor #calendario th {
       cursor: default;
@@ -2693,32 +2762,32 @@
       background-color: #033766;
       border: solid 1px #000;
       color: #FFFFFF; }
-  /* line 762, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 765, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-calendario-alumno .hoy,
   #subpanel-calendario-profesor .hoy {
     width: 100%;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 1em; }
-    /* line 767, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+    /* line 770, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
     #subpanel-calendario-alumno .hoy button,
     #subpanel-calendario-profesor .hoy button {
       text-align: center;
       font-weight: bold; }
-  /* line 773, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 776, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-calendario-alumno #mesActual,
   #subpanel-calendario-profesor #mesActual {
     font-weight: bolder;
     font-size: 25px;
     margin-top: .5em; }
-  /* line 780, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 783, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-calendario-alumno #calendario .sinFecha,
   #subpanel-calendario-profesor #calendario .sinFecha {
     background-color: #E6E6E6;
     opacity: 0.5;
     cursor: default;
     padding: 15px; }
-  /* line 787, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 790, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-calendario-alumno #calendario .conFecha,
   #subpanel-calendario-profesor #calendario .conFecha {
     cursor: pointer;
@@ -2726,62 +2795,89 @@
     padding: 15px;
     background-color: #FFF;
     text-align: center; }
-  /* line 795, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 798, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-calendario-alumno #calendario .finde,
   #subpanel-calendario-profesor #calendario .finde {
     cursor: default;
     color: red; }
-  /* line 800, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 803, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-calendario-alumno #calendario .encima:hover,
   #subpanel-calendario-profesor #calendario .encima:hover {
     background-color: #dddfff; }
 
-/* line 812, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 819, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+#subpanel-apuntes-alumno .menu-busqueda,
+#subpanel-tareas-alumno .menu-busqueda,
+#subpanel-examenes-alumno .menu-busqueda,
+#subpanel-sub-tarea-profesor .menu-busqueda,
+#subpanel-sub-examen-profesor .menu-busqueda,
+#subpanel-sub-apuntes-profesor .menu-busqueda,
+#subpanel-list-alumnos-profesor .menu-busqueda,
+#subpanel-tareas-alumnos-profesor .menu-busqueda,
+#subpanel-examenes-alumnos-profesor .menu-busqueda {
+  margin-bottom: 1.5em; }
+
+/* line 823, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-apuntes-alumno .table,
 #subpanel-tareas-alumno .table,
 #subpanel-examenes-alumno .table,
 #subpanel-sub-tarea-profesor .table,
 #subpanel-sub-examen-profesor .table,
-#subpanel-sub-apuntes-profesor .table {
+#subpanel-sub-apuntes-profesor .table,
+#subpanel-list-alumnos-profesor .table,
+#subpanel-tareas-alumnos-profesor .table,
+#subpanel-examenes-alumnos-profesor .table {
   margin-top: -.5em; }
-  /* line 816, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 827, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-apuntes-alumno .table .descarga-apuntes i,
   #subpanel-tareas-alumno .table .descarga-apuntes i,
   #subpanel-examenes-alumno .table .descarga-apuntes i,
   #subpanel-sub-tarea-profesor .table .descarga-apuntes i,
   #subpanel-sub-examen-profesor .table .descarga-apuntes i,
-  #subpanel-sub-apuntes-profesor .table .descarga-apuntes i {
+  #subpanel-sub-apuntes-profesor .table .descarga-apuntes i,
+  #subpanel-list-alumnos-profesor .table .descarga-apuntes i,
+  #subpanel-tareas-alumnos-profesor .table .descarga-apuntes i,
+  #subpanel-examenes-alumnos-profesor .table .descarga-apuntes i {
     margin-left: 28px;
     cursor: pointer;
     font-size: 20px; }
-  /* line 822, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 833, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-apuntes-alumno .table .sube-tarea i,
   #subpanel-tareas-alumno .table .sube-tarea i,
   #subpanel-examenes-alumno .table .sube-tarea i,
   #subpanel-sub-tarea-profesor .table .sube-tarea i,
   #subpanel-sub-examen-profesor .table .sube-tarea i,
-  #subpanel-sub-apuntes-profesor .table .sube-tarea i {
+  #subpanel-sub-apuntes-profesor .table .sube-tarea i,
+  #subpanel-list-alumnos-profesor .table .sube-tarea i,
+  #subpanel-tareas-alumnos-profesor .table .sube-tarea i,
+  #subpanel-examenes-alumnos-profesor .table .sube-tarea i {
     margin-left: 8px;
     cursor: pointer;
     font-size: 20px; }
 
-/* line 830, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+/* line 841, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
 #subpanel-apuntes-alumno .btn-atras,
 #subpanel-tareas-alumno .btn-atras,
 #subpanel-examenes-alumno .btn-atras,
 #subpanel-sub-tarea-profesor .btn-atras,
 #subpanel-sub-examen-profesor .btn-atras,
-#subpanel-sub-apuntes-profesor .btn-atras {
+#subpanel-sub-apuntes-profesor .btn-atras,
+#subpanel-list-alumnos-profesor .btn-atras,
+#subpanel-tareas-alumnos-profesor .btn-atras,
+#subpanel-examenes-alumnos-profesor .btn-atras {
   margin: 2.5em 0; }
-  /* line 832, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 843, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-apuntes-alumno .btn-atras a,
   #subpanel-tareas-alumno .btn-atras a,
   #subpanel-examenes-alumno .btn-atras a,
   #subpanel-sub-tarea-profesor .btn-atras a,
   #subpanel-sub-examen-profesor .btn-atras a,
-  #subpanel-sub-apuntes-profesor .btn-atras a {
+  #subpanel-sub-apuntes-profesor .btn-atras a,
+  #subpanel-list-alumnos-profesor .btn-atras a,
+  #subpanel-tareas-alumnos-profesor .btn-atras a,
+  #subpanel-examenes-alumnos-profesor .btn-atras a {
     text-decoration: none; }
-  /* line 835, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
+  /* line 846, C:/xampp/htdocs/design-project/acceso/assets/css/estilos.scss */
   #subpanel-apuntes-alumno .btn-atras #reg-tarea, #subpanel-apuntes-alumno .btn-atras #reg-examen, #subpanel-apuntes-alumno .btn-atras #reg-apuntes,
   #subpanel-tareas-alumno .btn-atras #reg-tarea,
   #subpanel-tareas-alumno .btn-atras #reg-examen,
@@ -2797,7 +2893,16 @@
   #subpanel-sub-examen-profesor .btn-atras #reg-apuntes,
   #subpanel-sub-apuntes-profesor .btn-atras #reg-tarea,
   #subpanel-sub-apuntes-profesor .btn-atras #reg-examen,
-  #subpanel-sub-apuntes-profesor .btn-atras #reg-apuntes {
+  #subpanel-sub-apuntes-profesor .btn-atras #reg-apuntes,
+  #subpanel-list-alumnos-profesor .btn-atras #reg-tarea,
+  #subpanel-list-alumnos-profesor .btn-atras #reg-examen,
+  #subpanel-list-alumnos-profesor .btn-atras #reg-apuntes,
+  #subpanel-tareas-alumnos-profesor .btn-atras #reg-tarea,
+  #subpanel-tareas-alumnos-profesor .btn-atras #reg-examen,
+  #subpanel-tareas-alumnos-profesor .btn-atras #reg-apuntes,
+  #subpanel-examenes-alumnos-profesor .btn-atras #reg-tarea,
+  #subpanel-examenes-alumnos-profesor .btn-atras #reg-examen,
+  #subpanel-examenes-alumnos-profesor .btn-atras #reg-apuntes {
     margin-left: 1em; }
 
 /*# sourceMappingURL=estilos.css.map */
