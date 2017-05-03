@@ -113,11 +113,11 @@
                         <div class="row">
                             <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-pencil-square-o fa-4x" aria-hidden="true" data-toggle="modal" 
-                                   id="profesor-list-apuntes"></i> <p> Tareas <br/> de Alumnos </p>
+                                   id="profesor-tareas-alumnos"></i> <p> Tareas <br/> de Alumnos </p>
                             </div>
                             <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-list-ol fa-4x" aria-hidden="true" data-toggle="modal" 
-                                   id="profesor-list-examenes"></i> <p> Examenes <br/> de Alumnos </p>
+                                   id="profesor-examenes-alumnos"></i> <p> Examenes <br/> de Alumnos </p>
                             </div>
                             <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-list-alt fa-4x" aria-hidden="true" data-toggle="modal"
@@ -302,7 +302,7 @@
    
 </div>
     
-<!-- Subpanel examenes alumno -->
+<!-- Subpanel apuntes profesor -->
 <div id="subpanel-sub-apuntes-profesor">
     
      <div class="container">
@@ -348,6 +348,315 @@
          <a href="#" id="reg-apuntes"> <button class="btn btn-primary"> Subir Apuntes </button> </a>
      </div>
    
+</div>
+    
+<!-- Subpanel listado alumnos profesor -->
+<div id="subpanel-list-alumnos-profesor">
+    
+     <div class="container">
+         
+         <div class="row menu-busqueda">
+            <div class="col-md-3 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon"> <i class="fa fa-search fa-1x" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Palabra clave">
+                </div>
+            </div>
+                    
+            <div class="col-md-2">
+                <button type="button" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+         
+        <div class="row">
+            <div class="col-xs-12">
+                 <table class="table">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Nombre</th>
+                      <th>Apellido 1</th>
+                      <th>Apellido 2</th>
+                      <th>DNI</th>
+                      <th>E-mail</th>
+                      <th>Curso asignado</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Marco</td>
+                      <td>Romero</td>
+                      <td>Martín</td>
+                      <td>45445656R</td>
+                      <td>marco@gmail.com</td>
+                      <td>B1 - Nivel Intermedio</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Antonio</td>
+                      <td>Guzmán</td>
+                      <td>Martínez</td>
+                      <td>45445656R</td>
+                      <td>antonio@gmail.com</td>
+                      <td>A1 - Nivel Básico</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Adelina</td>
+                      <td>Gutiérrez</td>
+                      <td>López</td>
+                      <td>45445656R</td>
+                      <td>adelina@gmail.com</td>
+                      <td>C1 - Nivel Avanzado</td>
+                    </tr>
+                  </tbody>
+                </table> 
+            </div>
+    </div>
+         
+    <div class="row paginacion-busq">
+            <div class="col-xs-12 text-xs-center">
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Siguiente</span>
+                          </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+        
+         <div class="col-xs-12 text-xs-center btn-atras">
+             <a href="./cursos.html"> <button class="btn btn-primary"> Volver </button> </a>
+         </div>
+   
+    </div>
+    
+</div>
+    
+<!-- Subpanel tareas alumnos profesor -->
+<div id="subpanel-tareas-alumnos-profesor">
+    
+     <div class="container">
+         
+         <div class="row menu-busqueda">
+            <div class="col-md-3 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon"> <i class="fa fa-search fa-1x" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Palabra clave">
+                </div>
+            </div>
+                    
+            <div class="col-md-2">
+                <button type="button" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+         
+        <div class="row">
+            <div class="col-xs-12">
+                 <table class="table">
+                  <thead>
+                    <tr>
+                      <th>ID Tarea</th>
+                      <th>Nombre</th>
+                      <th>Apellido 1</th>
+                      <th>DNI</th>
+                      <th>Año promoción</th>
+                      <th>Curso asignado</th>
+                      <th>Tarea</th>
+                      <th>Descargar</th>
+                      <th>Nota</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Marco</td>
+                      <td>Romero</td>
+                      <td>45445656R</td>
+                      <td>2011-2012</td>
+                      <td>B1 - Nivel Intermedio</td>
+                      <td>Aprende colores</td>
+                      <td class="descarga-apuntes"><i class="fa fa-download text-danger" aria-hidden="true"></i></td>
+                      <td><input class="form-control" type="text" size="1" maxlength="5"></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Antonio</td>
+                      <td>Guzmán</td>
+                      <td>45445656R</td>
+                      <td>2011-2012</td>
+                      <td>A1 - Nivel Básico</td>
+                      <td>Reading Tema 1</td>
+                      <td class="descarga-apuntes"><i class="fa fa-download text-danger" aria-hidden="true"></i></td>
+                      <td><input class="form-control" type="text" size="1" maxlength="5"></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Adelina</td>
+                      <td>López</td>
+                      <td>45445656R</td>
+                      <td>2013-2014</td>
+                      <td>C1 - Nivel Avanzado</td>
+                      <td>Writing Prueba</td>
+                      <td class="descarga-apuntes"><i class="fa fa-download text-danger" aria-hidden="true"></i></td>
+                      <td><input class="form-control" type="text" size="1" maxlength="5"></td>
+                    </tr>
+                  </tbody>
+                </table> 
+            </div>
+    </div>
+         
+    <div class="row paginacion-busq">
+            <div class="col-xs-12 text-xs-center">
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Siguiente</span>
+                          </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+        
+         <div class="col-xs-12 text-xs-center btn-atras">
+             <a href="./cursos.html"> <button class="btn btn-primary"> Volver </button> </a>
+             <a href="#" id="reg-apuntes"> <button class="btn btn-primary"> Actualizar Notas </button> </a>
+         </div>
+   
+    </div>
+    
+</div>
+    
+<!-- Subpanel tareas alumnos profesor -->
+<div id="subpanel-examenes-alumnos-profesor">
+    
+     <div class="container">
+         
+         <div class="row menu-busqueda">
+            <div class="col-md-3 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon"> <i class="fa fa-search fa-1x" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Palabra clave">
+                </div>
+            </div>
+                    
+            <div class="col-md-2">
+                <button type="button" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+         
+        <div class="row">
+            <div class="col-xs-12">
+                 <table class="table">
+                  <thead>
+                    <tr>
+                      <th>ID Examen</th>
+                      <th>Nombre</th>
+                      <th>Apellido 1</th>
+                      <th>DNI</th>
+                      <th>Año promoción</th>
+                      <th>Curso asignado</th>
+                      <th>Examen</th>
+                      <th>Descargar</th>
+                      <th>Nota</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Marco</td>
+                      <td>Romero</td>
+                      <td>45445656R</td>
+                      <td>2011-2012</td>
+                      <td>B1 - Nivel Intermedio</td>
+                      <td>Aprende colores</td>
+                      <td class="descarga-apuntes"><i class="fa fa-download text-danger" aria-hidden="true"></i></td>
+                      <td><input class="form-control" type="text" size="1" maxlength="5"></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Antonio</td>
+                      <td>Guzmán</td>
+                      <td>45445656R</td>
+                      <td>2011-2012</td>
+                      <td>A1 - Nivel Básico</td>
+                      <td>Reading Tema 1</td>
+                      <td class="descarga-apuntes"><i class="fa fa-download text-danger" aria-hidden="true"></i></td>
+                      <td><input class="form-control" type="text" size="1" maxlength="5"></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Adelina</td>
+                      <td>López</td>
+                      <td>45445656R</td>
+                      <td>2013-2014</td>
+                      <td>C1 - Nivel Avanzado</td>
+                      <td>Writing Prueba</td>
+                      <td class="descarga-apuntes"><i class="fa fa-download text-danger" aria-hidden="true"></i></td>
+                      <td><input class="form-control" type="text" size="1" maxlength="5"></td>
+                    </tr>
+                  </tbody>
+                </table> 
+            </div>
+    </div>
+         
+    <div class="row paginacion-busq">
+            <div class="col-xs-12 text-xs-center">
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Siguiente</span>
+                          </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+        
+         <div class="col-xs-12 text-xs-center btn-atras">
+             <a href="./cursos.html"> <button class="btn btn-primary"> Volver </button> </a>
+             <a href="#" id="reg-apuntes"> <button class="btn btn-primary"> Actualizar Notas </button> </a>
+         </div>
+   
+    </div>
+    
 </div>
     
     <footer>
