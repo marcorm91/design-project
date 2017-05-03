@@ -259,6 +259,30 @@ $(document).ready(function() {
         $("#subpanel-sub-apuntes-profesor").slideToggle();
     });
     
+    $("#profesor-list-alumnos").on("click", function(){  
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-profesor.html'>Panel Principal</a> "+
+                                               "/ <a href='./cursos.html'> Mis Cursos Asignados </a>"+
+                                               "/ Listado de Alumnos </h1>");
+        $("#subpanel-list-alumnos-profesor").slideToggle();
+    });
+    
+    $("#profesor-tareas-alumnos").on("click", function(){  
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-profesor.html'>Panel Principal</a> "+
+                                               "/ <a href='./cursos.html'> Mis Cursos Asignados </a>"+
+                                               "/ Tareas de Alumnos </h1>");
+        $("#subpanel-tareas-alumnos-profesor").slideToggle();
+    });
+    
+    $("#profesor-examenes-alumnos").on("click", function(){  
+        $(".panel-opciones").slideToggle();
+        $(".panel-principal > h1").replaceWith("<h1><a href='../principal-profesor.html'>Panel Principal</a> "+
+                                               "/ <a href='./cursos.html'> Mis Cursos Asignados </a>"+
+                                               "/ Exámenes de Alumnos </h1>");
+        $("#subpanel-examenes-alumnos-profesor").slideToggle();
+    });
+    
     
     
     
