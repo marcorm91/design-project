@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscar Elementos - Big Ben Academy</title>
+    <title>Eliminar Elementos - Big Ben Academy</title>
     <link rel="stylesheet" href="../../assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="../../assets/fonts/font-awesome/css/font-awesome.min.css">
@@ -13,7 +13,7 @@
     
 <body>
     
-<div id="bg-academy-principal-gest-buscar">
+<div id="bg-academy-principal-gest-eliminar">
 
     <header id="cabeceraPrincipal">
         <nav class="navbar navbar-light bg-faded">
@@ -38,8 +38,8 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./eliminar-elemento.html" title="Ir a Eliminar Elemento">
-                                <i class="fa fa-minus fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Eliminar Elemento </span>
+                                <i class="fa fa-minus fa-2x btn-select" aria-hidden="true"></i>
+                                <span class="hidden-sm-up btn-select"> Ir a Eliminar Elemento </span>
                             </a>
                         </li>
                          <li class="nav-item">
@@ -50,8 +50,8 @@
                         </li>
                          <li class="nav-item">
                             <a class="nav-link" href="./buscar-elemento.html" title="Ir a Buscar - Listar Elementos">
-                                <i class="fa fa-eye fa-2x btn-select" aria-hidden="true"></i>
-                                <span class="hidden-sm-up btn-select"> Ir a Buscar - Listar Elementos </span>
+                                <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Buscar - Listar Elementos </span>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -101,35 +101,35 @@
         
             <div class="panel-principal text-xs-center">
                 <img src="../../assets/imagenes/logo.png">
-                <h1><a href="../principal-gestor.html">Panel Principal</a> / Buscar Elemento</h1>
+                <h1><a href="../principal-gestor.html">Panel Principal</a> / Eliminar Elemento</h1>
                 <hr/>
                 <div class="panel-opciones">
                     
-                    <h2> ¿Qué desea buscar? </h2>
+                    <h2> ¿Qué desea eliminar? </h2>
                     
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-briefcase fa-4x" aria-hidden="true" data-toggle="modal" 
-                                   id="busqueda-profesor"></i> <p> Búsqueda de <br/> Profesor </p>
+                                   id="eliminar-profesor"></i> <p> Eliminar <br/> Profesor </p>
                             </div>
                             <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-graduation-cap fa-4x" aria-hidden="true" data-toggle="modal"
-                                   id="busqueda-alumno"></i> <p> Búsqueda de <br/> Alumno </p>
+                                   id="eliminar-alumno"></i> <p> Eliminar <br/> Alumno </p>
                             </div>
                             <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-newspaper-o fa-4x" aria-hidden="true" data-toggle="modal"
-                                   id="busqueda-noticiario"></i> <p> Búsqueda de <br/> Noticiario </p>
+                                   id="eliminar-noticiario"></i> <p> Eliminar <br/> Noticiario </p>
                             </div>
                         </div>
                         <div class="row">                       
                             <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-user-o fa-4x" aria-hidden="true" data-toggle="modal"
-                                   id="busqueda-gestor"></i> <p> Búsqueda de <br/> Gestor </p>
+                                   id="eliminar-gestor"></i> <p> Eliminar <br/> Gestor </p>
                             </div>
                             <div class="col-md-4 col-xs-12">
                                 <i class="fa fa-book fa-4x" aria-hidden="true" data-toggle="modal"
-                                   id="busqueda-curso"></i> <p> Búsqueda de <br/> Curso </p>
+                                   id="eliminar-curso"></i> <p> Eliminar <br/> Curso </p>
                             </div>
                             <div class="col-md-4 col-xs-12">
                                 <a href="../principal-gestor.html"> <i class="fa fa-arrow-left fa-4x" aria-hidden="true"></i>  </a>
@@ -144,7 +144,7 @@
  <!------- SUBPANELES DE BÚSQUEDA ------->
     
  <!-- Subpanel profesor -->
- <div id="subpanel-busqueda-profesor">
+ <div id="subpanel-eliminar-profesor">
     <div class="container">
         <div class="row menu-busqueda">
             <div class="col-md-3 col-xs-12">
@@ -187,7 +187,7 @@
                       <th>NIF/NIE</th>
                       <th>E-mail</th>
                       <th>Curso/s asignado/s</th>
-                      <th>+ info</th>
+                      <th>Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -199,7 +199,7 @@
                       <td>43323456W</td>
                       <td>marco@gmail.com</td>
                       <td>B1 - Nivel Intermedio, <br/> B2/1 - Nivel Intermedio</td>
-                     <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                     <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
                       <td>2</td>
@@ -209,7 +209,7 @@
                       <td>32345654A</td>
                       <td>antonio@gmail.com</td>
                       <td>A1 - Nivel Básico, <br/> B2/1 - Nivel Intermedio</td>
-                    <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                    <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
                       <td>3</td>
@@ -219,7 +219,7 @@
                       <td>35656677Z</td>
                       <td>adelina@gmail.com</td>
                       <td>C1 - Nivel Avanzado</td>
-                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                   </tbody>
                 </table> 
@@ -252,14 +252,14 @@
         
         <div class="row">
             <div class="col-xs-12 text-xs-center btn-atras">
-                 <a href="buscar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
+                 <a href="eliminar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
             </div>
         </div>
     </div>
 </div>
     
 <!-- Subpanel alumno -->
-<div id="subpanel-busqueda-alumno">
+<div id="subpanel-eliminar-alumno">
     <div class="container">
         <div class="row menu-busqueda">
             <div class="col-md-3 col-xs-12">
@@ -302,7 +302,7 @@
                       <th>NIF/NIE</th>
                       <th>E-mail</th>
                       <th>Curso asignado</th>
-                      <th>+ info</th>
+                      <th>Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -314,7 +314,7 @@
                       <td>43323456W</td>
                       <td>marco@gmail.com</td>
                       <td>B1 - Nivel Intermedio</td>
-                     <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                     <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
                       <td>2</td>
@@ -324,7 +324,7 @@
                       <td>32345654A</td>
                       <td>antonio@gmail.com</td>
                       <td>A1 - Nivel Básico</td>
-                    <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                    <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
                       <td>3</td>
@@ -334,7 +334,7 @@
                       <td>35656677Z</td>
                       <td>adelina@gmail.com</td>
                       <td>C1 - Nivel Avanzado</td>
-                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                   </tbody>
                 </table> 
@@ -367,14 +367,14 @@
         
         <div class="row">
             <div class="col-xs-12 text-xs-center btn-atras">
-                 <a href="buscar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
+                 <a href="eliminar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
             </div>
         </div>
     </div>
 </div>
     
 <!-- Subpanel noticiario -->
-<div id="subpanel-busqueda-noticiario">
+<div id="subpanel-eliminar-noticiario">
     <div class="container">
         <div class="row menu-busqueda">
             <div class="col-md-3 col-xs-12">
@@ -399,7 +399,7 @@
                       <th>Apellido 1</th>
                       <th>Apellido 2</th>
                       <th>E-mail</th>
-                      <th>+ info</th>
+                      <th>Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -409,7 +409,7 @@
                       <td>Romero</td>
                       <td>Martín</td>
                       <td>marco@gmail.com</td>
-                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
                       <td>2</td>
@@ -417,7 +417,7 @@
                       <td>Guzmán</td>
                       <td>Martínez</td>
                       <td>antonio@gmail.com</td>
-                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                   </tbody>
                 </table> 
@@ -450,14 +450,14 @@
         
         <div class="row">
             <div class="col-xs-12 text-xs-center btn-atras">
-                 <a href="buscar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
+                 <a href="eliminar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
             </div>
         </div>
     </div>
 </div>
     
 <!-- Subpanel curso -->
-<div id="subpanel-busqueda-curso">
+<div id="subpanel-eliminar-curso">
     <div class="container">
         <div class="row menu-busqueda">
             <div class="col-md-3 col-xs-12">
@@ -482,6 +482,7 @@
                       <th>Año fin</th>
                       <th>Curso</th>
                       <th>Alumnos inscritos</th>
+                      <th>Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -491,6 +492,7 @@
                       <td>2012</td>
                       <td>[A1] - Nivel Básico - 1er Curso</td>
                       <td> 12 </td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
                       <td>2</td>
@@ -498,6 +500,7 @@
                       <td>2012</td>
                       <td>[B2] - Nivel Avanzado - 4º Curso</td>
                       <td> 8 </td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                   </tbody>
                 </table> 
@@ -530,13 +533,13 @@
         
         <div class="row">
             <div class="col-xs-12 text-xs-center btn-atras">
-                 <a href="buscar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
+                 <a href="eliminar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
             </div>
         </div>
     </div>
 </div>
 <!-- Subpanel noticiario -->
-<div id="subpanel-busqueda-gestor">
+<div id="subpanel-eliminar-gestor">
     <div class="container">
         <div class="row menu-busqueda">
             <div class="col-md-3 col-xs-12">
@@ -561,7 +564,7 @@
                       <th>Apellido 1</th>
                       <th>Apellido 2</th>
                       <th>E-mail</th>
-                      <th>+ info</th>
+                      <th>Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -571,7 +574,7 @@
                       <td>Romero</td>
                       <td>Martín</td>
                       <td>marco@gmail.com</td>
-                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
                       <td>2</td>
@@ -579,7 +582,7 @@
                       <td>Guzmán</td>
                       <td>Martínez</td>
                       <td>antonio@gmail.com</td>
-                      <td class="tabla-info"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                      <td class="tabla-info"><a href="#"><i class="fa fa-tras text-danger" aria-hidden="true"></i></a></td>
                     </tr>
                   </tbody>
                 </table> 
@@ -612,7 +615,7 @@
         
         <div class="row">
             <div class="col-xs-12 text-xs-center btn-atras">
-                 <a href="buscar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
+                 <a href="eliminar-elemento.html"> <button class="btn btn-primary"> Volver </button> </a>
             </div>
         </div>
     </div>
@@ -629,7 +632,6 @@
     </footer>
         
 </div>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="../../assets/js/jquery-3.1.1.min.js"></script>

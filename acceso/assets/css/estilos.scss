@@ -15,6 +15,17 @@
 #bg-academy-principal-alumn, 
 #bg-academy-principal-gest, 
 #bg-academy-principal-notic,
+<<<<<<< HEAD
+=======
+#bg-academy-principal-prof,
+
+/* PANELES DE PROFESOR */
+#bg-academy-principal-prof-ayuda,
+#bg-academy-principal-prof-miperfil,
+#bg-academy-principal-prof-verincidencia,
+#bg-academy-principal-prof-regincidencia,
+#bg-academy-principal-prof-cursos,
+>>>>>>> develop
 
 /* PANELES DE GESTOR */
 #bg-academy-principal-gest-new,
@@ -28,13 +39,25 @@
 /* PANELES DE ALUMNO */
 #bg-academy-principal-alumn-matricula,
 #bg-academy-principal-alumn-miperfil,
+<<<<<<< HEAD
+=======
+#bg-academy-principal-alumn-calif,
+#bg-academy-principal-alumn-regincidencia,
+#bg-academy-principal-alumn-verincidencia,
+#bg-academy-principal-alumn-ayuda,
+#bg-academy-principal-alumn-curso,
+>>>>>>> develop
 
 /* PANELES DE NOTICIERO */
 #bg-academy-principal-not-new,
 #bg-academy-principal-not-miperfil,
 #bg-academy-principal-not-ayuda,
 #bg-academy-principal-not-modificar,
+<<<<<<< HEAD
 #bg-academy-principal-not-eliminar {
+=======
+#bg-academy-principal-not-eliminar{
+>>>>>>> develop
             
     #cabeceraPrincipal {
         
@@ -243,7 +266,20 @@
 #bg-academy-principal-not-ayuda,
 #bg-academy-principal-not-modificar,
 #bg-academy-principal-not-eliminar,
+<<<<<<< HEAD
 #bg-academy-principal-alumn-miperfil{
+=======
+#bg-academy-principal-alumn-miperfil,
+#bg-academy-principal-alumn-calif,
+#bg-academy-principal-alumn-regincidencia,
+#bg-academy-principal-alumn-verincidencia,
+#bg-academy-principal-alumn-ayuda,
+#bg-academy-principal-alumn-curso,
+#bg-academy-principal-prof-ayuda,
+#bg-academy-principal-prof-miperfil,
+#bg-academy-principal-prof-verincidencia,
+#bg-academy-principal-prof-cursos{
+>>>>>>> develop
     
     font-family: Roboto;
     
@@ -289,6 +325,62 @@
         padding: 1em 0;
     }
     
+<<<<<<< HEAD
+=======
+    #tit-tareas-notas-alumno, #tit-examenes-notas-alumno{
+        h3{
+            color: $azulOscuro;
+            font-size: 20px;
+            font-weight: bolder;
+            border-bottom: 1px solid $azulOscuro;
+            margin-bottom: -.2em;
+            cursor: pointer;
+        }
+    }
+    
+    .tareas-notas-alumno{
+        h4{
+            font-size: 18px;
+            font-weight: bolder;
+        }
+        h5{
+            font-size: 15px;
+        }
+        span{
+            display: block;
+            > span{
+                display: inline;
+            }
+        }
+        .fecha-alumno-calif{
+            font-size: 15px;
+            font-style: italic;
+        }
+        .nota-alumno-calif{
+            font-size: 15px;
+            font-weight: bolder;
+            margin: 0.5em 0;
+        }
+        hr{
+            margin: 1.5em 8em;
+        }
+    }
+    
+    .pdf{
+        i{
+            padding: .3em;
+            font-size: 50px;
+            cursor: pointer;
+        }
+        p{
+            font-size: 14px;
+            font-family: Arial;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+    }
+    
+>>>>>>> develop
     #accordion{
         i{
             margin: 0 .3em;
@@ -387,7 +479,13 @@
 
 /** Para tabla modificar y eliminar **/
 #bg-academy-principal-not-modificar,
+<<<<<<< HEAD
 #bg-academy-principal-not-eliminar{
+=======
+#bg-academy-principal-not-eliminar,
+#bg-academy-principal-alumn-verincidencia,
+#bg-academy-principal-prof-verincidencia{
+>>>>>>> develop
     
     .panel-opciones{
          background-color: $blanco;
@@ -460,7 +558,24 @@
 #subpanel-modificar-alumno,
 #subpanel-modificar-noticiario,
 #subpanel-modificar-curso,
+<<<<<<< HEAD
 #subpanel-modificar-gestor {
+=======
+#subpanel-modificar-gestor,
+#subpanel-calendario-alumno,
+#subpanel-apuntes-alumno,
+#subpanel-tareas-alumno,
+#subpanel-examenes-alumno,
+#subpanel-calendario-profesor,
+#subpanel-sub-tarea-profesor,
+#subpanel-sub-examen-profesor,
+#subpanel-sub-apuntes-profesor,
+#subpanel-list-alumnos-profesor,
+#subpanel-tareas-alumnos-profesor,
+#subpanel-examenes-alumnos-profesor{
+    
+    display: none;
+>>>>>>> develop
     
     h1{
         font-size: 18px;
@@ -604,4 +719,163 @@
                 
     }
     
+<<<<<<< HEAD
 }
+=======
+}
+
+//Ver-incidencias de alumnos y profesores
+#bg-academy-principal-alumn-verincidencia,
+#bg-academy-principal-prof-verincidencia{
+    
+    .form-publicacion-art{
+        background-color: $blanco;
+    }
+    
+    table{
+        margin: 0 auto;
+        width: 100%;
+        td,th{
+            text-align: center;
+        }
+        td{
+            background-color: $blanco;
+        }
+        .tabla-incidencia-ver, .tabla-incidencia-resolucion{
+            font-size: 1.5em;
+        }
+    }
+    
+    .btn-enviar{
+        margin-top: 1.5em;
+    }
+    
+    .advertencia{
+        margin-top: 2em;
+    }
+}
+
+/*** Subpanel de calendario de alumno **/
+#subpanel-calendario-alumno,
+#subpanel-calendario-profesor{
+    
+    margin-top: 2em;
+    
+    .btn-atras{
+        margin-bottom: 3em;
+    }
+
+    /** Tabla calendario **/
+    #calendario{
+        border-collapse: separate;
+        padding-left: 12.8em;
+
+        td{
+            cursor: pointer;
+            margin: 15px;
+            padding: 18px;
+            background-color: #FFF;
+            border: solid 1px $grisOscuro;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        th{
+           cursor: default;
+           padding-left: 2em;
+           padding-right: 2em;
+           background-color: $azulOscuro;
+           border: solid 1px #000;
+           color: $blanco;
+        }
+    }
+
+    .hoy{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 1em;
+        button{
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    #mesActual {
+        font-weight: bolder;
+        font-size: 25px;
+        margin-top: .5em;
+    }
+
+
+    #calendario .sinFecha{
+        background-color: #E6E6E6;
+        opacity: 0.5;
+        cursor: default;
+        padding: 15px;
+    }
+
+    #calendario .conFecha{
+        cursor: pointer;
+        margin: 15px;
+        padding: 15px;
+        background-color: #FFF;
+        text-align: center;
+    }
+
+    #calendario .finde{
+        cursor: default;
+        color: red;
+    }
+
+    #calendario .encima:hover{
+        background-color: #dddfff;
+    }
+    
+}
+
+#subpanel-apuntes-alumno,
+#subpanel-tareas-alumno,
+#subpanel-examenes-alumno,
+#subpanel-sub-tarea-profesor,
+#subpanel-sub-examen-profesor,
+#subpanel-sub-apuntes-profesor,
+#subpanel-list-alumnos-profesor,
+#subpanel-tareas-alumnos-profesor,
+#subpanel-examenes-alumnos-profesor{
+    
+    .menu-busqueda{
+        margin-bottom: 1.5em;
+    }
+    
+    .table{
+        
+        margin-top: -.5em;
+        
+        .descarga-apuntes i{
+            margin-left: 28px;
+            cursor: pointer; 
+            font-size: 20px;
+        }
+        
+        .sube-tarea i{
+            margin-left: 8px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+    }
+    
+    .btn-atras{
+        margin: 2.5em 0;
+        a{
+            text-decoration: none;
+        }
+        #reg-tarea, #reg-examen, #reg-apuntes{
+            margin-left: 1em;
+        }
+    }
+}
+
+
+>>>>>>> develop

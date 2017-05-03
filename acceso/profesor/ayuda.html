@@ -13,7 +13,7 @@
     
 <body>
     
-<div id="bg-academy-principal-not-ayuda">
+<div id="bg-academy-principal-prof-ayuda">
 
     <header id="cabeceraPrincipal">
         <nav class="navbar navbar-light bg-faded">
@@ -25,43 +25,43 @@
             <div class="collapse navbar-toggleable-xs" id="nav-content">
                     <ul class="nav navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="../principal-noticiario.html" title="Ir a Panel Principal" >
+                            <a class="nav-link" href="../principal-profesor.html" title="Ir a Panel Principal" >
                                 <i class="fa fa-home fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Ir a Panel Principal </span>
                             </a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" href="./aniadir-articulo.html" title="Ir a Añadir Artículo">
-                                <i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Añadir Artículo </span>
+                            <a class="nav-link" href="./cursos.html" title="Ir a Mis Cursos Asignados">
+                                <i class="fa fa-folder-open-o fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Cursos Asignados </span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./modificar-articulo.html" title="Ir a Modificar Artículo">
+                            <a class="nav-link" href="./reg-incidencia.html" title="Ir a Registrar Incidencia">
                                 <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Modificar Artículo </span>
-                            </a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="./eliminar-articulo.html" title="Ir a Eliminar Artículo">
-                                <i class="fa fa-eraser fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Eliminar Artículo </span>
+                                <span class="hidden-sm-up"> Ir a Registrar Incidencia </span>
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="./ver-incidencias.html" title="Ir a Ver Incidencias">
+                                <i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Ver Incidencias </span>
+                            </a>
+                        </li>    
+                         <li class="nav-item">
                             <a class="nav-link" href="./mi-perfil.html" title="Ir a Mi Perfil">
                                 <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Ir a Mi Perfil </span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" title="Ir a Ayuda">
+                            <a class="nav-link" href="./ayuda.html" title="Ir a Ayuda">
                                 <i class="fa fa-question fa-2x btn-select" aria-hidden="true"></i>
                                 <span class="hidden-sm-up btn-select"> Ir a Ayuda </span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../../index.html" title="Salir">
+                            <a class="nav-link" href="../index.html" title="Salir">
                                 <i class="fa fa-sign-out fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Salir </span>
                             </a>
@@ -89,7 +89,7 @@
         
             <div class="panel-principal text-xs-center">
                 <img src="../../assets/imagenes/logo.png">
-                <h1><a href="../principal-noticiario.html">Panel Principal</a> / Ayuda</h1>
+                <h1><a href="../principal-profesor.html">Panel Principal</a> / Ayuda</h1>
                 <hr/>
                 
                 <div class="row text-xs-left form-publicacion-art">
@@ -105,70 +105,37 @@
                                   <div class="card">
                                     <div class="card-header" role="tab">
                                       <h5 class="mb-0">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#faq1" aria-expanded="true">
-                                          ¿Cómo crear una nueva noticia?
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq1" aria-expanded="false">
+                                          Mis cursos asignados
                                         </a>
                                       </h5>
                                     </div>
-
-                                    <div id="faq1" class="collapse show" role="tabpanel">
+                                    <div id="faq1" class="collapse" role="tabpanel">
                                       <div class="card-block text-justify">
-                                        <p> Muy fácil, en el menú principal tendremos que pulsar sobre el icono 
-                                        <i class="fa fa-file-text btn-select" aria-hidden="true"> (Añadir artículo) </i> para crear la nueva noticia. <br/>
-                                        Cuando estemos dentro podremos ver la ID correspondiente a la noticia, la fecha de publicación (actual), y a continuación detallaremos el título de la misma, una imagen principal y el texto acorde a la noticia.
-                                        </p>
-                                        <p> Cuando terminemos de redactarla pulsamos sobre el botón 
-                                        <button type="button" class="btn btn-primary btn-sm">Registrar artículo</button> y lista para ser publicada en la Web.</p>
-                                      </div>
+                                        <p> En el menú principal tendremos que pulsar sobre el icono 
+                                        <i class="fa fa-folder-open-o btn-select" aria-hidden="true"> (Mis cursos asignados) </i> para acceder al panel. <br/>
+                                        Una vez dentro, tenemos las siguientes opciones básicas de usuario para profesor,
+                                        <ul>
+                                            <li><i class="fa fa-pencil-square btn-select" aria-hidden="true"> (Tareas Alumnos) </i> donde podrás ver y descargar todas las tareas de los alumnos.</li>
+                                            <li><i class="fa fa-list-ol btn-select" aria-hidden="true"> (Exámenes Alumnos) </i> donde podrás ver y descargar todos los exámenes de los alumnos.</li>
+                                            <li><i class="fa fa-thumb-tack  btn-select" aria-hidden="true"> (Registrar Tarea) </i> donde podrás registrar una tarea.</li>
+                                            <li><i class="fa fa-files-o  btn-select" aria-hidden="true"> (Registrar Examen) </i> donde podrás registrar un examen.</li>
+                                            <li><i class="fa fa-book btn-select" aria-hidden="true"> (Subir Apuntes) </i> donde podrás subir los apuntes por curso.</li>
+                                            <li><i class="fa fa-calendar btn-select" aria-hidden="true"> (Calendario) </i> para organizarte el tiempo a tu medida.</li>
+                                            <li><i class="fa fa-users btn-select" aria-hidden="true"> (Listado de alumnos) </i> donde podrás ver un listado de alumnos registrados a tu curso.</li>
+                                        </ul>
                                     </div>
                                   </div>
-                                  <div class="card">
-                                    <div class="card-header" role="tab">
+                                 </div>
+                                 <div class="card">
+                                     <div class="card-header" role="tab">
                                       <h5 class="mb-0">
                                         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq2" aria-expanded="false">
-                                          ¿Cómo modificar una noticia?
-                                        </a>
-                                      </h5>
-                                    </div>
-                                    <div id="faq2" class="collapse" role="tabpanel">
-                                      <div class="card-block text-justify">
-                                        <p> En el menú principal tendremos que pulsar sobre el icono 
-                                        <i class="fa fa-pencil btn-select" aria-hidden="true"> (Modificar artículo) </i> para modificar la noticia que deseemos. <br/>
-                                        Una vez dentro podremos ver una tabla con todas las noticias publicadas hasta el momento.  Podremos hacer una búsqueda para facilitar la identificación de la noticia. Una vez localizada, pulsamos sobre la misma y realizamos la modificación.
-                                        </p>
-                                        <p> Cuando terminemos de modificarla pulsamos sobre el botón 
-                                        <button type="button" class="btn btn-primary btn-sm">Modificar artículo</button>. </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <div class="card-header" role="tab">
-                                      <h5 class="mb-0">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq3" aria-expanded="false">
-                                          ¿Cómo eliminar una noticia?
-                                        </a>
-                                      </h5>
-                                    </div>
-                                    <div id="faq3" class="collapse" role="tabpanel">
-                                      <div class="card-block text-justify">
-                                        <p> En el menú principal tendremos que pulsar sobre el icono 
-                                        <i class="fa fa-eraser btn-select" aria-hidden="true"> (Eliminar artículo) </i> para eliminar la noticia que deseemos. <br/>
-                                            Una vez dentro podremos ver una tabla con todas las noticias publicadas hasta el momento.  Podremos hacer una búsqueda para facilitar la identificación de la noticia. Una vez localizada, pulsamos sobre <i class="fa fa-trash btn-select" aria-hidden="true"></i> acorde a la noticia y se procederá a la eliminación de la misma.
-                                        </p>
-                                        <p> Cuando terminemos de eliminar las noticias que deseemos pulsamos sobre el botón 
-                                        <button type="button" class="btn btn-primary btn-sm">Volver</button> para volver al Menú principal. </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                <div class="card">
-                                    <div class="card-header" role="tab">
-                                      <h5 class="mb-0">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq4" aria-expanded="false">
                                           Mi Perfil
                                         </a>
                                       </h5>
                                     </div>
-                                    <div id="faq4" class="collapse" role="tabpanel">
+                                    <div id="faq2" class="collapse" role="tabpanel">
                                       <div class="card-block text-justify">
                                         <p> En el menú principal tendremos que pulsar sobre el icono 
                                         <i class="fa fa-user-circle btn-select" aria-hidden="true"> (Mi perfil) </i> para ver los datos de nuestro perfil. <br/>
@@ -177,9 +144,53 @@
                                         <p> Cuando terminemos de modificar (o no) nuestro perfil pulsamos sobre el botón 
                                         <button type="button" class="btn btn-primary btn-sm">Modificar perfil</button>. </p>
                                       </div>
+                                    </div>    
+                                 </div>
+                                  <div class="card">
+                                    <div class="card-header" role="tab">
+                                      <h5 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq3" aria-expanded="false">
+                                          Registrar incidencia
+                                        </a>
+                                      </h5>
+                                    </div>
+                                    <div id="faq3" class="collapse" role="tabpanel">
+                                      <div class="card-block text-justify">
+                                        <p> En el menú principal tendremos que pulsar sobre el icono 
+                                        <i class="fa fa-pencil btn-select" aria-hidden="true"> (Registrar incidencia) </i> para hacer el registro de la incidencia. <br/>
+                                        Una vez situados en la pantalla donde registraremos la incidencia tan sólo tendremos que rellenar el área de texto con nuestra incidencia.  El gestor de la academia la solventará tan pronto como sea posible.
+                                        </p>
+                                        <p> Cuando terminemos de rellenar la incidencia pulsamos sobre el botón 
+                                        <button type="button" class="btn btn-primary btn-sm"> Registrar incidencia </button> para enviarla. </p>
+                                      </div>
                                     </div>
                                   </div>
-                                <div class="card">
+                                  <div class="card">
+                                  <div class="card-header" role="tab">
+                                      <h5 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq4" aria-expanded="false">
+                                          Ver incidencias
+                                        </a>
+                                      </h5>
+                                  </div>
+                                  <div id="faq4" class="collapse" role="tabpanel">
+                                      <div class="card-block text-justify">
+                                        <p> En el menú principal tendremos que pulsar sobre el icono 
+                                        <i class="fa fa-wrench btn-select" aria-hidden="true"> (Ver incidencias) </i> para la visualización de nuestras incidencias registradas en una tabla. <br/>
+                                        Cada incidencia está identificada con su ID, el detalle de la misma 
+                                        (<i class="fa fa-bolt text-warning" aria-hidden="true"></i>), la fecha de registro y si fue o no solventada por el gestor.
+                                        </p> 
+                                        <p>Una vez que el gestor de la academia nos solvente la incidencia nos aparecerá en la columna de <strong>Resolución</strong> dos tipos de iconos, <br/>
+                                        si nuestra incidencia previamente registrada ya fue solventada por el gestor nos aparecerá el icono 
+                                        <i class="fa fa-thumbs-up text-success" aria-hidden="true"></i>.  De lo contrario, nos aparecerá 
+                                        <i class="fa fa-thumbs-down text-danger" aria-hidden="true"></i>.
+                                        </p>
+                                          
+                                        <p>Por favor, seamos paciente y comprendamos que el gestor de la academia es humano.  La incidencia será resuelta tan pronto como sea posible.</p>
+                                      </div>
+                                  </div>
+                                  </div>
+                                  <div class="card">
                                     <div class="card-header" role="tab">
                                       <h5 class="mb-0">
                                         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq5" aria-expanded="false">
@@ -201,7 +212,7 @@
                     </div>
                     <div class="form-group row text-xs-center">
                         <div class="col-xs-12">
-                            <a href="../principal-noticiario.html"><button type="button" class="btn btn-primary">Volver</button></a>
+                            <a href="../principal-profesor.html"><button type="button" class="btn btn-primary">Volver</button></a>
                         </div>
                     </div>
                 </div>

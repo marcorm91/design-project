@@ -13,7 +13,7 @@
     
 <body>
     
-<div id="bg-academy-principal-gest-miperfil">
+<div id="bg-academy-principal-prof-miperfil">
 
     <header id="cabeceraPrincipal">
         <nav class="navbar navbar-light bg-faded">
@@ -25,42 +25,30 @@
             <div class="collapse navbar-toggleable-xs" id="nav-content">
                     <ul class="nav navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="../principal-gestor.html" title="Ir a Panel Principal" >
+                            <a class="nav-link" href="../principal-profesor.html" title="Ir a Panel Principal" >
                                 <i class="fa fa-home fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Ir a Panel Principal </span>
                             </a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" href="./aniadir-elemento.html" title="Ir a Añadir Elemento">
-                                <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Añadir Elemento </span>
+                            <a class="nav-link" href="./cursos.html" title="Ir a Mis Cursos Asignados">
+                                <i class="fa fa-folder-open-o fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Cursos Asignados </span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./eliminar-elemento.html" title="Ir a Eliminar Elemento">
-                                <i class="fa fa-minus fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Eliminar Elemento </span>
+                            <a class="nav-link" href="./reg-incidencia.html" title="Ir a Registrar Incidencia">
+                                <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Registrar Incidencia </span>
                             </a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" href="./modificar-elemento.html" title="Ir a Editar Elemento">
-                                <i class="fa fa-edit fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Editar Elemento </span>
+                            <a class="nav-link" href="./ver-incidencias.html" title="Ir a Ver Incidencias">
+                                <i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Ver Incidencias </span>
                             </a>
-                        </li>
+                        </li>    
                          <li class="nav-item">
-                            <a class="nav-link" href="./buscar-elemento.html" title="Ir a Buscar - Listar Elementos">
-                                <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Buscar - Listar Elementos </span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./ver-incidencias.html" title="Ir a Ver Incidencias de Profesores y Alumnos">
-                                <i class="fa fa-commenting fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Ver Incidencias de Profesores y Alumnos </span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="./mi-perfil.html" title="Ir a Mi Perfil">
                                 <i class="fa fa-user-circle fa-2x btn-select" aria-hidden="true"></i>
                                 <span class="hidden-sm-up btn-select"> Ir a Mi Perfil </span>
@@ -73,7 +61,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../../index.html" title="Salir">
+                            <a class="nav-link" href="../index.html" title="Salir">
                                 <i class="fa fa-sign-out fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Salir </span>
                             </a>
@@ -101,7 +89,7 @@
         
             <div class="panel-principal text-xs-center">
                 <img src="../../assets/imagenes/logo.png">
-                <h1><a href="../principal-gestor.html">Panel Principal</a> / Mi Perfil</h1>
+                <h1><a href="../principal-profesor.html">Panel Principal</a> / Mi Perfil</h1>
                 <hr/>
                 <div class="panel-opciones">
                     
@@ -120,44 +108,81 @@
                             <div class="form-group row">
                                 <label class="col-md-3 col-xs-12 col-form-label text-xs-left">ID de usuario: </label>
                                 <div class="col-md-3 col-xs-12">
-                                    <input class="form-control" id="id-modificar-gest-perfil" disabled>
+                                    <input class="form-control" type="text" id="id-modificar-alumn-perfil" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Fecha de alta: </label>
                                 <div class="col-md-4 col-xs-12">
-                                    <input class="form-control" id="alta-modificar-gest-perfil" disabled>
+                                    <input class="form-control" id="alta-modificar-alumn-perfil" disabled>
                                 </div>
                             </div>
                         <hr/>
                             <div class="form-group row">
                                 <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Nombre: </label>
                                 <div class="col-md-9 col-xs-12">
-                                    <input class="form-control" id="nombre-modificar-gest-perfil">
+                                    <input class="form-control" id="nombre-modificar-alumn-perfil">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Apellido 1: </label>
                                 <div class="col-md-9 col-xs-12">
-                                    <input class="form-control" id="ape1-modificar-gest-perfil">
+                                    <input class="form-control" id="ape1-modificar-alumn-perfil">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Apellido 2: </label>
                                 <div class="col-md-9 col-xs-12">
-                                    <input class="form-control" id="ape2-modificar-gest-perfil">
+                                    <input class="form-control" id="ape2-modificar-alumn-perfil">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-3 col-xs-12 col-form-label text-xs-left">E-mail: </label>
                                 <div class="col-md-9 col-xs-12">
-                                    <input class="form-control" id="email-modificar-gest-perfil">
+                                    <input class="form-control" id="email-modificar-alumn-perfil">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Población: </label>
+                                <div class="col-md-9 col-xs-12">
+                                    <input class="form-control" id="poblacion-modificar-alumn-perfil">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Calle / Vía / Avda: </label>
+                                <div class="col-md-9 col-xs-12">
+                                    <input class="form-control" id="calle-modificar-alumn-perfil">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Código postal: </label>
+                                <div class="col-md-3 col-xs-12">
+                                    <input class="form-control" id="cp-modificar-alumn-perfil">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Nacido en: </label>
+                                <div class="col-md-9 col-xs-12">
+                                    <input class="form-control" id="nacido-modificar-alumn-perfil">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Nacionalidad: </label>
+                                <div class="col-md-6 col-xs-12">
+                                    <input class="form-control" id="nacionalidad-modificar-alumn-perfil">
+                                </div>
+                            </div>
+                        
+                            <div class="form-group row">
+                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">F. de nacimiento: </label>
+                                <div class="col-md-4 col-xs-12">
+                                    <input class="form-control" id="fnac-modificar-alumn-perfil">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Teléfono: </label>
                                 <div class="col-md-4 col-xs-12">
-                                    <input class="form-control" id="tlf-modificar-gest-perfil">
+                                    <input class="form-control" id="tlf-modificar-alumn-perfil">
                                 </div>
                             </div>
                             <div class="form-group row btn-enviar">

@@ -544,6 +544,21 @@ body{
 	}
 
 
+#atrasError{
+			
+    margin: 3em;
+
+			a{
+				color: $blanco;
+				font-weight: bolder;
+				font-size: 1.5em;
+				text-decoration: none;
+			}
+
+			a:hover{
+				color: $azulBarra;
+			}
+}
 
 /********************************************************/
 /************************ @media ************************/

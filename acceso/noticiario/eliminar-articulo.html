@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Perfil - Big Ben Academy</title>
+    <title>Eliminar artículo - Big Ben Academy</title>
     <link rel="stylesheet" href="../../assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="../../assets/fonts/font-awesome/css/font-awesome.min.css">
@@ -13,7 +13,7 @@
     
 <body>
     
-<div id="bg-academy-principal-not-miperfil">
+<div id="bg-academy-principal-not-eliminar">
 
     <header id="cabeceraPrincipal">
         <nav class="navbar navbar-light bg-faded">
@@ -31,7 +31,7 @@
                             </a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" href="../noticiario/aniadir-articulo.html" title="Ir a Redactar Artículo">
+                            <a class="nav-link" href="./aniadir-articulo.html" title="Ir a Añadir Artículo">
                                 <i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
                                 <span class="hidden-sm-up"> Ir a Añadir Artículo </span>
                             </a>
@@ -44,14 +44,14 @@
                         </li>
                          <li class="nav-item">
                             <a class="nav-link" href="./eliminar-articulo.html" title="Ir a Eliminar Artículo">
-                                <i class="fa fa-eraser fa-2x" aria-hidden="true"></i>
-                                <span class="hidden-sm-up"> Ir a Eliminar Artículo </span>
+                                <i class="fa fa-eraser fa-2x btn-select" aria-hidden="true"></i>
+                                <span class="hidden-sm-up btn-select"> Ir a Eliminar Artículo </span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./mi-perfil.html" title="Ir a Mi Perfil">
-                                <i class="fa fa-user-circle fa-2x btn-select" aria-hidden="true"></i>
-                                <span class="hidden-sm-up btn-select"> Ir a Mi Perfil </span>
+                                <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+                                <span class="hidden-sm-up"> Ir a Mi Perfil </span>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -89,77 +89,94 @@
         
             <div class="panel-principal text-xs-center">
                 <img src="../../assets/imagenes/logo.png">
-                <h1><a href="../principal-noticiario.html">Panel Principal</a> / Mi Perfil</h1>
+                <h1><a href="../principal-gestor.html">Panel Principal</a> / Eliminar artículo</h1>
                 <hr/>
+                
                 <div class="panel-opciones">
                     
-                    <h2> Mi Perfil </h2>
+                        <div class="menu-busqueda">
+                            <div class="col-md-3 col-xs-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"> <i class="fa fa-search fa-1x" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" placeholder="Palabra clave">
+                                </div>
+                            </div>
                     
-                    <div class="container-fluid">
-                        
-                            <div class="form-group row">
-                                <div class="col-xs-12 imagen-perfil">
-                                    <img src="../../assets/imagenes/foto-de-perfil.jpg" class="img-circle">
-                                </div>
-                                <label class="col-xs-12 resolucion-imagen">Resolución de imagen recomendada: 440x615</label>
-                                <input type="file" id="img-modificar-gest-perfil" class="col-xs-12 text-xs-center">
+                            <div class="col-md-1">
+                                <button type="button" class="btn btn-primary">Buscar</button>
                             </div>
-                        
-                            <div class="form-group row">
-                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">ID de usuario: </label>
-                                <div class="col-md-3 col-xs-12">
-                                    <input class="form-control" type="text" id="id-modificar-gest-perfil" disabled>
-                                </div>
+                        </div>
+                                        
+                            <div class="text-xs-left">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Título</th>
+                                      <th>Fecha de publicación</th>
+                                      <th>Autor</th>
+                                      <th>Eliminar</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>1</td>
+                                      <td>Aprender inglés gratis</td>
+                                      <td>14/02/17</td>
+                                      <td>Marco Romero</td>
+                                      <td class="tabla-eli"><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                      <td>2</td>
+                                      <td>Aprender inglés con dibujos animados </td>
+                                      <td>08/02/17</td>
+                                      <td>Marco Romero</td>
+                                      <td class="tabla-eli"><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                      <td>3</td>
+                                      <td>Nuevas ofertas, nuevas oportunidades</td>
+                                      <td>06/02/17</td>
+                                      <td>Marco Romero</td>
+                                      <td class="tabla-eli"><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                  </tbody>
+                                </table> 
                             </div>
-                            <div class="form-group row">
-                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Fecha de alta: </label>
-                                <div class="col-md-4 col-xs-12">
-                                    <input class="form-control" type="search" id="alta-modificar-gest-perfil" disabled>
-                                </div>
+        
+                        <div class="row">
+                            <div class="col-xs-12 text-xs-center paginacion-busq">
+                                <nav>
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                          <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                            <span class="sr-only">Anterior</span>
+                                          </a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                          <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                            <span class="sr-only">Siguiente</span>
+                                          </a>
+                                        </li>
+                                    </ul>
+                                </nav>
                             </div>
-                        <hr/>
-                            <div class="form-group row">
-                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Nombre: </label>
-                                <div class="col-md-9 col-xs-12">
-                                    <input class="form-control" type="search" id="nombre-modificar-gest-perfil">
-                                </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 text-xs-center btn-atras">
+                                <a href="../principal-noticiario.html"> <button class="btn btn-primary"> Volver </button> </a>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Apellido 1: </label>
-                                <div class="col-md-9 col-xs-12">
-                                    <input class="form-control" type="search" id="ape1-modificar-gest-perfil">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Apellido 2: </label>
-                                <div class="col-md-9 col-xs-12">
-                                    <input class="form-control" type="search" id="ape2-modificar-gest-perfil">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">E-mail: </label>
-                                <div class="col-md-9 col-xs-12">
-                                    <input class="form-control" type="search" id="email-modificar-gest-perfil">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-md-3 col-xs-12 col-form-label text-xs-left">Teléfono: </label>
-                                <div class="col-md-4 col-xs-12">
-                                    <input class="form-control" type="search" id="tlf-modificar-gest-perfil">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-xs-12">
-                                    <button type="button" class="btn btn-primary">Volver</button>
-                                    <button type="button" class="btn btn-primary">Modificar</button>
-                                </div>
-                            </div>
-                       
-                    </div> 
+                        </div>
                 </div>
             </div>
-    </div>
-        
+        </div> 
+           
     <footer>
         <div class="row">
             <div class="col-xs-12 text-xs-center">
@@ -169,7 +186,8 @@
     </footer>
         
 </div>
-    
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="../../assets/js/jquery-3.1.1.min.js"></script>
     <script src="../../assets/js/bootstrap.min.js"></script>
